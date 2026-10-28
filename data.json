@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1803410,
+  "GAUGE_VALUE": 1805910,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,6 +30,10 @@
       2950
     ],
     [
+      "Oscar Tavares",
+      2500
+    ],
+    [
       "Stacey Anderson",
       2000
     ],
@@ -42,16 +46,16 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 163800,
+  "DAILY_TOTAL": 166300,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 268800,
+      "value": 271300,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 120550,
+      "value": 123050,
       "accent": "#a77bff"
     },
     {
@@ -61,6 +65,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Oscar Tavares",
+      2500
+    ],
     [
       "Kathy Dowdy",
       5100
@@ -76,17 +84,13 @@
     [
       "Dustin Stenta",
       4000
-    ],
-    [
-      "Aaron Moreland",
-      1500
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Dustin Stenta",
     "Brice Purkeypile",
     "Michelle Troupe",
-    "Brittany Jackson",
     "Brittany Jackson"
   ],
   "TOP": [
