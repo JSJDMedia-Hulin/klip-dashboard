@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1803960,
+  "GAUGE_VALUE": 1806910,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
@@ -26,6 +26,10 @@
       3000
     ],
     [
+      "Alex Wing",
+      2950
+    ],
+    [
       "Aaron Moreland",
       1500
     ],
@@ -34,7 +38,7 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 159350,
+  "DAILY_TOTAL": 162300,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
