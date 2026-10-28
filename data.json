@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1798310,
-  "COLLECTED": 1512325,
+  "GAUGE_VALUE": 1803410,
+  "COLLECTED": 1554921,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alan Zickefoose",
       140250
+    ],
+    [
+      "Kathy Dowdy",
+      5100
     ],
     [
       "Dustin Stenta",
@@ -38,16 +42,16 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 158700,
+  "DAILY_TOTAL": 163800,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 263700,
+      "value": 268800,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 115450,
+      "value": 120550,
       "accent": "#a77bff"
     },
     {
@@ -79,11 +83,11 @@
     ]
   ],
   "OPPS": [
+    "Dustin Stenta",
     "Brice Purkeypile",
     "Michelle Troupe",
     "Brittany Jackson",
-    "Brittany Jackson",
-    "Mandy Corriea"
+    "Brittany Jackson"
   ],
   "TOP": [
     [
