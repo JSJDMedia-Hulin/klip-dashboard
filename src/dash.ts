@@ -120,6 +120,14 @@ const easeOutBack = (t: number): number => {
 const DAILY_MIN_RH = 24;
 const BASE_W = 1600 / 1.32; // same design space as the Page (1.32x content scale)
 const BASE_H = 775;
+// Overscan margins in percent of the viewport per side: ?padx= (left/right), ?pady= (top/bottom).
+const pctParam = (name: string, def: number): number => {
+  const m = new RegExp("[?&]" + name + "=([0-9]*\\.?[0-9]+)").exec(location.search);
+  const v = m ? parseFloat(m[1]) : def;
+  return isFinite(v) ? Math.max(0, Math.min(20, v)) : def;
+};
+const PAD_X = pctParam("padx", 4);
+const PAD_Y = pctParam("pady", 2.5);
 const CONTENT_SCALE = 0.95; // overall content size (0.95 = 5% smaller); layout still fills the screen
 const GAUGE_H = 445;
 const needH = (): number => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
@@ -130,29 +138,41 @@ function layoutFor(vw: number, vh: number): Layout {
   // Landscape (width >= height) always gets the wide dashboard, even at small CSS widths
   // (TV sticks often report 960x540 or 640x360 CSS px). Only narrow portrait goes stacked.
   if (vw >= 760 || vw >= vh) {
+    // TV overscan safe area: panels sit inside an inset of PAD_X% / PAD_Y% of the viewport per side;
+    // the background still covers the full W x H.
+    const px = (vw * PAD_X) / 100;
+    const py = (vh * PAD_Y) / 100;
+    const iw = Math.max(1, vw - 2 * px);
+    const ih = Math.max(1, vh - 2 * py);
     const nh = needH();
-    const s = CONTENT_SCALE * Math.min(vw / BASE_W, vh / nh);
+    const s = CONTENT_SCALE * Math.min(iw / BASE_W, ih / nh);
     const W = vw / s;
     const H = vh / s;
+    const ox = px / s;
+    const oy = py / s;
+    const IW = iw / s;
+    const IH = ih / s;
     const m = 12;
     const g = 12;
-    const cw = (W - 2 * m - 3 * g) / 4;
-    const cx = (i: number): number => m + i * (cw + g);
-    const bottom = H - 48;
-    const extra = Math.max(0, H - nh);
+    const cw = (IW - 2 * m - 3 * g) / 4;
+    const cx = (i: number): number => ox + m + i * (cw + g);
+    const top0 = oy + 12;
+    const bottom = oy + IH - 48;
+    const extra = Math.max(0, IH - nh);
     const gh = GAUGE_H + extra * 0.5;
-    const dy = 12 + gh + 12;
+    const dy = top0 + gh + 12;
+    const ly = top0 + 132;
     return {
       W,
       H,
       mobile: false,
-      gauge: { x: cx(0), y: 12, w: cw, h: gh },
+      gauge: { x: cx(0), y: top0, w: cw, h: gh },
       daily: { x: cx(0), y: dy, w: cw, h: bottom - dy },
-      kpi: [1, 2, 3].map((i: number): Rect => ({ x: cx(i), y: 12, w: cw, h: 120 })),
-      sales: { x: cx(1), y: 144, w: cw, h: bottom - 144 },
-      opps: { x: cx(2), y: 144, w: cw, h: bottom - 144 },
-      top: { x: cx(3), y: 144, w: cw, h: bottom - 144 },
-      footer: { x: 0, y: H - 44, w: W, h: 44 },
+      kpi: [1, 2, 3].map((i: number): Rect => ({ x: cx(i), y: top0, w: cw, h: 120 })),
+      sales: { x: cx(1), y: ly, w: cw, h: bottom - ly },
+      opps: { x: cx(2), y: ly, w: cw, h: bottom - ly },
+      top: { x: cx(3), y: ly, w: cw, h: bottom - ly },
+      footer: { x: ox, y: oy + IH - 44, w: IW, h: 44 },
     };
   }
   // Phones / very narrow windows: stacked layout, page scrolls vertically.
@@ -1162,11 +1182,11 @@ function start(): void {
     c.shadowBlur = 6 + pulse * 10;
     c.fillStyle = dot;
     c.beginPath();
-    c.arc(26, fy, 5, 0, Math.PI * 2);
+    c.arc(L.footer.x + 26, fy, 5, 0, Math.PI * 2);
     c.fill();
     c.restore();
     font(c, 500, 14, fam);
-    text(c, online ? "Connected" : "Reconnecting…", 40, fy, SUB, "left");
+    text(c, online ? "Connected" : "Reconnecting…", L.footer.x + 40, fy, SUB, "left");
   };
   requestAnimationFrame(frame);
 }

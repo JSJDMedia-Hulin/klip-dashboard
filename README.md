@@ -18,3 +18,5 @@ Wide layout is used whenever width >= height (or width >= 760 px), so TV sticks 
 Lite mode (signage sticks / low-power devices): device pixel ratio capped at 1, about 24 fps, no shadow glows, 12 background particles instead of 70.
 It turns on automatically when the user agent contains Android/AFT/CrKey/TV, or hardwareConcurrency <= 4, or deviceMemory <= 2. `?lite=1` forces it on, `?lite=0` forces the full look.
 If the browser has no 2D canvas, the page shows a plain text message instead of staying blank.
+Overscan safe area: panels sit inside a margin of 4% of the width (left/right) and 2.5% of the height (top/bottom); the background still fills the screen.
+Change it with `?padx=` and `?pady=` (percent per side, 0–20; e.g. `?padx=6&pady=3`, `?padx=0&pady=0` for edge to edge). Combine with lite: `?lite=1&padx=5`.

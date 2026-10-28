@@ -104,34 +104,51 @@
       var DAILY_MIN_RH = 24;
       var BASE_W = 1600 / 1.32;
       var BASE_H = 775;
+      var pctParam = (name, def) => {
+        const m = new RegExp("[?&]" + name + "=([0-9]*\\.?[0-9]+)").exec(location.search);
+        const v = m ? parseFloat(m[1]) : def;
+        return isFinite(v) ? Math.max(0, Math.min(20, v)) : def;
+      };
+      var PAD_X = pctParam("padx", 4);
+      var PAD_Y = pctParam("pady", 2.5);
       var CONTENT_SCALE = 0.95;
       var GAUGE_H = 445;
       var needH = () => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
       function layoutFor(vw, vh) {
         if (vw >= 760 || vw >= vh) {
+          const px = vw * PAD_X / 100;
+          const py = vh * PAD_Y / 100;
+          const iw = Math.max(1, vw - 2 * px);
+          const ih = Math.max(1, vh - 2 * py);
           const nh = needH();
-          const s = CONTENT_SCALE * Math.min(vw / BASE_W, vh / nh);
+          const s = CONTENT_SCALE * Math.min(iw / BASE_W, ih / nh);
           const W2 = vw / s;
           const H = vh / s;
+          const ox = px / s;
+          const oy = py / s;
+          const IW = iw / s;
+          const IH = ih / s;
           const m = 12;
           const g = 12;
-          const cw = (W2 - 2 * m - 3 * g) / 4;
-          const cx = (i) => m + i * (cw + g);
-          const bottom = H - 48;
-          const extra = Math.max(0, H - nh);
+          const cw = (IW - 2 * m - 3 * g) / 4;
+          const cx = (i) => ox + m + i * (cw + g);
+          const top0 = oy + 12;
+          const bottom = oy + IH - 48;
+          const extra = Math.max(0, IH - nh);
           const gh = GAUGE_H + extra * 0.5;
-          const dy = 12 + gh + 12;
+          const dy = top0 + gh + 12;
+          const ly = top0 + 132;
           return {
             W: W2,
             H,
             mobile: false,
-            gauge: { x: cx(0), y: 12, w: cw, h: gh },
+            gauge: { x: cx(0), y: top0, w: cw, h: gh },
             daily: { x: cx(0), y: dy, w: cw, h: bottom - dy },
-            kpi: [1, 2, 3].map((i) => ({ x: cx(i), y: 12, w: cw, h: 120 })),
-            sales: { x: cx(1), y: 144, w: cw, h: bottom - 144 },
-            opps: { x: cx(2), y: 144, w: cw, h: bottom - 144 },
-            top: { x: cx(3), y: 144, w: cw, h: bottom - 144 },
-            footer: { x: 0, y: H - 44, w: W2, h: 44 }
+            kpi: [1, 2, 3].map((i) => ({ x: cx(i), y: top0, w: cw, h: 120 })),
+            sales: { x: cx(1), y: ly, w: cw, h: bottom - ly },
+            opps: { x: cx(2), y: ly, w: cw, h: bottom - ly },
+            top: { x: cx(3), y: ly, w: cw, h: bottom - ly },
+            footer: { x: ox, y: oy + IH - 44, w: IW, h: 44 }
           };
         }
         const dailyExtra = (baseH) => Math.max(0, 118 + DAILY.length * DAILY_MIN_RH - baseH);
@@ -1077,11 +1094,11 @@
           c.shadowBlur = 6 + pulse * 10;
           c.fillStyle = dot;
           c.beginPath();
-          c.arc(26, fy, 5, 0, Math.PI * 2);
+          c.arc(L.footer.x + 26, fy, 5, 0, Math.PI * 2);
           c.fill();
           c.restore();
           font(c, 500, 14, fam);
-          text(c, online ? "Connected" : "Reconnecting\u2026", 40, fy, SUB, "left");
+          text(c, online ? "Connected" : "Reconnecting\u2026", L.footer.x + 40, fy, SUB, "left");
         };
         requestAnimationFrame(frame);
       }
