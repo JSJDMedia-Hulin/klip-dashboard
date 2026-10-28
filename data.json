@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1787860,
+  "GAUGE_VALUE": 1793160,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
@@ -12,18 +12,30 @@
     [
       "Michelle Brady",
       3000
+    ],
+    [
+      "Jeffrey Spock",
+      2800
+    ],
+    [
+      "Aaron Moreland",
+      1500
+    ],
+    [
+      "Lilly Wang",
+      1000
     ]
   ],
-  "DAILY_TOTAL": 143250,
+  "DAILY_TOTAL": 148550,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 251050,
+      "value": 253550,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 110800,
+      "value": 113300,
       "accent": "#a77bff"
     },
     {
@@ -51,10 +63,10 @@
     ]
   ],
   "OPPS": [
+    "Dustin Stenta",
     "Jeffrey Spock",
     "Lilly Wang",
     "Aaron Moreland",
-    "Kathy Dowdy",
     "Kathy Dowdy"
   ],
   "TOP": [
