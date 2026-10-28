@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="dashboard-data" content="https://raw.githubusercontent.com/JSJDMedia-Hulin/klip-dashboard/data/data.json">
+<link rel="icon" href="data:,">
+<title>Sales Dashboard</title>
+<style>
+  html, body { margin: 0; padding: 0; width: 100%; height: 100%; overflow: hidden; background: #0a1130; }
+  body.scroll { overflow-x: hidden; overflow-y: auto; height: auto; }
+  canvas#dash { display: block; position: absolute; left: 0; top: 0; width: 100vw; height: 100vh; touch-action: manipulation; }
+  body.scroll canvas#dash { position: static; }
+</style>
+</head>
+<body>
+<canvas id="dash" role="img" aria-label="Sales dashboard: Company Monthly Sales gauge, Daily Sales, weekly sales KPIs, Last 5 Sales, Last 5 Opps Created, Top 5 in Weekly Sales"></canvas>
+<script src="dash.js"></script>
+</body>
+</html>
