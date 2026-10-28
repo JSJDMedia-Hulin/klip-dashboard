@@ -42,12 +42,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 270100,
+      "value": 263700,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 121850,
+      "value": 115450,
       "accent": "#a77bff"
     },
     {
@@ -79,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Troupe",
     "Brittany Jackson",
     "Brittany Jackson",
     "Mandy Corriea",
-    "Sara Williams",
-    "Jeremy Reynolds"
+    "Sara Williams"
   ],
   "TOP": [
     [
