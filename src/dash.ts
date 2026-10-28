@@ -127,7 +127,9 @@ const needH = (): number => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(
 // Desktop: scale = min(vw/BASE_W, vh/needed height), then the design space is stretched to the
 // exact viewport aspect so panels grow wider/taller to fill every pixel (no letterboxing).
 function layoutFor(vw: number, vh: number): Layout {
-  if (vw >= 760) {
+  // Landscape (width >= height) always gets the wide dashboard, even at small CSS widths
+  // (TV sticks often report 960x540 or 640x360 CSS px). Only narrow portrait goes stacked.
+  if (vw >= 760 || vw >= vh) {
     const nh = needH();
     const s = CONTENT_SCALE * Math.min(vw / BASE_W, vh / nh);
     const W = vw / s;
@@ -932,6 +934,27 @@ function makeParticles(): Particle[] {
   return out;
 }
 
+// Lite mode for signage sticks / low-power devices: DPR capped at 1, ~24 fps, no shadow glows,
+// fewer particles. ?lite=1 forces it on, ?lite=0 forces the full look; otherwise auto-detected.
+const LITE: boolean = ((): boolean => {
+  const m = /[?&]lite=([01])/.exec(location.search);
+  if (m) return m[1] === "1";
+  const nav = navigator as Navigator & { deviceMemory?: number };
+  const ua = nav.userAgent || "";
+  if (/Android|AFT|CrKey|TV/.test(ua)) return true;
+  if (typeof nav.hardwareConcurrency === "number" && nav.hardwareConcurrency > 0 && nav.hardwareConcurrency <= 4) return true;
+  if (typeof nav.deviceMemory === "number" && nav.deviceMemory > 0 && nav.deviceMemory <= 2) return true;
+  return false;
+})();
+const LITE_FPS = 24;
+
+function showFallback(msg: string): void {
+  const d = document.createElement("div");
+  d.setAttribute("style", "position:fixed;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:#0a1130;color:#eef2ff;font:20px Arial,sans-serif;text-align:center;");
+  d.textContent = msg;
+  document.body.appendChild(d);
+}
+
 const FAM = "Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif";
 const POLL_MS = 60000;
 // Where the data lives: data.json next to index.html by default, or any URL set in
@@ -943,11 +966,20 @@ function start(): void {
   const cv = document.getElementById("dash") as HTMLCanvasElement | null;
   if (!cv) return;
   const ctx = cv.getContext("2d");
-  if (!ctx) return;
+  if (!ctx) {
+    cv.style.display = "none";
+    showFallback("This display can't draw the dashboard (its browser has no canvas support). Try updating the player's system WebView or browser.");
+    return;
+  }
+  if (LITE) {
+    // Glows off: shadow writes become no-ops, so no shadow is ever drawn.
+    Object.defineProperty(ctx, "shadowBlur", { configurable: true, get: () => 0, set: () => {} });
+    Object.defineProperty(ctx, "shadowColor", { configurable: true, get: () => "rgba(0, 0, 0, 0)", set: () => {} });
+  }
   const c: Ctx = ctx;
   const fam = FAM;
   const reduce = typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-  const parts = makeParticles();
+  const parts = LITE ? makeParticles().slice(0, 12) : makeParticles();
   let cssW = 0;
   let cssH = 0;
   let L: Layout = layoutFor(1920, 1080);
@@ -968,7 +1000,7 @@ function start(): void {
     cssW = vw;
     cssH = L.mobile ? (L.H * vw) / L.W : vh;
     document.body.classList.toggle("scroll", L.mobile);
-    const dpr = Math.max(0.5, Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(MAX_PIXELS / (cssW * cssH))));
+    const dpr = Math.max(0.5, Math.min(window.devicePixelRatio || 1, LITE ? 1 : 2, Math.sqrt(MAX_PIXELS / (cssW * cssH))));
     cv.style.width = cssW + "px";
     cv.style.height = cssH + "px";
     cv.width = Math.round(cssW * dpr);
@@ -1017,8 +1049,13 @@ function start(): void {
   load();
   setInterval(load, POLL_MS);
 
+  let lastDraw = -1e9;
   const frame = (now: number): void => {
     requestAnimationFrame(frame);
+    if (LITE) {
+      if (now - lastDraw < 1000 / LITE_FPS - 4) return;
+      lastDraw = now;
+    }
     const sx = cv.width / L.W;
     const sy = cv.height / L.H;
     c.setTransform(sx, 0, 0, sy, 0, 0);

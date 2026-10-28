@@ -8,6 +8,26 @@
       throw mod = 0, e;
     }
   };
+  var __async = (__this, __arguments, generator) => {
+    return new Promise((resolve, reject) => {
+      var fulfilled = (value) => {
+        try {
+          step(generator.next(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var rejected = (value) => {
+        try {
+          step(generator.throw(value));
+        } catch (e) {
+          reject(e);
+        }
+      };
+      var step = (x) => x.done ? resolve(x.value) : Promise.resolve(x.value).then(fulfilled, rejected);
+      step((generator = generator.apply(__this, __arguments)).next());
+    });
+  };
 
   // src/dash.ts
   var require_dash = __commonJS({
@@ -88,7 +108,7 @@
       var GAUGE_H = 445;
       var needH = () => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
       function layoutFor(vw, vh) {
-        if (vw >= 760) {
+        if (vw >= 760 || vw >= vh) {
           const nh = needH();
           const s = CONTENT_SCALE * Math.min(vw / BASE_W, vh / nh);
           const W2 = vw / s;
@@ -845,6 +865,23 @@
         for (let i = 0; i < 70; i++) out.push({ x: rnd(), y: rnd(), r: 0.6 + rnd() * 1.8, v: 0.01 + rnd() * 0.03, p: rnd() * 6.28 });
         return out;
       }
+      var LITE = (() => {
+        const m = /[?&]lite=([01])/.exec(location.search);
+        if (m) return m[1] === "1";
+        const nav = navigator;
+        const ua = nav.userAgent || "";
+        if (/Android|AFT|CrKey|TV/.test(ua)) return true;
+        if (typeof nav.hardwareConcurrency === "number" && nav.hardwareConcurrency > 0 && nav.hardwareConcurrency <= 4) return true;
+        if (typeof nav.deviceMemory === "number" && nav.deviceMemory > 0 && nav.deviceMemory <= 2) return true;
+        return false;
+      })();
+      var LITE_FPS = 24;
+      function showFallback(msg) {
+        const d = document.createElement("div");
+        d.setAttribute("style", "position:fixed;left:0;top:0;right:0;bottom:0;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;background:#0a1130;color:#eef2ff;font:20px Arial,sans-serif;text-align:center;");
+        d.textContent = msg;
+        document.body.appendChild(d);
+      }
       var FAM = "Inter, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'DejaVu Sans', sans-serif";
       var POLL_MS = 6e4;
       var _a, _b;
@@ -854,11 +891,21 @@
         const cv = document.getElementById("dash");
         if (!cv) return;
         const ctx = cv.getContext("2d");
-        if (!ctx) return;
+        if (!ctx) {
+          cv.style.display = "none";
+          showFallback("This display can't draw the dashboard (its browser has no canvas support). Try updating the player's system WebView or browser.");
+          return;
+        }
+        if (LITE) {
+          Object.defineProperty(ctx, "shadowBlur", { configurable: true, get: () => 0, set: () => {
+          } });
+          Object.defineProperty(ctx, "shadowColor", { configurable: true, get: () => "rgba(0, 0, 0, 0)", set: () => {
+          } });
+        }
         const c = ctx;
         const fam = FAM;
         const reduce = typeof window.matchMedia === "function" && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
-        const parts = makeParticles();
+        const parts = LITE ? makeParticles().slice(0, 12) : makeParticles();
         let cssW = 0;
         let cssH = 0;
         let L = layoutFor(1920, 1080);
@@ -878,7 +925,7 @@
           cssW = vw;
           cssH = L.mobile ? L.H * vw / L.W : vh;
           document.body.classList.toggle("scroll", L.mobile);
-          const dpr = Math.max(0.5, Math.min(window.devicePixelRatio || 1, 2, Math.sqrt(MAX_PIXELS / (cssW * cssH))));
+          const dpr = Math.max(0.5, Math.min(window.devicePixelRatio || 1, LITE ? 1 : 2, Math.sqrt(MAX_PIXELS / (cssW * cssH))));
           cv.style.width = cssW + "px";
           cv.style.height = cssH + "px";
           cv.width = Math.round(cssW * dpr);
@@ -898,11 +945,11 @@
         cv.addEventListener("pointerleave", () => {
           pointer = null;
         });
-        const load = async () => {
+        const load = () => __async(null, null, function* () {
           try {
-            const res = await fetch(DATA_URL + (DATA_URL.indexOf("?") >= 0 ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" });
+            const res = yield fetch(DATA_URL + (DATA_URL.indexOf("?") >= 0 ? "&" : "?") + "t=" + Date.now(), { cache: "no-store" });
             if (!res.ok) throw new Error("HTTP " + res.status);
-            const txt = await res.text();
+            const txt = yield res.text();
             const d = JSON.parse(txt);
             if (!validData(d)) throw new Error("data.json has an unexpected shape");
             online = true;
@@ -920,12 +967,17 @@
             online = false;
             console.warn("Dashboard data refresh failed; keeping last values.", err);
           }
-        };
+        });
         resize(true);
         load();
         setInterval(load, POLL_MS);
+        let lastDraw = -1e9;
         const frame = (now) => {
           requestAnimationFrame(frame);
+          if (LITE) {
+            if (now - lastDraw < 1e3 / LITE_FPS - 4) return;
+            lastDraw = now;
+          }
           const sx = cv.width / L.W;
           const sy = cv.height / L.H;
           c.setTransform(sx, 0, 0, sy, 0, 0);
