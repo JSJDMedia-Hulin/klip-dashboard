@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1804710,
+  "GAUGE_VALUE": 1798310,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
@@ -66,16 +66,16 @@
       2950
     ],
     [
-      "Jeffrey Spock",
-      2800
-    ],
-    [
       "Dustin Stenta",
       4000
     ],
     [
       "Aaron Moreland",
       1500
+    ],
+    [
+      "Lilly Wang",
+      1000
     ]
   ],
   "OPPS": [
