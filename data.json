@@ -38,12 +38,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 261550,
+      "value": 264350,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 113300,
+      "value": 116100,
       "accent": "#a77bff"
     },
     {
@@ -75,11 +75,11 @@
     ]
   ],
   "OPPS": [
+    "Jeffrey Spock",
+    "Stacey Anderson",
     "Justin Vucina",
     "Lori Zapata",
-    "Hart Probst",
-    "Hart Probst",
-    "Jeffrey Spock"
+    "Hart Probst"
   ],
   "TOP": [
     [
