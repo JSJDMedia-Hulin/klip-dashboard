@@ -58,12 +58,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 361300,
+      "value": 381300,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 153050,
+      "value": 173050,
       "accent": "#a77bff"
     },
     {
@@ -75,6 +75,14 @@
   "LAST5": [
     [
       "Oscar Tavares",
+      10000
+    ],
+    [
+      "Oscar Tavares",
+      10000
+    ],
+    [
+      "Oscar Tavares",
       30000
     ],
     [
@@ -84,14 +92,6 @@
     [
       "Oscar Tavares",
       2500
-    ],
-    [
-      "Kathy Dowdy",
-      5100
-    ],
-    [
-      "Stacey Anderson",
-      2000
     ]
   ],
   "OPPS": [
@@ -108,7 +108,7 @@
     ],
     [
       "Oscar Tavares",
-      35100
+      55100
     ],
     [
       "Justin Vucina",
