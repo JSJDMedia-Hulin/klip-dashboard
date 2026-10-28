@@ -1,13 +1,21 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1793160,
+  "GAUGE_VALUE": 1801160,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alan Zickefoose",
       140250
+    ],
+    [
+      "Dustin Stenta",
+      4000
+    ],
+    [
+      "Seth Dyson",
+      4000
     ],
     [
       "Michelle Brady",
@@ -26,7 +34,7 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 148550,
+  "DAILY_TOTAL": 156550,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
