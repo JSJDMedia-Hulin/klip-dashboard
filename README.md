@@ -3,7 +3,7 @@
 Static files only. No build is needed to run it.
 
 - `index.html` is the page. It fills the browser window edge to edge at any size.
-- `dash.js` holds the drawing code, bundled from `src/dash.ts` (`esbuild src/dash.ts --bundle --format=iife --outfile=dash.js`).
+- `dash.js` holds the drawing code, bundled from `src/dash.ts` (`esbuild src/dash.ts --bundle --format=iife --target=es2017 --outfile=dash.js`).
 - `data.json` holds all the numbers. The page re-fetches it every 60 s with a cache-busting `?t=` and redraws when it changes.
   To update the dashboard, replace data.json and nothing else.
   Keys: GAUGE_TARGET, GAUGE_MAX, GAUGE_VALUE, COLLECTED, GOAL, DAILY [[name, amount]...], DAILY_TOTAL,

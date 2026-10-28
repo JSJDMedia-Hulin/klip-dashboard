@@ -84,12 +84,13 @@
       var DAILY_MIN_RH = 24;
       var BASE_W = 1600 / 1.32;
       var BASE_H = 775;
+      var CONTENT_SCALE = 0.95;
       var GAUGE_H = 445;
       var needH = () => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
       function layoutFor(vw, vh) {
         if (vw >= 760) {
           const nh = needH();
-          const s = Math.min(vw / BASE_W, vh / nh);
+          const s = CONTENT_SCALE * Math.min(vw / BASE_W, vh / nh);
           const W2 = vw / s;
           const H = vh / s;
           const m = 12;
