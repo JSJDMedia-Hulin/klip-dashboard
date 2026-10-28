@@ -38,7 +38,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 253550,
+      "value": 261550,
       "accent": "#38e1ff"
     },
     {
@@ -48,11 +48,15 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 140250,
+      "value": 148250,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Dustin Stenta",
+      4000
+    ],
     [
       "Aaron Moreland",
       1500
@@ -68,18 +72,14 @@
     [
       "Alan Zickefoose",
       140250
-    ],
-    [
-      "Michelle Brady",
-      3000
     ]
   ],
   "OPPS": [
+    "Lori Zapata",
     "Dustin Stenta",
     "Jeffrey Spock",
     "Lilly Wang",
-    "Aaron Moreland",
-    "Kathy Dowdy"
+    "Aaron Moreland"
   ],
   "TOP": [
     [
