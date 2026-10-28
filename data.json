@@ -1,13 +1,21 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1805910,
+  "GAUGE_VALUE": 1865910,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alan Zickefoose",
       140250
+    ],
+    [
+      "Jeremy Reynolds",
+      30000
+    ],
+    [
+      "Justin Vucina",
+      30000
     ],
     [
       "Kathy Dowdy",
@@ -46,25 +54,29 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 166300,
+  "DAILY_TOTAL": 226300,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 271300,
+      "value": 331300,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 123050,
+      "value": 153050,
       "accent": "#a77bff"
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 148250,
+      "value": 208250,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Justin Vucina",
+      30000
+    ],
     [
       "Oscar Tavares",
       2500
@@ -80,10 +92,6 @@
     [
       "Alex Wing",
       2950
-    ],
-    [
-      "Dustin Stenta",
-      4000
     ]
   ],
   "OPPS": [
@@ -99,20 +107,20 @@
       158100
     ],
     [
+      "Justin Vucina",
+      30000
+    ],
+    [
+      "Jeremy Reynolds",
+      30000
+    ],
+    [
       "Stacey Anderson",
       14150
     ],
     [
       "Derek Rosenberg",
       13600
-    ],
-    [
-      "Jeff Kitchen",
-      11250
-    ],
-    [
-      "Blake Ladd",
-      9600
     ]
   ]
 }
