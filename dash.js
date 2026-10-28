@@ -230,7 +230,52 @@
         const parts = name.split(" ");
         return (parts[0].charAt(0) + (parts.length > 1 ? parts[parts.length - 1].charAt(0) : "")).toUpperCase();
       }
-      function avatar(c, name, x, y, r, fam, ring) {
+      var AVATAR_PX = 128;
+      var avatarFiles = {};
+      var avatarCache = {};
+      var normName = (n) => n.trim().replace(/\s+/g, " ").toLowerCase();
+      function loadAvatarImage(file) {
+        if (file in avatarCache) return;
+        avatarCache[file] = null;
+        const img = new Image();
+        img.onload = () => {
+          const cv = document.createElement("canvas");
+          cv.width = AVATAR_PX;
+          cv.height = AVATAR_PX;
+          const x = cv.getContext("2d");
+          if (!x) return;
+          x.beginPath();
+          x.arc(AVATAR_PX / 2, AVATAR_PX / 2, AVATAR_PX / 2, 0, Math.PI * 2);
+          x.clip();
+          const iw = img.naturalWidth || AVATAR_PX;
+          const ih = img.naturalHeight || AVATAR_PX;
+          const sc = Math.max(AVATAR_PX / iw, AVATAR_PX / ih);
+          const dw = iw * sc;
+          const dh = ih * sc;
+          x.drawImage(img, (AVATAR_PX - dw) / 2, ih > iw ? 0 : (AVATAR_PX - dh) / 2, dw, dh);
+          avatarCache[file] = cv;
+        };
+        img.onerror = () => {
+        };
+        img.src = file;
+      }
+      function applyAvatarMap(m) {
+        if (!m || typeof m !== "object") return;
+        for (const k of Object.keys(avatarFiles)) delete avatarFiles[k];
+        const o = m;
+        for (const k of Object.keys(o)) {
+          const v = o[k];
+          if (typeof v === "string" && v && k.charAt(0) !== "_") {
+            avatarFiles[normName(k)] = v;
+            loadAvatarImage(v);
+          }
+        }
+      }
+      function photoFor(name) {
+        const f = avatarFiles[normName(name)];
+        return f ? avatarCache[f] || null : null;
+      }
+      function avatar(c, name, x, y, r, fam, ring, photo) {
         var _a2;
         const h = (_a2 = HUES[name]) != null ? _a2 : hueFor(name);
         c.save();
@@ -256,6 +301,11 @@
           c.arc(x, y, r + 3, 0, Math.PI * 2);
           c.stroke();
           c.restore();
+        }
+        const ph = photo ? photoFor(name) : null;
+        if (ph) {
+          c.drawImage(ph, x - r, y - r, r * 2, r * 2);
+          return;
         }
         font(c, 700, Math.round(r * 0.8), fam);
         c.save();
@@ -717,7 +767,7 @@
           c.globalAlpha *= ap;
           c.translate((1 - ap) * 40, 0);
           if (hotTest(p, r.x + 10, yc - 34, r.w - 20, 68)) rowHighlight(c, r.x + 10, yc - 34, r.w - 20, 68);
-          avatar(c, name, lx, yc, 22, fam, "rgba(56,225,255,0.8)");
+          avatar(c, name, lx, yc, 22, fam, "rgba(56,225,255,0.8)", true);
           font(c, 750, 16, fam);
           const chipW = c.measureText(money(v)).width + 22;
           const nW = r.w - 12 - chipW - 64 - 8;
@@ -777,7 +827,7 @@
           c.fillStyle = "rgba(255,255,255,0.05)";
           c.fill();
           c.restore();
-          avatar(c, name, x + 34, y + ch / 2, Math.min(20, ch / 2 - 6), fam);
+          avatar(c, name, x + 34, y + ch / 2, Math.min(20, ch / 2 - 6), fam, void 0, true);
           fitFont(c, 650, 17, fam, name, w - 66 - 12);
           text(c, name, x + 66, y + ch / 2, TXT, "left");
           c.restore();
@@ -852,7 +902,7 @@
           const ax = x + (cw + dx) / 2;
           const bob = Math.sin(t * 1.6 + i) * 2.5;
           const ay = base - h - 36 + bob;
-          avatar(c, name, ax, ay, 20, fam, mid);
+          avatar(c, name, ax, ay, 20, fam, mid, true);
           c.save();
           c.shadowColor = "rgba(0,0,0,0.6)";
           c.shadowBlur = 4;
@@ -988,6 +1038,16 @@
         resize(true);
         load();
         setInterval(load, POLL_MS);
+        const loadAvatars = () => __async(null, null, function* () {
+          try {
+            const res = yield fetch("avatars.json?t=" + Date.now(), { cache: "no-store" });
+            if (res.ok) applyAvatarMap(yield res.json());
+          } catch (err) {
+            console.warn("avatars.json not loaded; using initials.", err);
+          }
+        });
+        loadAvatars();
+        setInterval(loadAvatars, 30 * 6e4);
         let lastDraw = -1e9;
         const frame = (now) => {
           requestAnimationFrame(frame);

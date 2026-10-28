@@ -265,7 +265,60 @@ function initials(name: string): string {
   return (parts[0].charAt(0) + (parts.length > 1 ? parts[parts.length - 1].charAt(0) : "")).toUpperCase();
 }
 
-function avatar(c: Ctx, name: string, x: number, y: number, r: number, fam: string, ring?: string): void {
+// ---- Rep photos (avatars.json: { "Rep Name": "avatars/rep-name.png?h=..." }) ----
+// Each image is decoded once and pre-rendered into a small circular canvas, so drawing it per
+// frame is a single cheap drawImage (fine in lite mode). Until it loads, initials are drawn.
+const AVATAR_PX = 128;
+const avatarFiles: { [name: string]: string } = {};
+const avatarCache: { [file: string]: HTMLCanvasElement | null } = {};
+const normName = (n: string): string => n.trim().replace(/\s+/g, " ").toLowerCase();
+
+function loadAvatarImage(file: string): void {
+  if (file in avatarCache) return;
+  avatarCache[file] = null;
+  const img = new Image();
+  img.onload = (): void => {
+    const cv = document.createElement("canvas");
+    cv.width = AVATAR_PX;
+    cv.height = AVATAR_PX;
+    const x = cv.getContext("2d");
+    if (!x) return;
+    x.beginPath();
+    x.arc(AVATAR_PX / 2, AVATAR_PX / 2, AVATAR_PX / 2, 0, Math.PI * 2);
+    x.clip();
+    const iw = img.naturalWidth || AVATAR_PX;
+    const ih = img.naturalHeight || AVATAR_PX;
+    const sc = Math.max(AVATAR_PX / iw, AVATAR_PX / ih); // cover; tall images keep the top (faces)
+    const dw = iw * sc;
+    const dh = ih * sc;
+    x.drawImage(img, (AVATAR_PX - dw) / 2, ih > iw ? 0 : (AVATAR_PX - dh) / 2, dw, dh);
+    avatarCache[file] = cv;
+  };
+  img.onerror = (): void => {
+    // keep null: initials stay; retried when avatars.json is reloaded with a new file hash
+  };
+  img.src = file;
+}
+
+function applyAvatarMap(m: unknown): void {
+  if (!m || typeof m !== "object") return;
+  for (const k of Object.keys(avatarFiles)) delete avatarFiles[k];
+  const o = m as { [k: string]: unknown };
+  for (const k of Object.keys(o)) {
+    const v = o[k];
+    if (typeof v === "string" && v && k.charAt(0) !== "_") {
+      avatarFiles[normName(k)] = v;
+      loadAvatarImage(v);
+    }
+  }
+}
+
+function photoFor(name: string): HTMLCanvasElement | null {
+  const f = avatarFiles[normName(name)];
+  return f ? avatarCache[f] || null : null;
+}
+
+function avatar(c: Ctx, name: string, x: number, y: number, r: number, fam: string, ring?: string, photo?: boolean): void {
   const h = HUES[name] ?? hueFor(name);
   c.save();
   c.shadowColor = "rgba(0,0,0,0.55)";
@@ -290,6 +343,11 @@ function avatar(c: Ctx, name: string, x: number, y: number, r: number, fam: stri
     c.arc(x, y, r + 3, 0, Math.PI * 2);
     c.stroke();
     c.restore();
+  }
+  const ph = photo ? photoFor(name) : null;
+  if (ph) {
+    c.drawImage(ph, x - r, y - r, r * 2, r * 2);
+    return;
   }
   font(c, 700, Math.round(r * 0.8), fam);
   c.save();
@@ -783,7 +841,7 @@ function drawSales(c: Ctx, r: Rect, lt: number, t: number, fam: string, p: Pt | 
     c.globalAlpha *= ap;
     c.translate((1 - ap) * 40, 0);
     if (hotTest(p, r.x + 10, yc - 34, r.w - 20, 68)) rowHighlight(c, r.x + 10, yc - 34, r.w - 20, 68);
-    avatar(c, name, lx, yc, 22, fam, "rgba(56,225,255,0.8)");
+    avatar(c, name, lx, yc, 22, fam, "rgba(56,225,255,0.8)", true);
     font(c, 750, 16, fam);
     const chipW = c.measureText(money(v)).width + 22;
     const nW = r.w - 12 - chipW - 64 - 8;
@@ -845,7 +903,7 @@ function drawOpps(c: Ctx, r: Rect, lt: number, fam: string, p: Pt | null, ex: nu
     c.fillStyle = "rgba(255,255,255,0.05)";
     c.fill();
     c.restore();
-    avatar(c, name, x + 34, y + ch / 2, Math.min(20, ch / 2 - 6), fam);
+    avatar(c, name, x + 34, y + ch / 2, Math.min(20, ch / 2 - 6), fam, undefined, true);
     fitFont(c, 650, 17, fam, name, w - 66 - 12);
     text(c, name, x + 66, y + ch / 2, TXT, "left");
     c.restore();
@@ -921,7 +979,7 @@ function drawTop(c: Ctx, r: Rect, lt: number, t: number, fam: string, p: Pt | nu
     const ax = x + (cw + dx) / 2;
     const bob = Math.sin(t * 1.6 + i) * 2.5;
     const ay = base - h - 36 + bob;
-    avatar(c, name, ax, ay, 20, fam, mid);
+    avatar(c, name, ax, ay, 20, fam, mid, true);
     // rank badge
     c.save();
     c.shadowColor = "rgba(0,0,0,0.6)";
@@ -1068,6 +1126,17 @@ function start(): void {
   resize(true);
   load();
   setInterval(load, POLL_MS);
+  // Rep photos: avatars.json next to index.html, re-read every 30 min so synced photos appear.
+  const loadAvatars = async (): Promise<void> => {
+    try {
+      const res = await fetch("avatars.json?t=" + Date.now(), { cache: "no-store" });
+      if (res.ok) applyAvatarMap(await res.json());
+    } catch (err) {
+      console.warn("avatars.json not loaded; using initials.", err);
+    }
+  };
+  loadAvatars();
+  setInterval(loadAvatars, 30 * 60000);
 
   let lastDraw = -1e9;
   const frame = (now: number): void => {

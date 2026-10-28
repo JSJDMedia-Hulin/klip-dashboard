@@ -20,3 +20,8 @@ It turns on automatically when the user agent contains Android/AFT/CrKey/TV, or 
 If the browser has no 2D canvas, the page shows a plain text message instead of staying blank.
 Overscan safe area: panels sit inside a margin of 4% of the width (left/right) and 2.5% of the height (top/bottom); the background still fills the screen.
 Change it with `?padx=` and `?pady=` (percent per side, 0–20; e.g. `?padx=6&pady=3`, `?padx=0&pady=0` for edge to edge). Combine with lite: `?lite=1&padx=5`.
+Rep photos: `avatars.json` maps a rep name to `avatars/<slug>.png` (160 px square crops of the images Klipfolio shows,
+from associationrevenuepartners.com/images/klipfolio/). They're drawn inside the avatar circle in Last 5 Sales,
+Last 5 Opps Created and Top 5 (where Klipfolio shows them); Daily Sales and reps without a photo keep the initials circle.
+The page re-reads avatars.json every 30 min. Run `sync_avatars.sh` to pull new/changed photos from Klipfolio and push them to main
+(not scheduled). data.json and push_data.sh are unaffected.
