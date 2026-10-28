@@ -46,12 +46,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 269300,
+      "value": 270100,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 121050,
+      "value": 121850,
       "accent": "#a77bff"
     },
     {
@@ -83,11 +83,11 @@
     ]
   ],
   "OPPS": [
+    "Brittany Jackson",
+    "Brittany Jackson",
     "Mandy Corriea",
     "Sara Williams",
-    "Jeremy Reynolds",
-    "Jeffrey Spock",
-    "Stacey Anderson"
+    "Jeremy Reynolds"
   ],
   "TOP": [
     [
