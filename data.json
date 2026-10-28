@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1806910,
+  "GAUGE_VALUE": 1808910,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,6 +30,10 @@
       2950
     ],
     [
+      "Stacey Anderson",
+      2000
+    ],
+    [
       "Aaron Moreland",
       1500
     ],
@@ -38,7 +42,7 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 162300,
+  "DAILY_TOTAL": 164300,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
