@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1801160,
+  "GAUGE_VALUE": 1803960,
   "COLLECTED": 1512325,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alan Zickefoose",
       140250
+    ],
+    [
+      "Jeffrey Spock",
+      5600
     ],
     [
       "Dustin Stenta",
@@ -22,10 +26,6 @@
       3000
     ],
     [
-      "Jeffrey Spock",
-      2800
-    ],
-    [
       "Aaron Moreland",
       1500
     ],
@@ -34,7 +34,7 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 156550,
+  "DAILY_TOTAL": 159350,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
