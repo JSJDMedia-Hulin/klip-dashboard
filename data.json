@@ -42,7 +42,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 264350,
+      "value": 267300,
       "accent": "#38e1ff"
     },
     {
@@ -58,6 +58,14 @@
   ],
   "LAST5": [
     [
+      "Stacey Anderson",
+      2000
+    ],
+    [
+      "Alex Wing",
+      2950
+    ],
+    [
       "Jeffrey Spock",
       2800
     ],
@@ -68,22 +76,14 @@
     [
       "Dustin Stenta",
       4000
-    ],
-    [
-      "Aaron Moreland",
-      1500
-    ],
-    [
-      "Lilly Wang",
-      1000
     ]
   ],
   "OPPS": [
+    "Mandy Corriea",
+    "Sara Williams",
     "Jeremy Reynolds",
     "Jeffrey Spock",
-    "Stacey Anderson",
-    "Justin Vucina",
-    "Lori Zapata"
+    "Stacey Anderson"
   ],
   "TOP": [
     [
