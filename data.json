@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1865910,
+  "GAUGE_VALUE": 1905910,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alan Zickefoose",
       140250
+    ],
+    [
+      "Oscar Tavares",
+      42500
     ],
     [
       "Jeremy Reynolds",
@@ -38,10 +42,6 @@
       2950
     ],
     [
-      "Oscar Tavares",
-      2500
-    ],
-    [
       "Stacey Anderson",
       2000
     ],
@@ -54,11 +54,11 @@
       1000
     ]
   ],
-  "DAILY_TOTAL": 226300,
+  "DAILY_TOTAL": 266300,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 331300,
+      "value": 361300,
       "accent": "#38e1ff"
     },
     {
@@ -74,6 +74,10 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      30000
+    ],
+    [
       "Justin Vucina",
       30000
     ],
@@ -88,10 +92,6 @@
     [
       "Stacey Anderson",
       2000
-    ],
-    [
-      "Alex Wing",
-      2950
     ]
   ],
   "OPPS": [
@@ -107,6 +107,10 @@
       158100
     ],
     [
+      "Oscar Tavares",
+      35100
+    ],
+    [
       "Justin Vucina",
       30000
     ],
@@ -117,10 +121,6 @@
     [
       "Stacey Anderson",
       14150
-    ],
-    [
-      "Derek Rosenberg",
-      13600
     ]
   ]
 }
