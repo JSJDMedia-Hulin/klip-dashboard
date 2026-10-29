@@ -1,11 +1,16 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1921910,
+  "GAUGE_VALUE": 1924410,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Alex Wing",
+      2500
+    ]
+  ],
+  "DAILY_TOTAL": 2500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -30,6 +35,8 @@
     ]
   ],
   "OPPS": [
+    "Blake Ladd",
+    "Maddie Rife",
     "Dustin Stenta"
   ],
   "TOP": [
