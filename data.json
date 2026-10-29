@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
   "GAUGE_VALUE": 2051810,
-  "COLLECTED": 1572145,
+  "COLLECTED": 1574645,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -56,7 +56,7 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 232250,
+      "value": 292250,
       "accent": "#ffb547"
     }
   ],
@@ -83,11 +83,11 @@
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
     "Scott Busenbark",
     "Juan Pena",
     "William Zalstein",
-    "Kathy Dowdy",
-    "Michelle Troupe"
+    "Kathy Dowdy"
   ],
   "TOP": [
     [
