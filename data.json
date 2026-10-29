@@ -113,8 +113,8 @@
   ],
   "BANNER": {
     "label": "To Go for Friday Off!",
-    "toGo": -1810,
-    "value": 2051810,
+    "toGo": 2050000,
+    "value": 0,
     "goal": 2050000
   }
 }
