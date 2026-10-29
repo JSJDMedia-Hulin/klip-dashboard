@@ -86,5 +86,11 @@
       "Jeremy Reynolds",
       30000
     ]
-  ]
+  ],
+  "BANNER": {
+    "label": "To Go for 1/2 Friday Off!",
+    "toGo": 44839,
+    "value": 1955161,
+    "goal": 2000000
+  }
 }
