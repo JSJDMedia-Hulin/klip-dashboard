@@ -9,12 +9,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 387300,
+      "value": 389800,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 179050,
+      "value": 181550,
       "accent": "#a77bff"
     },
     {
@@ -25,32 +25,12 @@
   ],
   "LAST5": [
     [
-      "Oscar Tavares",
-      10000
-    ],
-    [
-      "Oscar Tavares",
-      10000
-    ],
-    [
-      "Oscar Tavares",
-      30000
-    ],
-    [
-      "Justin Vucina",
-      30000
-    ],
-    [
-      "Oscar Tavares",
+      "Alex Wing",
       2500
     ]
   ],
   "OPPS": [
-    "Michelle Brady",
-    "Dustin Stenta",
-    "Brice Purkeypile",
-    "Michelle Troupe",
-    "Brittany Jackson"
+    "Dustin Stenta"
   ],
   "TOP": [
     [
