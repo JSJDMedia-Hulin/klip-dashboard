@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1948411,
+  "GAUGE_VALUE": 1955161,
   "COLLECTED": 1556421,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Chris Rosmarin",
       24000
+    ],
+    [
+      "Kathy Dowdy",
+      6750
     ],
     [
       "Alex Wing",
@@ -18,11 +22,11 @@
       1
     ]
   ],
-  "DAILY_TOTAL": 26501,
+  "DAILY_TOTAL": 33251,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 413801,
+      "value": 420551,
       "accent": "#38e1ff"
     },
     {
@@ -38,6 +42,10 @@
   ],
   "LAST5": [
     [
+      "Kathy Dowdy",
+      6750
+    ],
+    [
       "Chris Rosmarin",
       24000
     ],
@@ -51,11 +59,11 @@
     ]
   ],
   "OPPS": [
+    "Maddie Rife",
     "Lori Zapata",
     "Hart Probst",
     "Mark Hammonds",
-    "Armand Le Roux",
-    "Blake Ladd"
+    "Armand Le Roux"
   ],
   "TOP": [
     [
