@@ -1,13 +1,25 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2023210,
+  "GAUGE_VALUE": 2029810,
   "COLLECTED": 1569145,
   "GOAL": 1400000,
   "DAILY": [
     [
+      "Hart Probst",
+      32000
+    ],
+    [
+      "Justin Vucina",
+      30000
+    ],
+    [
       "Chris Rosmarin",
       24000
+    ],
+    [
+      "Alex Wing",
+      9100
     ],
     [
       "Kathy Dowdy",
@@ -20,35 +32,31 @@
     [
       "Orlando Apodaca",
       2550
-    ],
-    [
-      "Alex Wing",
-      2500
-    ],
-    [
-      "Hart Probst",
-      2000
     ]
   ],
-  "DAILY_TOTAL": 41300,
+  "DAILY_TOTAL": 107900,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 488600,
+      "value": 495200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 196350,
+      "value": 202950,
       "accent": "#a77bff"
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 232250,
+      "value": 292250,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Alex Wing",
+      6600
+    ],
     [
       "Justin Vucina",
       30000
@@ -64,18 +72,14 @@
     [
       "Orlando Apodaca",
       2550
-    ],
-    [
-      "Kathy Dowdy",
-      6750
     ]
   ],
   "OPPS": [
+    "Kathy Dowdy",
+    "Michelle Troupe",
     "Dustin Stenta",
     "Juan Pena",
-    "Jeremy Reynolds",
-    "Lilly Wang",
-    "Michelle Brady"
+    "Jeremy Reynolds"
   ],
   "TOP": [
     [
@@ -101,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for 1/2 Friday Off!",
-    "toGo": 36790,
-    "value": 1963210,
+    "toGo": -29810,
+    "value": 2029810,
     "goal": 2000000
   }
 }
