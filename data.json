@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1957711,
-  "COLLECTED": 1565145,
+  "GAUGE_VALUE": 1957710,
+  "COLLECTED": 1569145,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -20,22 +20,18 @@
     [
       "Alex Wing",
       2500
-    ],
-    [
-      "Scott Hulin",
-      1
     ]
   ],
-  "DAILY_TOTAL": 35801,
+  "DAILY_TOTAL": 35800,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 423101,
+      "value": 423100,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 190851,
+      "value": 190850,
       "accent": "#a77bff"
     },
     {
@@ -58,20 +54,16 @@
       24000
     ],
     [
-      "Scott Hulin",
-      1
-    ],
-    [
       "Alex Wing",
       2500
     ]
   ],
   "OPPS": [
+    "Jeremy Reynolds",
+    "Lilly Wang",
     "Michelle Brady",
     "Maria Hamidi",
-    "Aaron Moreland",
-    "Julianna Utubor",
-    "Maddie Rife"
+    "Aaron Moreland"
   ],
   "TOP": [
     [
@@ -98,7 +90,7 @@
   "BANNER": {
     "label": "To Go for 1/2 Friday Off!",
     "toGo": 42290,
-    "value": 1957711,
+    "value": 1957710,
     "goal": 2000000
   }
 }
