@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2046810,
+  "GAUGE_VALUE": 2051810,
   "COLLECTED": 1572145,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,6 +30,10 @@
       6750
     ],
     [
+      "Sara Williams",
+      5000
+    ],
+    [
       "Liam Bayly",
       3500
     ],
@@ -38,11 +42,11 @@
       2550
     ]
   ],
-  "DAILY_TOTAL": 124900,
+  "DAILY_TOTAL": 129900,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 512200,
+      "value": 517200,
       "accent": "#38e1ff"
     },
     {
@@ -58,6 +62,10 @@
   ],
   "LAST5": [
     [
+      "Sara Williams",
+      5000
+    ],
+    [
       "Stacey Anderson",
       17000
     ],
@@ -72,10 +80,6 @@
     [
       "Liam Bayly",
       3500
-    ],
-    [
-      "Hart Probst",
-      2000
     ]
   ],
   "OPPS": [
@@ -110,7 +114,7 @@
   "BANNER": {
     "label": "To Go for Friday Off!",
     "toGo": 3190,
-    "value": 2046810,
+    "value": 2051810,
     "goal": 2050000
   }
 }
