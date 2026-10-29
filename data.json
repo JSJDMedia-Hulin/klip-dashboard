@@ -30,7 +30,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 423100,
+      "value": 425100,
       "accent": "#38e1ff"
     },
     {
@@ -45,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Hart Probst",
+      2000
+    ],
     [
       "Orlando Apodaca",
       2550
