@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1924411,
+  "GAUGE_VALUE": 1948411,
   "COLLECTED": 1556421,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Chris Rosmarin",
+      24000
+    ],
     [
       "Alex Wing",
       2500
@@ -14,11 +18,11 @@
       1
     ]
   ],
-  "DAILY_TOTAL": 2501,
+  "DAILY_TOTAL": 26501,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 389801,
+      "value": 413801,
       "accent": "#38e1ff"
     },
     {
@@ -33,6 +37,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Chris Rosmarin",
+      24000
+    ],
     [
       "Scott Hulin",
       1
@@ -59,16 +67,16 @@
       61100
     ],
     [
+      "Chris Rosmarin",
+      30750
+    ],
+    [
       "Justin Vucina",
       30000
     ],
     [
       "Jeremy Reynolds",
       30000
-    ],
-    [
-      "Stacey Anderson",
-      14150
     ]
   ]
 }
