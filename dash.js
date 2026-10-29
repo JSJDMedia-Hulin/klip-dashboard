@@ -44,6 +44,7 @@
       var LAST5 = [];
       var OPPS = [];
       var TOP = [];
+      var BANNER = null;
       var KPI_ACCENTS = ["#38e1ff", "#a77bff", "#ffb547"];
       var isNum = (v) => typeof v === "number" && isFinite(v);
       var isPairs = (v) => Array.isArray(v) && v.every((p) => Array.isArray(p) && typeof p[0] === "string" && isNum(p[1]));
@@ -63,6 +64,8 @@
         LAST5 = d.LAST5;
         OPPS = d.OPPS;
         TOP = d.TOP;
+        const b = d.BANNER;
+        BANNER = b && typeof b === "object" && isNum(b.value) && isNum(b.goal) && b.goal > 0 ? { label: typeof b.label === "string" ? b.label : "", toGo: isNum(b.toGo) ? b.toGo : Math.max(0, b.goal - b.value), value: b.value, goal: b.goal } : null;
       }
       var MAX_ROWS = 5;
       var rows = (a) => a.slice(0, MAX_ROWS);
@@ -113,7 +116,9 @@
       var PAD_Y = pctParam("pady", 2.5);
       var CONTENT_SCALE = 0.95;
       var GAUGE_H = 445;
-      var needH = () => Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
+      var BANNER_H = 120;
+      var GAUGE_MIN_H = 350;
+      var needH = () => BANNER ? Math.max(BASE_H, 12 + BANNER_H + 12 + GAUGE_MIN_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48) : Math.max(BASE_H, 12 + GAUGE_H + 12 + 118 + Math.max(1, DAILY.length) * DAILY_MIN_RH + 48);
       function layoutFor(vw, vh) {
         if (vw >= 760 || vw >= vh) {
           const px = vw * PAD_X / 100;
@@ -135,14 +140,26 @@
           const top0 = oy + 12;
           const bottom = oy + IH - 48;
           const extra = Math.max(0, IH - nh);
-          const gh = GAUGE_H + extra * 0.5;
-          const dy = top0 + gh + 12;
           const ly = top0 + 132;
+          let gy = top0;
+          let gh = GAUGE_H + extra * 0.5;
+          let banner2 = null;
+          if (BANNER) {
+            banner2 = { x: cx(0), y: top0, w: cw, h: BANNER_H };
+            gy = top0 + BANNER_H + 12;
+            const n = Math.max(1, DAILY.length);
+            const avail = bottom - gy - 12;
+            const dailyMin = 118 + n * DAILY_MIN_RH;
+            const dailyWant = 118 + n * 32;
+            gh = Math.max(GAUGE_MIN_H, Math.min(GAUGE_H + extra * 0.5, avail - dailyWant, avail - dailyMin));
+          }
+          const dy = gy + gh + 12;
           return {
             W: W2,
             H,
             mobile: false,
-            gauge: { x: cx(0), y: top0, w: cw, h: gh },
+            banner: banner2,
+            gauge: { x: cx(0), y: gy, w: cw, h: gh },
             daily: { x: cx(0), y: dy, w: cw, h: bottom - dy },
             kpi: [1, 2, 3].map((i) => ({ x: cx(i), y: top0, w: cw, h: 120 })),
             sales: { x: cx(1), y: ly, w: cw, h: bottom - ly },
@@ -161,6 +178,7 @@
           y += h + 16;
           return r;
         };
+        const banner = BANNER ? take(124) : null;
         const gauge = take(500);
         const daily = take(320 + dailyExtra(320));
         const kpi = [take(124), take(124), take(124)];
@@ -168,7 +186,7 @@
         const opps = take(440);
         const top = take(520);
         const footer = { x: 0, y, w: W, h: 40 };
-        return { W, H: y + 44, mobile: true, gauge, daily, kpi, sales, opps, top, footer };
+        return { W, H: y + 44, mobile: true, banner, gauge, daily, kpi, sales, opps, top, footer };
       }
       function rr(c, x, y, w, h, r) {
         const k = Math.max(0, Math.min(r, w / 2, h / 2));
@@ -600,6 +618,71 @@
         c.stroke();
         font(c, 600, 13, fam);
         text(c, "Goal " + num(GOAL), bx + bw2 + dx, by + bh + 22, SUB, "right");
+      }
+      function drawGaugeFit(c, r, lt, t, fam) {
+        if (r.h >= GAUGE_H) {
+          drawGauge(c, r, lt, t, fam);
+          return;
+        }
+        const top = 56;
+        const k = Math.max(0.5, (r.h - top) / (GAUGE_H - top));
+        c.save();
+        c.translate(r.x, r.y + top);
+        c.scale(k, k);
+        c.translate(-r.x, -(r.y + top));
+        drawGauge(c, { x: r.x, y: r.y, w: r.w / k, h: GAUGE_H }, lt, t, fam);
+        c.restore();
+      }
+      function drawBanner(c, r, b, lt, t, fam) {
+        const cx = r.x + r.w / 2;
+        const cu = easeOut(lt / 1.6);
+        font(c, 800, 34, fam);
+        text(c, money(b.toGo * cu), cx, r.y + 30, "#ffffff", "center", "#ffb547", 18);
+        fitFont(c, 650, 16, fam, b.label, r.w - 32);
+        text(c, b.label, cx, r.y + 58, "#ffd98a", "center", "#ffb547", 8);
+        const dx = 8;
+        const dy = -6;
+        const bx = r.x + 18;
+        const bw = r.w - 36 - dx;
+        const by = r.y + 76;
+        const bh = 16;
+        const fr = clamp01(b.value / b.goal);
+        box3d(c, bx, by, bw * fr, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
+        box3d(c, bx + bw * fr, by, bw * (1 - fr), bh, dx, dy, "rgba(40,200,120,0.55)", "rgba(110,255,180,0.5)", "rgba(15,110,65,0.7)");
+        const fw = bw * fr * easeOut((lt - 0.3) / 1.6);
+        if (fw > 0.5) {
+          const fg = c.createLinearGradient(0, by + 3, 0, by + bh - 3);
+          fg.addColorStop(0, "#ff9aa9");
+          fg.addColorStop(0.5, "#ff4d63");
+          fg.addColorStop(1, "#b81f3a");
+          c.save();
+          c.shadowColor = "rgba(255,77,99,0.8)";
+          c.shadowBlur = 12;
+          box3d(c, bx + 2, by + 3, fw - 2, bh - 6, dx * 0.7, dy * 0.7, fg, "#ffb0bc", "#a01a33");
+          c.restore();
+          const pulse = 0.5 + 0.5 * Math.sin(t * 3);
+          c.save();
+          c.shadowColor = "#fff3c4";
+          c.shadowBlur = 8 + pulse * 8;
+          box3d(c, bx + fw - 2, by - 6, 4, bh + 12, dx, dy, "#fffbe8", "#ffffff", "#d9cfa8");
+          c.restore();
+        }
+        font(c, 500, 12, fam);
+        text(c, "0", bx, r.y + 106, SUB, "left");
+        font(c, 650, 12, fam);
+        text(c, num(b.goal), bx + bw + dx, r.y + 106, TXT, "right");
+        const cyc = (t + 1.7) % 6 / 6;
+        const sx = r.x - 120 + cyc * (r.w + 240);
+        c.save();
+        rr(c, r.x, r.y, r.w, r.h, 16);
+        c.clip();
+        const sg = c.createLinearGradient(sx - 60, r.y, sx + 60, r.y + r.h);
+        sg.addColorStop(0, "rgba(255,255,255,0)");
+        sg.addColorStop(0.5, "rgba(255,255,255,0.07)");
+        sg.addColorStop(1, "rgba(255,255,255,0)");
+        c.fillStyle = sg;
+        c.fillRect(r.x, r.y, r.w, r.h);
+        c.restore();
       }
       function hotTest(p, x, y, w, h) {
         return p !== null && p.x >= x && p.x <= x + w && p.y >= y && p.y <= y + h;
@@ -1119,8 +1202,15 @@
             };
             withPanel(L.gauge, 0.1, EDGE, (lt) => {
               title(c, L.gauge, "Company Monthly Sales", fam, "#38e1ff");
-              drawGauge(c, L.gauge, lt - 0.3, t, fam);
+              drawGaugeFit(c, L.gauge, lt - 0.3, t, fam);
             });
+            const bn = L.banner;
+            const bd = BANNER;
+            if (bn && bd) {
+              withPanel(bn, 0.05, "#ffb547", (lt) => {
+                drawBanner(c, bn, bd, lt - 0.3, t, fam);
+              });
+            }
             withPanel(L.daily, 0.25, EDGE, (lt) => {
               title(c, L.daily, "Daily Sales", fam, "#38e1ff");
               drawDaily(c, L.daily, lt - 0.3, fam, pointer);
