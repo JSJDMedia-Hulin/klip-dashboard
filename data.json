@@ -1,69 +1,20 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1905910,
+  "GAUGE_VALUE": 1921910,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Alan Zickefoose",
-      140250
-    ],
-    [
-      "Oscar Tavares",
-      42500
-    ],
-    [
-      "Jeremy Reynolds",
-      30000
-    ],
-    [
-      "Justin Vucina",
-      30000
-    ],
-    [
-      "Kathy Dowdy",
-      5100
-    ],
-    [
-      "Dustin Stenta",
-      4000
-    ],
-    [
-      "Seth Dyson",
-      4000
-    ],
-    [
-      "Michelle Brady",
-      3000
-    ],
-    [
-      "Alex Wing",
-      2950
-    ],
-    [
-      "Stacey Anderson",
-      2000
-    ],
-    [
-      "Aaron Moreland",
-      1500
-    ],
-    [
-      "Lilly Wang",
-      1000
-    ]
-  ],
-  "DAILY_TOTAL": 266300,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 381300,
+      "value": 387300,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 173050,
+      "value": 179050,
       "accent": "#a77bff"
     },
     {
@@ -108,7 +59,7 @@
     ],
     [
       "Oscar Tavares",
-      55100
+      61100
     ],
     [
       "Justin Vucina",
