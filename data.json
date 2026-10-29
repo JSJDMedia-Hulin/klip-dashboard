@@ -1,20 +1,24 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1924410,
+  "GAUGE_VALUE": 1924411,
   "COLLECTED": 1554921,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Alex Wing",
       2500
+    ],
+    [
+      "Scott Hulin",
+      1
     ]
   ],
-  "DAILY_TOTAL": 2500,
+  "DAILY_TOTAL": 2501,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 389800,
+      "value": 389801,
       "accent": "#38e1ff"
     },
     {
@@ -30,11 +34,16 @@
   ],
   "LAST5": [
     [
+      "Scott Hulin",
+      1
+    ],
+    [
       "Alex Wing",
       2500
     ]
   ],
   "OPPS": [
+    "Armand Le Roux",
     "Blake Ladd",
     "Maddie Rife",
     "Dustin Stenta"
