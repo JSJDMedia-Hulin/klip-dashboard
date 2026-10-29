@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2029810,
-  "COLLECTED": 1569145,
+  "GAUGE_VALUE": 2046810,
+  "COLLECTED": 1572145,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -16,6 +16,10 @@
     [
       "Chris Rosmarin",
       24000
+    ],
+    [
+      "Stacey Anderson",
+      17000
     ],
     [
       "Alex Wing",
@@ -34,16 +38,16 @@
       2550
     ]
   ],
-  "DAILY_TOTAL": 107900,
+  "DAILY_TOTAL": 124900,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 495200,
+      "value": 512200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 202950,
+      "value": 219950,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Stacey Anderson",
+      17000
+    ],
     [
       "Alex Wing",
       6600
@@ -68,10 +76,6 @@
     [
       "Hart Probst",
       2000
-    ],
-    [
-      "Orlando Apodaca",
-      2550
     ]
   ],
   "OPPS": [
@@ -99,8 +103,8 @@
       32000
     ],
     [
-      "Chris Rosmarin",
-      30750
+      "Stacey Anderson",
+      31150
     ]
   ],
   "BANNER": {
