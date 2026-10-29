@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 1955161,
+  "GAUGE_VALUE": 1957711,
   "COLLECTED": 1565145,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,6 +14,10 @@
       6750
     ],
     [
+      "Orlando Apodaca",
+      2550
+    ],
+    [
       "Alex Wing",
       2500
     ],
@@ -22,11 +26,11 @@
       1
     ]
   ],
-  "DAILY_TOTAL": 33251,
+  "DAILY_TOTAL": 35801,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 420551,
+      "value": 423101,
       "accent": "#38e1ff"
     },
     {
@@ -41,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Orlando Apodaca",
+      2550
+    ],
     [
       "Kathy Dowdy",
       6750
@@ -90,7 +98,7 @@
   "BANNER": {
     "label": "To Go for 1/2 Friday Off!",
     "toGo": 44839,
-    "value": 1955161,
+    "value": 1957711,
     "goal": 2000000
   }
 }
