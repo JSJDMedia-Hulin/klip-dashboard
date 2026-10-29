@@ -1,18 +1,10 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2051810,
+  "GAUGE_VALUE": 1991810,
   "COLLECTED": 1572145,
   "GOAL": 1400000,
   "DAILY": [
-    [
-      "Hart Probst",
-      32000
-    ],
-    [
-      "Justin Vucina",
-      30000
-    ],
     [
       "Chris Rosmarin",
       24000
@@ -40,13 +32,17 @@
     [
       "Orlando Apodaca",
       2550
+    ],
+    [
+      "Hart Probst",
+      2000
     ]
   ],
-  "DAILY_TOTAL": 129900,
+  "DAILY_TOTAL": 69900,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 517200,
+      "value": 457200,
       "accent": "#38e1ff"
     },
     {
@@ -56,7 +52,7 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 292250,
+      "value": 232250,
       "accent": "#ffb547"
     }
   ],
@@ -74,12 +70,12 @@
       6600
     ],
     [
-      "Justin Vucina",
-      30000
-    ],
-    [
       "Liam Bayly",
       3500
+    ],
+    [
+      "Hart Probst",
+      2000
     ]
   ],
   "OPPS": [
@@ -99,22 +95,22 @@
       61100
     ],
     [
-      "Justin Vucina",
-      60000
-    ],
-    [
-      "Hart Probst",
-      32000
-    ],
-    [
       "Stacey Anderson",
       31150
+    ],
+    [
+      "Chris Rosmarin",
+      30750
+    ],
+    [
+      "Justin Vucina",
+      30000
     ]
   ],
   "BANNER": {
     "label": "To Go for Friday Off!",
     "toGo": 58190,
-    "value": 2051810,
+    "value": 1991810,
     "goal": 2050000
   }
 }
