@@ -19,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 224950,
+      "value": 226250,
       "accent": "#a77bff"
     },
     {
@@ -68,8 +68,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1449500,
-    "value": 500,
+    "toGo": 1448200,
+    "value": 1800,
     "goal": 1450000
   }
 }
