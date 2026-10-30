@@ -1,16 +1,24 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2052310,
+  "GAUGE_VALUE": 2058460,
   "COLLECTED": 1594395,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Jeff Kitchen",
+      4850
+    ],
+    [
+      "Oscar Tavares",
+      1300
+    ],
     [
       "William Zalstein",
       500
     ]
   ],
-  "DAILY_TOTAL": 500,
+  "DAILY_TOTAL": 6650,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
