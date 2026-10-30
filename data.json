@@ -22,12 +22,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 519000,
+      "value": 523850,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 226250,
+      "value": 231100,
       "accent": "#a77bff"
     },
     {
@@ -37,6 +37,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Jeff Kitchen",
+      4850
+    ],
     [
       "Oscar Tavares",
       1300
@@ -76,8 +80,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1448200,
-    "value": 1800,
+    "toGo": 1443350,
+    "value": 6650,
     "goal": 1450000
   }
 }
