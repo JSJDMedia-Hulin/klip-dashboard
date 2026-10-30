@@ -14,7 +14,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 517700,
+      "value": 519000,
       "accent": "#38e1ff"
     },
     {
@@ -30,11 +30,17 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      1300
+    ],
+    [
       "William Zalstein",
       500
     ]
   ],
   "OPPS": [
+    "Troy LoCoco",
+    "Oscar Tavares",
     "Hart Probst",
     "Blake Ladd"
   ],
@@ -45,7 +51,7 @@
     ],
     [
       "Oscar Tavares",
-      61100
+      62400
     ],
     [
       "Justin Vucina",
