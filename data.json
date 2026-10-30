@@ -4,45 +4,8 @@
   "GAUGE_VALUE": 2051810,
   "COLLECTED": 1588395,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Hart Probst",
-      32000
-    ],
-    [
-      "Justin Vucina",
-      30000
-    ],
-    [
-      "Chris Rosmarin",
-      24000
-    ],
-    [
-      "Stacey Anderson",
-      17000
-    ],
-    [
-      "Alex Wing",
-      9100
-    ],
-    [
-      "Kathy Dowdy",
-      6750
-    ],
-    [
-      "Sara Williams",
-      5000
-    ],
-    [
-      "Liam Bayly",
-      3500
-    ],
-    [
-      "Orlando Apodaca",
-      2550
-    ]
-  ],
-  "DAILY_TOTAL": 129900,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -60,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Justin Vucina",
-      30000
-    ],
-    [
-      "Sara Williams",
-      5000
-    ],
-    [
-      "Stacey Anderson",
-      17000
-    ],
-    [
-      "Alex Wing",
-      6600
-    ],
-    [
-      "Liam Bayly",
-      3500
-    ]
-  ],
-  "OPPS": [
-    "Troy LoCoco",
-    "Troy LoCoco",
-    "Mark Hammonds",
-    "Maria Hamidi",
-    "Scott Busenbark"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Alan Zickefoose",
