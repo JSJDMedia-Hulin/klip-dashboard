@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 58250,
+  "GAUGE_VALUE": 60750,
   "COLLECTED": 75503,
   "GOAL": 1400000,
   "DAILY": [
@@ -26,28 +26,28 @@
       7650
     ],
     [
+      "Lilly Wang",
+      4850
+    ],
+    [
       "Michelle Troupe",
       3350
     ],
     [
       "Alex Wing",
       2500
-    ],
-    [
-      "Lilly Wang",
-      2350
     ]
   ],
-  "DAILY_TOTAL": 54200,
+  "DAILY_TOTAL": 56700,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 58250,
+      "value": 60750,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 38250,
+      "value": 40750,
       "accent": "#a77bff"
     },
     {
@@ -57,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Lilly Wang",
+      2500
+    ],
     [
       "Lilly Wang",
       2350
@@ -72,10 +76,6 @@
     [
       "Michelle Troupe",
       3350
-    ],
-    [
-      "Kathy Dowdy",
-      9350
     ]
   ],
   "OPPS": [
@@ -109,8 +109,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1385100,
-    "value": 64900,
+    "toGo": 1382600,
+    "value": 67400,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
