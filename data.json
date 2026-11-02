@@ -1,25 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 11700,
+  "GAUGE_VALUE": 14200,
   "COLLECTED": 7350,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Scott Busenbark",
       7650
+    ],
+    [
+      "Alex Wing",
+      2500
     ]
   ],
-  "DAILY_TOTAL": 7650,
+  "DAILY_TOTAL": 10150,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 11700,
+      "value": 14200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 11700,
+      "value": 14200,
       "accent": "#a77bff"
     },
     {
@@ -30,11 +34,17 @@
   ],
   "LAST5": [
     [
+      "Alex Wing",
+      2500
+    ],
+    [
       "Scott Busenbark",
       7650
     ]
   ],
-  "OPPS": [],
+  "OPPS": [
+    "Alex Wing"
+  ],
   "TOP": [
     [
       "Scott Busenbark",
@@ -43,12 +53,16 @@
     [
       "Brendan Welsh",
       4050
+    ],
+    [
+      "Alex Wing",
+      2500
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1431650,
-    "value": 18350,
+    "toGo": 1429150,
+    "value": 20850,
     "goal": 1450000
   }
 }
