@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 14200,
+  "GAUGE_VALUE": 23550,
   "COLLECTED": 16350,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Kathy Dowdy",
+      9350
+    ],
     [
       "Scott Busenbark",
       7650
@@ -14,16 +18,16 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 10150,
+  "DAILY_TOTAL": 19500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 14200,
+      "value": 23550,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 14200,
+      "value": 23550,
       "accent": "#a77bff"
     },
     {
@@ -33,6 +37,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Kathy Dowdy",
+      9350
+    ],
     [
       "Alex Wing",
       2500
@@ -49,6 +57,10 @@
     "Alex Wing"
   ],
   "TOP": [
+    [
+      "Kathy Dowdy",
+      9350
+    ],
     [
       "Scott Busenbark",
       7650
