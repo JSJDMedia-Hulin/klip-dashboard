@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 82825,
+  "GAUGE_VALUE": 84325,
   "COLLECTED": 96676,
   "GOAL": 1400000,
   "DAILY": [
@@ -42,7 +42,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 82825,
+      "value": 84325,
       "accent": "#38e1ff"
     },
     {
