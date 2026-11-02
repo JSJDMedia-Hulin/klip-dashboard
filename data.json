@@ -14,12 +14,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 4050,
+      "value": 11700,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 4050,
+      "value": 11700,
       "accent": "#a77bff"
     },
     {
@@ -36,6 +36,10 @@
   ],
   "OPPS": [],
   "TOP": [
+    [
+      "Scott Busenbark",
+      7650
+    ],
     [
       "Brendan Welsh",
       4050
