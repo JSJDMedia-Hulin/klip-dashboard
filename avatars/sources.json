@@ -1,4 +1,8 @@
 {
+ "Aaron Allen": {
+  "url": "https://associationrevenuepartners.com/images/klipfolio/Aaron-Allen.png",
+  "sha1": "93950c6287528887972a06b5b95f18c79bf52e79"
+ },
  "Alan Zickefoose": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Alan.png",
   "sha1": "a63327f0ed5b95c828fadbf17a375d4cf33fc117"
@@ -6,6 +10,10 @@
  "Blake Ladd": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Blake.png",
   "sha1": "5a8d3556b8094c62fe31aceccd34b1c695cd2a83"
+ },
+ "Brittany Jackson": {
+  "url": "https://associationrevenuepartners.com/images/klipfolio/Brittany.png",
+  "sha1": "fa4af2ba085692d3eca3766af1225b2b08cf1172"
  },
  "Derek Rosenberg": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Derek.png",
@@ -26,6 +34,14 @@
  "Justin Vucina": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Justin.png",
   "sha1": "49b747ae8c61c705cd84f7b9654cf4ceb4ec7e0c"
+ },
+ "Kathy Dowdy": {
+  "url": "https://associationrevenuepartners.com/images/klipfolio/Kathy.png",
+  "sha1": "391b59743d37fa7c50d630569b5759aabf8a7b4e"
+ },
+ "Lilly Wang": {
+  "url": "https://associationrevenuepartners.com/images/klipfolio/Lilly-Wang.png",
+  "sha1": "1d1c8c1675b924893bb4d40c2ec5af346bf4318e"
  },
  "Lori Zapata": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Lori-Zapata.png",
@@ -50,5 +66,9 @@
  "Stacey Anderson": {
   "url": "https://associationrevenuepartners.com/images/klipfolio/Stacey.png",
   "sha1": "def2899c8e5c04acebe918cb47ac401e8106a5fe"
+ },
+ "Troy LoCoco": {
+  "url": "https://associationrevenuepartners.com/images/klipfolio/Troy.png",
+  "sha1": "425b143b078609864912b23658d5e97f1abb61db"
  }
 }
