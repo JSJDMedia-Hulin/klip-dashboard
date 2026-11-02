@@ -8,7 +8,9 @@ Static files only. No build is needed to run it.
   To update the dashboard, replace data.json and nothing else.
   Keys: GAUGE_TARGET, GAUGE_MAX, GAUGE_VALUE, COLLECTED, GOAL, DAILY [[name, amount]...], DAILY_TOTAL,
   KPIS [{title, value, accent?} x3], LAST5 [[name, amount]...], OPPS [name...], TOP [[name, amount]...].
-  Optional BANNER {label, toGo, value, goal}: a temporary banner panel at the top of the left column (above the gauge, same height as the KPI row) with the big "to go" amount, the label, and a 0–goal progress bar. The gauge panel compresses to make room. Set BANNER to null (or remove it) to hide it; the layout is then exactly as without it.
+  Optional Klipfolio red/yellow/green ranges: GAUGE_YELLOW (gauge yellow starts; red 0..GAUGE_YELLOW, yellow ..GAUGE_TARGET, green ..GAUGE_MAX),
+  COLLECTED_YELLOW and COLLECTED_MAX (Collected MTD bar: red 0..COLLECTED_YELLOW, yellow ..GOAL, green ..COLLECTED_MAX). Missing = old look (no yellow, bar max GOAL/0.88).
+  Optional BANNER {label, toGo, value, goal, yellow?, max?} (with max: red 0..yellow, yellow ..goal, green ..max, goal tick at goal; without max: 0..goal bar, red to the value, green beyond): a temporary banner panel at the top of the left column (above the gauge, same height as the KPI row) with the big "to go" amount, the label, and a 0–goal progress bar. The gauge panel compresses to make room. Set BANNER to null (or remove it) to hide it; the layout is then exactly as without it.
 - The live page loads its data from `https://raw.githubusercontent.com/JSJDMedia-Hulin/klip-dashboard/data/data.json` (branch `data`), set in `<meta name="dashboard-data">` in index.html. raw.githubusercontent caches about 5 minutes. Use push_data.sh to publish a new data.json.
 
 Daily Sales shows every row. When the rows can't shrink any further, the whole dashboard scales down to keep them on screen.

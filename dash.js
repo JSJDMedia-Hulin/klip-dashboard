@@ -38,6 +38,8 @@
       var COLLECTED = 0;
       var GOAL = 1;
       var BULLET_MAX = 1;
+      var GAUGE_YELLOW = 0;
+      var COLLECTED_YELLOW = 0;
       var DAILY = [];
       var DAILY_TOTAL = 0;
       var KPIS = [];
@@ -57,7 +59,10 @@
         GAUGE_VALUE = d.GAUGE_VALUE;
         COLLECTED = d.COLLECTED;
         GOAL = d.GOAL;
-        BULLET_MAX = GOAL / 0.88;
+        const ex = d;
+        BULLET_MAX = isNum(ex.COLLECTED_MAX) && ex.COLLECTED_MAX > GOAL ? ex.COLLECTED_MAX : GOAL / 0.88;
+        GAUGE_YELLOW = isNum(ex.GAUGE_YELLOW) && ex.GAUGE_YELLOW >= 0 && ex.GAUGE_YELLOW <= GAUGE_TARGET ? ex.GAUGE_YELLOW : GAUGE_TARGET;
+        COLLECTED_YELLOW = isNum(ex.COLLECTED_YELLOW) && ex.COLLECTED_YELLOW >= 0 && ex.COLLECTED_YELLOW <= GOAL ? ex.COLLECTED_YELLOW : GOAL;
         DAILY = d.DAILY;
         DAILY_TOTAL = d.DAILY_TOTAL;
         KPIS = d.KPIS.slice(0, 3).map((k, i) => ({ title: k.title, value: k.value, accent: k.accent || KPI_ACCENTS[i] }));
@@ -65,7 +70,14 @@
         OPPS = d.OPPS;
         TOP = d.TOP;
         const b = d.BANNER;
-        BANNER = b && typeof b === "object" && isNum(b.value) && isNum(b.goal) && b.goal > 0 ? { label: typeof b.label === "string" ? b.label : "", toGo: isNum(b.toGo) ? b.toGo : Math.max(0, b.goal - b.value), value: b.value, goal: b.goal } : null;
+        BANNER = b && typeof b === "object" && isNum(b.value) && isNum(b.goal) && b.goal > 0 ? {
+          label: typeof b.label === "string" ? b.label : "",
+          toGo: isNum(b.toGo) ? b.toGo : Math.max(0, b.goal - b.value),
+          value: b.value,
+          goal: b.goal,
+          yellow: isNum(b.yellow) && b.yellow >= 0 && b.yellow <= b.goal ? b.yellow : void 0,
+          max: isNum(b.max) && b.max > b.goal ? b.max : void 0
+        } : null;
       }
       var MAX_ROWS = 5;
       var rows = (a) => a.slice(0, MAX_ROWS);
@@ -410,6 +422,7 @@
         const ft = GAUGE_TARGET / GAUGE_MAX;
         const fv = GAUGE_VALUE / GAUGE_MAX;
         const at = PI + ft * PI;
+        const ay = PI + GAUGE_YELLOW / GAUGE_MAX * PI;
         c.save();
         c.beginPath();
         c.arc(cx, cy, R + 22, PI, 2 * PI);
@@ -432,9 +445,14 @@
         const D = 14;
         for (let i = D; i >= 1; i--) {
           const k = 1 - i / D;
-          band(c, cx, cy + i, R, T, PI, at);
+          band(c, cx, cy + i, R, T, PI, ay);
           c.fillStyle = `rgb(${70 + k * 50},${10 + k * 10},${24 + k * 12})`;
           c.fill();
+          if (at > ay) {
+            band(c, cx, cy + i, R, T, ay, at);
+            c.fillStyle = `rgb(${80 + k * 55},${58 + k * 40},${6 + k * 8})`;
+            c.fill();
+          }
           band(c, cx, cy + i, R, T, at, 2 * PI);
           c.fillStyle = `rgb(${8 + k * 8},${55 + k * 35},${36 + k * 20})`;
           c.fill();
@@ -447,12 +465,22 @@
         green.addColorStop(0, "#0c5a39");
         green.addColorStop(0.45, "#3ee69a");
         green.addColorStop(1, "#11885a");
+        const yellow = c.createRadialGradient(cx, cy, R - T, cx, cy, R);
+        yellow.addColorStop(0, "#7a5a06");
+        yellow.addColorStop(0.45, "#ffd34a");
+        yellow.addColorStop(1, "#b88a0c");
         c.save();
         c.shadowColor = "rgba(255,70,95,0.6)";
         c.shadowBlur = 22;
-        band(c, cx, cy, R, T, PI, at);
+        band(c, cx, cy, R, T, PI, ay);
         c.fillStyle = red;
         c.fill();
+        if (at > ay) {
+          c.shadowColor = "rgba(255,205,60,0.6)";
+          band(c, cx, cy, R, T, ay, at);
+          c.fillStyle = yellow;
+          c.fill();
+        }
         c.shadowColor = "rgba(60,230,150,0.6)";
         band(c, cx, cy, R, T, at, 2 * PI);
         c.fillStyle = green;
@@ -588,9 +616,11 @@
         const by = cy + 172;
         const bh = 20;
         const fr = GOAL / BULLET_MAX;
-        box3d(c, bx, by, bw2 * fr, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
+        const fy = COLLECTED_YELLOW / BULLET_MAX;
+        box3d(c, bx, by, bw2 * fy, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
+        if (fr > fy) box3d(c, bx + bw2 * fy, by, bw2 * (fr - fy), bh, dx, dy, "rgba(230,180,30,0.4)", "rgba(255,220,110,0.4)", "rgba(130,95,10,0.6)");
         box3d(c, bx + bw2 * fr, by, bw2 * (1 - fr), bh, dx, dy, "rgba(40,200,120,0.4)", "rgba(110,255,180,0.4)", "rgba(15,110,65,0.6)");
-        const fillF = COLLECTED / BULLET_MAX * easeOut((lt - 0.6) / 1.6);
+        const fillF = Math.min(1, COLLECTED / BULLET_MAX) * easeOut((lt - 0.6) / 1.6);
         const fw = bw2 * fillF;
         if (fw > 0.5) {
           const fg = c.createLinearGradient(0, by + 3, 0, by + bh - 3);
@@ -646,9 +676,19 @@
         const bw = r.w - 36 - dx;
         const by = r.y + 76;
         const bh = 16;
-        const fr = clamp01(b.value / b.goal);
-        box3d(c, bx, by, bw * fr, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
-        box3d(c, bx + bw * fr, by, bw * (1 - fr), bh, dx, dy, "rgba(40,200,120,0.55)", "rgba(110,255,180,0.5)", "rgba(15,110,65,0.7)");
+        const zoned = b.max !== void 0;
+        const bmax = zoned ? b.max : b.goal;
+        const fr = clamp01(b.value / bmax);
+        if (zoned) {
+          const fg0 = b.goal / bmax;
+          const fy0 = (b.yellow !== void 0 ? b.yellow : b.goal) / bmax;
+          box3d(c, bx, by, bw * fy0, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
+          if (fg0 > fy0) box3d(c, bx + bw * fy0, by, bw * (fg0 - fy0), bh, dx, dy, "rgba(230,180,30,0.5)", "rgba(255,220,110,0.45)", "rgba(130,95,10,0.7)");
+          box3d(c, bx + bw * fg0, by, bw * (1 - fg0), bh, dx, dy, "rgba(40,200,120,0.55)", "rgba(110,255,180,0.5)", "rgba(15,110,65,0.7)");
+        } else {
+          box3d(c, bx, by, bw * fr, bh, dx, dy, "rgba(200,40,70,0.35)", "rgba(255,110,130,0.35)", "rgba(120,20,40,0.5)");
+          box3d(c, bx + bw * fr, by, bw * (1 - fr), bh, dx, dy, "rgba(40,200,120,0.55)", "rgba(110,255,180,0.5)", "rgba(15,110,65,0.7)");
+        }
         const fw = bw * fr * easeOut((lt - 0.3) / 1.6);
         if (fw > 0.5) {
           const fg = c.createLinearGradient(0, by + 3, 0, by + bh - 3);
@@ -669,8 +709,27 @@
         }
         font(c, 500, 12, fam);
         text(c, "0", bx, r.y + 106, SUB, "left");
-        font(c, 650, 12, fam);
-        text(c, num(b.goal), bx + bw + dx, r.y + 106, TXT, "right");
+        if (zoned) {
+          const gx = bx + bw * (b.goal / bmax);
+          c.strokeStyle = "rgba(255,255,255,0.7)";
+          c.lineWidth = 1.5;
+          c.beginPath();
+          c.moveTo(gx, by + bh + 1);
+          c.lineTo(gx, by + bh + 7);
+          c.stroke();
+          font(c, 500, 12, fam);
+          const mxl = num(bmax);
+          const mlw = c.measureText(mxl).width;
+          font(c, 650, 12, fam);
+          const glw = c.measureText(num(b.goal)).width;
+          const gcx = Math.min(gx, bx + bw + dx - mlw - 10 - glw / 2);
+          text(c, num(b.goal), gcx, r.y + 106, TXT, "center");
+          font(c, 500, 12, fam);
+          text(c, mxl, bx + bw + dx, r.y + 106, SUB, "right");
+        } else {
+          font(c, 650, 12, fam);
+          text(c, num(b.goal), bx + bw + dx, r.y + 106, TXT, "right");
+        }
         const cyc = (t + 1.7) % 6 / 6;
         const sx = r.x - 120 + cyc * (r.w + 240);
         c.save();
