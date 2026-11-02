@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 23550,
+  "GAUGE_VALUE": 26900,
   "COLLECTED": 16700,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,20 +14,24 @@
       7650
     ],
     [
+      "Michelle Troupe",
+      3350
+    ],
+    [
       "Alex Wing",
       2500
     ]
   ],
-  "DAILY_TOTAL": 19500,
+  "DAILY_TOTAL": 22850,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 23550,
+      "value": 26900,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 23550,
+      "value": 26900,
       "accent": "#a77bff"
     },
     {
@@ -37,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Michelle Troupe",
+      3350
+    ],
     [
       "Kathy Dowdy",
       9350
@@ -51,11 +59,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Brice Purkeypile",
     "Chad Richart",
     "Oscar Tavares",
-    "Lori Zapata",
-    "Brendan Welsh"
+    "Lori Zapata"
   ],
   "TOP": [
     [
@@ -71,14 +79,18 @@
       4050
     ],
     [
+      "Michelle Troupe",
+      3350
+    ],
+    [
       "Alex Wing",
       2500
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1419800,
-    "value": 30200,
+    "toGo": 1416450,
+    "value": 33550,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
