@@ -1,11 +1,16 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 4050,
+  "GAUGE_VALUE": 11700,
   "COLLECTED": 4850,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Scott Busenbark",
+      7650
+    ]
+  ],
+  "DAILY_TOTAL": 7650,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -23,7 +28,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Scott Busenbark",
+      7650
+    ]
+  ],
   "OPPS": [],
   "TOP": [
     [
@@ -33,8 +43,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1439300,
-    "value": 10700,
+    "toGo": 1431650,
+    "value": 18350,
     "goal": 1450000
   }
 }
