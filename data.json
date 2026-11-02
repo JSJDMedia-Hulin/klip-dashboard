@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 62250,
+  "GAUGE_VALUE": 74750,
   "COLLECTED": 77503,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Kathy Dowdy",
+      21850
+    ],
     [
       "Brittany Jackson",
       10500
@@ -16,10 +20,6 @@
     [
       "Sara Williams",
       10000
-    ],
-    [
-      "Kathy Dowdy",
-      9350
     ],
     [
       "Scott Busenbark",
@@ -38,16 +38,16 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 58200,
+  "DAILY_TOTAL": 70700,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 62250,
+      "value": 74750,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 42250,
+      "value": 54750,
       "accent": "#a77bff"
     },
     {
@@ -57,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Kathy Dowdy",
+      12500
+    ],
     [
       "Brittany Jackson",
       1500
@@ -72,10 +76,6 @@
     [
       "Brittany Jackson",
       9000
-    ],
-    [
-      "Aaron Allen",
-      10000
     ]
   ],
   "OPPS": [
@@ -86,6 +86,10 @@
     "Troy LoCoco"
   ],
   "TOP": [
+    [
+      "Kathy Dowdy",
+      21850
+    ],
     [
       "Brittany Jackson",
       10500
@@ -99,18 +103,14 @@
       10000
     ],
     [
-      "Kathy Dowdy",
-      9350
-    ],
-    [
       "Scott Busenbark",
       7650
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1381100,
-    "value": 68900,
+    "toGo": 1368600,
+    "value": 81400,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
