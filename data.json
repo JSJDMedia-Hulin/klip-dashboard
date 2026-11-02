@@ -63,6 +63,11 @@
     "label": "To Go for 11/25 Off!",
     "toGo": 1429150,
     "value": 20850,
-    "goal": 1450000
-  }
+    "goal": 1450000,
+    "yellow": 1000000,
+    "max": 1550000
+  },
+  "GAUGE_YELLOW": 1425140,
+  "COLLECTED_YELLOW": 1180351,
+  "COLLECTED_MAX": 1600645
 }
