@@ -1,88 +1,40 @@
 {
   "GAUGE_TARGET": 1573000,
   "GAUGE_MAX": 2037425,
-  "GAUGE_VALUE": 2058460,
-  "COLLECTED": 1596395,
+  "GAUGE_VALUE": 4050,
+  "COLLECTED": 850,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Jeff Kitchen",
-      4850
-    ],
-    [
-      "Oscar Tavares",
-      1300
-    ],
-    [
-      "William Zalstein",
-      500
-    ]
-  ],
-  "DAILY_TOTAL": 6650,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 523850,
+      "value": 4050,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 231100,
+      "value": 4050,
       "accent": "#a77bff"
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 292750,
+      "value": 0,
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Jeff Kitchen",
-      4850
-    ],
-    [
-      "Oscar Tavares",
-      1300
-    ],
-    [
-      "William Zalstein",
-      500
-    ]
-  ],
-  "OPPS": [
-    "Liam Bayly",
-    "Troy LoCoco",
-    "Oscar Tavares",
-    "Hart Probst",
-    "Blake Ladd"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
-      "Alan Zickefoose",
-      158100
-    ],
-    [
-      "Oscar Tavares",
-      62400
-    ],
-    [
-      "Justin Vucina",
-      60000
-    ],
-    [
-      "Hart Probst",
-      32000
-    ],
-    [
-      "Stacey Anderson",
-      31150
+      "Brendan Welsh",
+      4050
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1443350,
-    "value": 6650,
+    "toGo": 1439300,
+    "value": 10700,
     "goal": 1450000
   }
 }
