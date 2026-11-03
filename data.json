@@ -30,7 +30,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 167725,
+      "value": 180475,
       "accent": "#38e1ff"
     },
     {
@@ -46,6 +46,14 @@
   ],
   "LAST5": [
     [
+      "Dustin Stenta",
+      10000
+    ],
+    [
+      "Mandy Corriea",
+      2750
+    ],
+    [
       "Troy LoCoco",
       11900
     ],
@@ -56,10 +64,6 @@
     [
       "Lori Krueger",
       1500
-    ],
-    [
-      "Hart Probst",
-      35000
     ]
   ],
   "OPPS": [
@@ -72,7 +76,7 @@
   "TOP": [
     [
       "Dustin Stenta",
-      35000
+      45000
     ],
     [
       "Hart Probst",
@@ -93,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1275625,
-    "value": 174375,
+    "toGo": 1262875,
+    "value": 187125,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
