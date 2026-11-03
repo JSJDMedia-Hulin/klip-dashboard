@@ -1,11 +1,16 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 84325,
-  "COLLECTED": 139236,
+  "GAUGE_VALUE": 85825,
+  "COLLECTED": 141236,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Lori Krueger",
+      1500
+    ]
+  ],
+  "DAILY_TOTAL": 1500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -14,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 64325,
+      "value": 65825,
       "accent": "#a77bff"
     },
     {
@@ -23,7 +28,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Lori Krueger",
+      1500
+    ]
+  ],
   "OPPS": [
     "Dustin Stenta",
     "Aaron Allen",
@@ -55,8 +65,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1359025,
-    "value": 90975,
+    "toGo": 1357525,
+    "value": 92475,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
