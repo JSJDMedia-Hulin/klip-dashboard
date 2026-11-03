@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 180475,
+  "GAUGE_VALUE": 182475,
   "COLLECTED": 155953,
   "GOAL": 1400000,
   "DAILY": [
@@ -22,20 +22,24 @@
       2750
     ],
     [
+      "Chad Richart",
+      2000
+    ],
+    [
       "Lori Krueger",
       1500
     ]
   ],
-  "DAILY_TOTAL": 96150,
+  "DAILY_TOTAL": 98150,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 180475,
+      "value": 182475,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 80475,
+      "value": 82475,
       "accent": "#a77bff"
     },
     {
