@@ -4,45 +4,8 @@
   "GAUGE_VALUE": 84325,
   "COLLECTED": 127128,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Kathy Dowdy",
-      21850
-    ],
-    [
-      "Sara Williams",
-      18075
-    ],
-    [
-      "Brittany Jackson",
-      10500
-    ],
-    [
-      "Aaron Allen",
-      10000
-    ],
-    [
-      "Scott Busenbark",
-      7650
-    ],
-    [
-      "Lilly Wang",
-      4850
-    ],
-    [
-      "Michelle Troupe",
-      3350
-    ],
-    [
-      "Alex Wing",
-      2500
-    ],
-    [
-      "Michelle Brady",
-      1500
-    ]
-  ],
-  "DAILY_TOTAL": 80275,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -60,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Michelle Brady",
-      1500
-    ],
-    [
-      "Sara Williams",
-      8075
-    ],
-    [
-      "Kathy Dowdy",
-      12500
-    ],
-    [
-      "Brittany Jackson",
-      1500
-    ],
-    [
-      "Lilly Wang",
-      2500
-    ]
-  ],
-  "OPPS": [
-    "Oscar Tavares",
-    "Hart Probst",
-    "Brittany Jackson",
-    "Maria Hamidi",
-    "Orlando Apodaca"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Kathy Dowdy",
