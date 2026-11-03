@@ -46,6 +46,10 @@
   ],
   "LAST5": [
     [
+      "Chad Richart",
+      2000
+    ],
+    [
       "Dustin Stenta",
       10000
     ],
@@ -60,18 +64,14 @@
     [
       "Dustin Stenta",
       35000
-    ],
-    [
-      "Lori Krueger",
-      1500
     ]
   ],
   "OPPS": [
+    "Justin Vucina",
+    "Mandy Corriea",
     "Blake Ladd",
     "Mark Hammonds",
-    "Geoffrey Forneret",
-    "Dustin Stenta",
-    "Michelle Troupe"
+    "Geoffrey Forneret"
   ],
   "TOP": [
     [
@@ -97,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1262875,
-    "value": 187125,
+    "toGo": 1260875,
+    "value": 189125,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
