@@ -22,6 +22,10 @@
       2750
     ],
     [
+      "Mark Hammonds",
+      2500
+    ],
+    [
       "Chad Richart",
       2000
     ],
@@ -30,7 +34,7 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 98150,
+  "DAILY_TOTAL": 100650,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -50,6 +54,10 @@
   ],
   "LAST5": [
     [
+      "Mark Hammonds",
+      2500
+    ],
+    [
       "Chad Richart",
       2000
     ],
@@ -64,10 +72,6 @@
     [
       "Troy LoCoco",
       11900
-    ],
-    [
-      "Dustin Stenta",
-      35000
     ]
   ],
   "OPPS": [
@@ -101,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1260875,
-    "value": 189125,
+    "toGo": 1258375,
+    "value": 191625,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
