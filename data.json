@@ -42,6 +42,10 @@
   ],
   "LAST5": [
     [
+      "Troy LoCoco",
+      11900
+    ],
+    [
       "Dustin Stenta",
       35000
     ],
@@ -85,8 +89,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1287525,
-    "value": 162475,
+    "toGo": 1275625,
+    "value": 174375,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
