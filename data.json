@@ -1,20 +1,28 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 85825,
+  "GAUGE_VALUE": 155825,
   "COLLECTED": 151436,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Dustin Stenta",
+      35000
+    ],
+    [
+      "Hart Probst",
+      35000
+    ],
     [
       "Lori Krueger",
       1500
     ]
   ],
-  "DAILY_TOTAL": 1500,
+  "DAILY_TOTAL": 71500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 85825,
+      "value": 155825,
       "accent": "#38e1ff"
     },
     {
@@ -43,6 +51,14 @@
   ],
   "TOP": [
     [
+      "Dustin Stenta",
+      35000
+    ],
+    [
+      "Hart Probst",
+      35000
+    ],
+    [
       "Kathy Dowdy",
       21850
     ],
@@ -53,14 +69,6 @@
     [
       "Brittany Jackson",
       10500
-    ],
-    [
-      "Aaron Allen",
-      10000
-    ],
-    [
-      "Scott Busenbark",
-      7650
     ]
   ],
   "BANNER": {
