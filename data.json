@@ -1,13 +1,13 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 167725,
+  "GAUGE_VALUE": 180475,
   "COLLECTED": 155953,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Dustin Stenta",
-      35000
+      45000
     ],
     [
       "Hart Probst",
@@ -18,11 +18,15 @@
       11900
     ],
     [
+      "Mandy Corriea",
+      2750
+    ],
+    [
       "Lori Krueger",
       1500
     ]
   ],
-  "DAILY_TOTAL": 83400,
+  "DAILY_TOTAL": 96150,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -31,7 +35,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 77725,
+      "value": 80475,
       "accent": "#a77bff"
     },
     {
