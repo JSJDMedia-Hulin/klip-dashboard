@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 155825,
+  "GAUGE_VALUE": 167725,
   "COLLECTED": 155353,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,20 +14,24 @@
       35000
     ],
     [
+      "Troy LoCoco",
+      11900
+    ],
+    [
       "Lori Krueger",
       1500
     ]
   ],
-  "DAILY_TOTAL": 71500,
+  "DAILY_TOTAL": 83400,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 155825,
+      "value": 167725,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 65825,
+      "value": 77725,
       "accent": "#a77bff"
     },
     {
@@ -75,8 +79,8 @@
       18075
     ],
     [
-      "Brittany Jackson",
-      10500
+      "Troy LoCoco",
+      11900
     ]
   ],
   "BANNER": {
