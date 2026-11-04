@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 245075,
-  "COLLECTED": 196953,
+  "GAUGE_VALUE": 257575,
+  "COLLECTED": 206873,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Stacey Anderson",
       44200
+    ],
+    [
+      "Blake Ladd",
+      16500
     ],
     [
       "Dustin Stenta",
@@ -16,22 +20,18 @@
     [
       "Hart Probst",
       5950
-    ],
-    [
-      "Blake Ladd",
-      4000
     ]
   ],
-  "DAILY_TOTAL": 60100,
+  "DAILY_TOTAL": 72600,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 245075,
+      "value": 257575,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 145075,
+      "value": 157575,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Blake Ladd",
+      12500
+    ],
     [
       "Blake Ladd",
       4000
@@ -59,11 +63,11 @@
     ]
   ],
   "OPPS": [
+    "Kathy Dowdy",
+    "Mandy Corriea",
     "Maddie Rife",
     "Oscar Tavares",
-    "Michelle Troupe",
-    "Genesis Smith",
-    "Armand Le Roux"
+    "Michelle Troupe"
   ],
   "TOP": [
     [
@@ -89,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1198275,
-    "value": 251725,
+    "toGo": 1185775,
+    "value": 264225,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
