@@ -4,12 +4,17 @@
   "GAUGE_VALUE": 184975,
   "COLLECTED": 192953,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Stacey Anderson",
+      44200
+    ]
+  ],
+  "DAILY_TOTAL": 44200,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 184975,
+      "value": 229175,
       "accent": "#38e1ff"
     },
     {
@@ -35,6 +40,10 @@
       45000
     ],
     [
+      "Stacey Anderson",
+      44200
+    ],
+    [
       "Hart Probst",
       35000
     ],
@@ -45,10 +54,6 @@
     [
       "Sara Williams",
       18075
-    ],
-    [
-      "Troy LoCoco",
-      11900
     ]
   ],
   "BANNER": {
