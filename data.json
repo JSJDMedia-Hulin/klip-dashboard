@@ -38,20 +38,24 @@
       3350
     ],
     [
+      "Michelle Troupe",
+      3350
+    ],
+    [
       "Alex Wing",
       2500
     ]
   ],
-  "DAILY_TOTAL": 122725,
+  "DAILY_TOTAL": 126075,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 307700,
+      "value": 311050,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 183700,
+      "value": 187050,
       "accent": "#a77bff"
     },
     {
@@ -61,6 +65,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Michelle Troupe",
+      3350
+    ],
     [
       "Brice Purkeypile",
       3500
@@ -76,10 +84,6 @@
     [
       "Alex Wing",
       2500
-    ],
-    [
-      "Robbie Carter",
-      24000
     ]
   ],
   "OPPS": [
@@ -113,8 +117,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1135650,
-    "value": 314350,
+    "toGo": 1132300,
+    "value": 317700,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
