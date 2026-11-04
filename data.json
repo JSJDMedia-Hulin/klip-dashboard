@@ -31,7 +31,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 157575,
+      "value": 163950,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Robbie Carter",
+      6375
+    ],
     [
       "Blake Ladd",
       12500
@@ -56,10 +60,6 @@
     [
       "Stacey Anderson",
       44200
-    ],
-    [
-      "Dustin Stenta",
-      5950
     ]
   ],
   "OPPS": [
@@ -93,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1185775,
-    "value": 264225,
+    "toGo": 1179400,
+    "value": 270600,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
