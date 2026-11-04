@@ -10,6 +10,10 @@
       44200
     ],
     [
+      "Robbie Carter",
+      30375
+    ],
+    [
       "Blake Ladd",
       16500
     ],
@@ -20,13 +24,17 @@
     [
       "Hart Probst",
       5950
+    ],
+    [
+      "Alex Wing",
+      2500
     ]
   ],
-  "DAILY_TOTAL": 72600,
+  "DAILY_TOTAL": 105475,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 257575,
+      "value": 290450,
       "accent": "#38e1ff"
     },
     {
@@ -63,11 +71,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Troupe",
+    "Geoffrey Forneret",
     "Kathy Dowdy",
     "Mandy Corriea",
-    "Maddie Rife",
-    "Oscar Tavares",
-    "Michelle Troupe"
+    "Maddie Rife"
   ],
   "TOP": [
     [
@@ -83,12 +91,12 @@
       40950
     ],
     [
-      "Kathy Dowdy",
-      21850
+      "Robbie Carter",
+      30375
     ],
     [
-      "Sara Williams",
-      18075
+      "Kathy Dowdy",
+      21850
     ]
   ],
   "BANNER": {
