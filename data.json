@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 300850,
+  "GAUGE_VALUE": 304200,
   "COLLECTED": 214913,
   "GOAL": 1400000,
   "DAILY": [
@@ -43,7 +43,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 176850,
+      "value": 180200,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +53,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      3350
+    ],
     [
       "Oscar Tavares",
       10400
@@ -68,10 +72,6 @@
     [
       "Robbie Carter",
       6375
-    ],
-    [
-      "Blake Ladd",
-      12500
     ]
   ],
   "OPPS": [
@@ -105,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1142500,
-    "value": 307500,
+    "toGo": 1139150,
+    "value": 310850,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
