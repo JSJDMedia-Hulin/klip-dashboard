@@ -4,37 +4,8 @@
   "GAUGE_VALUE": 184975,
   "COLLECTED": 190953,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Dustin Stenta",
-      45000
-    ],
-    [
-      "Hart Probst",
-      35000
-    ],
-    [
-      "Troy LoCoco",
-      11900
-    ],
-    [
-      "Mandy Corriea",
-      2750
-    ],
-    [
-      "Mark Hammonds",
-      2500
-    ],
-    [
-      "Chad Richart",
-      2000
-    ],
-    [
-      "Lori Krueger",
-      1500
-    ]
-  ],
-  "DAILY_TOTAL": 100650,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -52,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Mark Hammonds",
-      2500
-    ],
-    [
-      "Chad Richart",
-      2000
-    ],
-    [
-      "Dustin Stenta",
-      10000
-    ],
-    [
-      "Mandy Corriea",
-      2750
-    ],
-    [
-      "Troy LoCoco",
-      11900
-    ]
-  ],
-  "OPPS": [
-    "Sara Williams",
-    "Hart Probst",
-    "Dustin Stenta",
-    "Sara Williams",
-    "Hart Probst"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Dustin Stenta",
