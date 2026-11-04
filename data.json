@@ -30,19 +30,15 @@
       5950
     ],
     [
-      "Jeffrey Spock",
-      5800
-    ],
-    [
       "Alex Wing",
       2500
     ]
   ],
-  "DAILY_TOTAL": 121675,
+  "DAILY_TOTAL": 115875,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 306650,
+      "value": 300850,
       "accent": "#38e1ff"
     },
     {
