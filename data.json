@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 184975,
+  "GAUGE_VALUE": 241075,
   "COLLECTED": 192953,
   "GOAL": 1400000,
   "DAILY": [
@@ -19,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 84975,
+      "value": 145075,
       "accent": "#a77bff"
     },
     {
@@ -28,7 +28,24 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Blake Ladd",
+      4000
+    ],
+    [
+      "Hart Probst",
+      5950
+    ],
+    [
+      "Stacey Anderson",
+      44200
+    ],
+    [
+      "Dustin Stenta",
+      5950
+    ]
+  ],
   "OPPS": [
     "Michelle Troupe",
     "Genesis Smith",
@@ -58,8 +75,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1258375,
-    "value": 191625,
+    "toGo": 1198275,
+    "value": 251725,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
