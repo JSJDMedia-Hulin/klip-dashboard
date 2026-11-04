@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 304200,
+  "GAUGE_VALUE": 307700,
   "COLLECTED": 214913,
   "GOAL": 1400000,
   "DAILY": [
@@ -36,13 +36,17 @@
     [
       "Alex Wing",
       2500
+    ],
+    [
+      "Brice Purkeypile",
+      3500
     ]
   ],
-  "DAILY_TOTAL": 119225,
+  "DAILY_TOTAL": 122725,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 304200,
+      "value": 307700,
       "accent": "#38e1ff"
     },
     {
