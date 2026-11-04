@@ -30,15 +30,19 @@
       5950
     ],
     [
+      "Mandy Corriea",
+      3350
+    ],
+    [
       "Alex Wing",
       2500
     ]
   ],
-  "DAILY_TOTAL": 115875,
+  "DAILY_TOTAL": 119225,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 300850,
+      "value": 304200,
       "accent": "#38e1ff"
     },
     {
