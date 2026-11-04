@@ -8,13 +8,25 @@
     [
       "Stacey Anderson",
       44200
+    ],
+    [
+      "Dustin Stenta",
+      5950
+    ],
+    [
+      "Hart Probst",
+      5950
+    ],
+    [
+      "Blake Ladd",
+      4000
     ]
   ],
-  "DAILY_TOTAL": 44200,
+  "DAILY_TOTAL": 60100,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 229175,
+      "value": 245075,
       "accent": "#38e1ff"
     },
     {
@@ -54,7 +66,7 @@
   "TOP": [
     [
       "Dustin Stenta",
-      45000
+      50950
     ],
     [
       "Stacey Anderson",
@@ -62,7 +74,7 @@
     ],
     [
       "Hart Probst",
-      35000
+      40950
     ],
     [
       "Kathy Dowdy",
