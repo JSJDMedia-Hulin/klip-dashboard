@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 353662,
+  "GAUGE_VALUE": 356162,
   "COLLECTED": 270629,
   "GOAL": 1400000,
   "DAILY": [
@@ -19,7 +19,7 @@
     ],
     [
       "Robbie Carter",
-      3500
+      6000
     ],
     [
       "Kathy Dowdy",
@@ -30,11 +30,11 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 42612,
+  "DAILY_TOTAL": 45112,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 353662,
+      "value": 356162,
       "accent": "#38e1ff"
     },
     {
@@ -91,12 +91,12 @@
       40950
     ],
     [
-      "Sara Williams",
-      35487
+      "Robbie Carter",
+      36375
     ],
     [
-      "Robbie Carter",
-      33875
+      "Sara Williams",
+      35487
     ]
   ],
   "BANNER": {
