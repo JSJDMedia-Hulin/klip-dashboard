@@ -1,13 +1,13 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 350062,
+  "GAUGE_VALUE": 353662,
   "COLLECTED": 270629,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Sara Williams",
-      13812
+      17412
     ],
     [
       "Dustin Stenta",
@@ -30,11 +30,11 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 39012,
+  "DAILY_TOTAL": 42612,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 350062,
+      "value": 353662,
       "accent": "#38e1ff"
     },
     {
@@ -71,11 +71,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Troupe",
     "Mandy Corriea",
     "Stacey Anderson",
     "Robbie Carter",
-    "Brendan Welsh",
-    "Alex Wing"
+    "Brendan Welsh"
   ],
   "TOP": [
     [
@@ -91,12 +91,12 @@
       40950
     ],
     [
-      "Robbie Carter",
-      33875
+      "Sara Williams",
+      35487
     ],
     [
-      "Sara Williams",
-      31887
+      "Robbie Carter",
+      33875
     ]
   ],
   "BANNER": {
