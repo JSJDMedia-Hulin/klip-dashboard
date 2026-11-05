@@ -2,31 +2,85 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 368225,
-  "COLLECTED": 270629,
+  "COLLECTED": 275029,
   "GOAL": 1400000,
   "DAILY": [
-    ["Sara Williams", 17412],
-    ["Dustin Stenta", 9200],
-    ["Blake Ladd", 7500],
-    ["Robbie Carter", 6000],
-    ["Mark Hammonds", 5100],
-    ["Mandy Corriea", 4463],
-    ["Brittany Jackson", 2500],
-    ["Kathy Dowdy", 2500],
-    ["Michelle Troupe", 2500]
+    [
+      "Sara Williams",
+      17412
+    ],
+    [
+      "Dustin Stenta",
+      9200
+    ],
+    [
+      "Blake Ladd",
+      7500
+    ],
+    [
+      "Robbie Carter",
+      6000
+    ],
+    [
+      "Mark Hammonds",
+      5100
+    ],
+    [
+      "Mandy Corriea",
+      4463
+    ],
+    [
+      "Brittany Jackson",
+      2500
+    ],
+    [
+      "Kathy Dowdy",
+      2500
+    ],
+    [
+      "Michelle Troupe",
+      2500
+    ]
   ],
   "DAILY_TOTAL": 57175,
   "KPIS": [
-    {"title": "Company Weekly Sales", "value": 368225, "accent": "#38e1ff"},
-    {"title": "Core Weekly Sales", "value": 244225, "accent": "#a77bff"},
-    {"title": "Prog Weekly Sales", "value": 124000, "accent": "#ffb547"}
+    {
+      "title": "Company Weekly Sales",
+      "value": 368225,
+      "accent": "#38e1ff"
+    },
+    {
+      "title": "Core Weekly Sales",
+      "value": 244225,
+      "accent": "#a77bff"
+    },
+    {
+      "title": "Prog Weekly Sales",
+      "value": 124000,
+      "accent": "#ffb547"
+    }
   ],
   "LAST5": [
-    ["Brittany Jackson", 2500],
-    ["Mandy Corriea", 4463],
-    ["Mark Hammonds", 5100],
-    ["Robbie Carter", 2500],
-    ["Sara Williams", 3600]
+    [
+      "Brittany Jackson",
+      2500
+    ],
+    [
+      "Mandy Corriea",
+      4463
+    ],
+    [
+      "Mark Hammonds",
+      5100
+    ],
+    [
+      "Robbie Carter",
+      2500
+    ],
+    [
+      "Sara Williams",
+      3600
+    ]
   ],
   "OPPS": [
     "Michelle Brady",
@@ -36,11 +90,26 @@
     "Mandy Corriea"
   ],
   "TOP": [
-    ["Dustin Stenta", 60150],
-    ["Stacey Anderson", 44200],
-    ["Hart Probst", 40950],
-    ["Robbie Carter", 36375],
-    ["Sara Williams", 35487]
+    [
+      "Dustin Stenta",
+      60150
+    ],
+    [
+      "Stacey Anderson",
+      44200
+    ],
+    [
+      "Hart Probst",
+      40950
+    ],
+    [
+      "Robbie Carter",
+      36375
+    ],
+    [
+      "Sara Williams",
+      35487
+    ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
