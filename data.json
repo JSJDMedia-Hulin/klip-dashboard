@@ -4,17 +4,22 @@
   "GAUGE_VALUE": 311050,
   "COLLECTED": 244786,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Blake Ladd",
+      7500
+    ]
+  ],
+  "DAILY_TOTAL": 7500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 311050,
+      "value": 318550,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 187050,
+      "value": 194550,
       "accent": "#a77bff"
     },
     {
@@ -23,7 +28,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Blake Ladd",
+      7500
+    ]
+  ],
   "OPPS": [],
   "TOP": [
     [
@@ -43,14 +53,14 @@
       30375
     ],
     [
-      "Kathy Dowdy",
-      21850
+      "Blake Ladd",
+      24000
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1132300,
-    "value": 317700,
+    "toGo": 1124800,
+    "value": 325200,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
