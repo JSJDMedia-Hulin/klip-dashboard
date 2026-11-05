@@ -1,25 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 318550,
-  "COLLECTED": 267379,
+  "GAUGE_VALUE": 327750,
+  "COLLECTED": 267879,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Dustin Stenta",
+      9200
+    ],
     [
       "Blake Ladd",
       7500
     ]
   ],
-  "DAILY_TOTAL": 7500,
+  "DAILY_TOTAL": 16700,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 318550,
+      "value": 327750,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 194550,
+      "value": 203750,
       "accent": "#a77bff"
     },
     {
@@ -30,21 +34,25 @@
   ],
   "LAST5": [
     [
+      "Dustin Stenta",
+      9200
+    ],
+    [
       "Blake Ladd",
       7500
     ]
   ],
   "OPPS": [
-    "Dustin Stenta",
-    "Lori Zapata",
-    "Liam Bayly",
+    "Mark Hammonds",
     "Robbie Carter",
+    "Michelle Troupe",
+    "Orlando Apodaca",
     "Stacey Anderson"
   ],
   "TOP": [
     [
       "Dustin Stenta",
-      50950
+      60150
     ],
     [
       "Stacey Anderson",
@@ -65,8 +73,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1124800,
-    "value": 325200,
+    "toGo": 1115600,
+    "value": 334400,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
