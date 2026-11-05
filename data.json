@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 347562,
+  "GAUGE_VALUE": 350062,
   "COLLECTED": 270629,
   "GOAL": 1400000,
   "DAILY": [
@@ -24,13 +24,17 @@
     [
       "Kathy Dowdy",
       2500
+    ],
+    [
+      "Michelle Troupe",
+      2500
     ]
   ],
-  "DAILY_TOTAL": 36512,
+  "DAILY_TOTAL": 39012,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 347562,
+      "value": 350062,
       "accent": "#38e1ff"
     },
     {
