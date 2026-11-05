@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 356162,
+  "GAUGE_VALUE": 365725,
   "COLLECTED": 270629,
   "GOAL": 1400000,
   "DAILY": [
@@ -22,6 +22,14 @@
       6000
     ],
     [
+      "Mark Hammonds",
+      5100
+    ],
+    [
+      "Mandy Corriea",
+      4463
+    ],
+    [
       "Kathy Dowdy",
       2500
     ],
@@ -30,11 +38,11 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 45112,
+  "DAILY_TOTAL": 54675,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 356162,
+      "value": 365725,
       "accent": "#38e1ff"
     },
     {
@@ -71,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Robbie Carter",
     "Mandy Corriea",
     "Michelle Troupe",
-    "Mandy Corriea",
-    "Stacey Anderson"
+    "Mandy Corriea"
   ],
   "TOP": [
     [
