@@ -39,7 +39,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 232162,
+      "value": 237262,
       "accent": "#a77bff"
     },
     {
@@ -49,6 +49,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mark Hammonds",
+      5100
+    ],
     [
       "Robbie Carter",
       2500
@@ -64,10 +68,6 @@
     [
       "Kathy Dowdy",
       2500
-    ],
-    [
-      "Sara Williams",
-      13812
     ]
   ],
   "OPPS": [
@@ -101,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1087188,
-    "value": 362812,
+    "toGo": 1082088,
+    "value": 367912,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
