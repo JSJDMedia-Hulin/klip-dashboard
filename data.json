@@ -35,7 +35,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 223562,
+      "value": 226062,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Michelle Troupe",
+      2500
+    ],
     [
       "Kathy Dowdy",
       2500
@@ -60,10 +64,6 @@
     [
       "Dustin Stenta",
       9200
-    ],
-    [
-      "Blake Ladd",
-      7500
     ]
   ],
   "OPPS": [
@@ -97,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1095788,
-    "value": 354212,
+    "toGo": 1093288,
+    "value": 356712,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
