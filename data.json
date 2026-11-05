@@ -27,7 +27,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 207250,
+      "value": 221062,
       "accent": "#a77bff"
     },
     {
@@ -37,6 +37,14 @@
     }
   ],
   "LAST5": [
+    [
+      "Sara Williams",
+      13812
+    ],
+    [
+      "Robbie Carter",
+      3500
+    ],
     [
       "Dustin Stenta",
       9200
@@ -77,8 +85,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1112100,
-    "value": 337900,
+    "toGo": 1098288,
+    "value": 351712,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
