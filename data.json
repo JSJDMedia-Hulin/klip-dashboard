@@ -6,6 +6,10 @@
   "GOAL": 1400000,
   "DAILY": [
     [
+      "Sara Williams",
+      13812
+    ],
+    [
       "Dustin Stenta",
       9200
     ],
@@ -16,13 +20,17 @@
     [
       "Robbie Carter",
       3500
+    ],
+    [
+      "Kathy Dowdy",
+      2500
     ]
   ],
-  "DAILY_TOTAL": 20200,
+  "DAILY_TOTAL": 36512,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 331250,
+      "value": 347562,
       "accent": "#38e1ff"
     },
     {
@@ -55,11 +63,11 @@
     ]
   ],
   "OPPS": [
+    "Mandy Corriea",
     "Stacey Anderson",
     "Robbie Carter",
     "Brendan Welsh",
-    "Alex Wing",
-    "Tan Gangani"
+    "Alex Wing"
   ],
   "TOP": [
     [
@@ -79,8 +87,8 @@
       33875
     ],
     [
-      "Blake Ladd",
-      24000
+      "Sara Williams",
+      31887
     ]
   ],
   "BANNER": {
