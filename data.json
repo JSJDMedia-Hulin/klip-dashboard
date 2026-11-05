@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 327750,
-  "COLLECTED": 267879,
+  "GAUGE_VALUE": 331250,
+  "COLLECTED": 270629,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -18,12 +18,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 327750,
+      "value": 331250,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 203750,
+      "value": 207250,
       "accent": "#a77bff"
     },
     {
@@ -43,11 +43,11 @@
     ]
   ],
   "OPPS": [
-    "Troy LoCoco",
-    "Mark Hammonds",
+    "Stacey Anderson",
     "Robbie Carter",
-    "Michelle Troupe",
-    "Orlando Apodaca"
+    "Brendan Welsh",
+    "Alex Wing",
+    "Tan Gangani"
   ],
   "TOP": [
     [
@@ -64,7 +64,7 @@
     ],
     [
       "Robbie Carter",
-      30375
+      33875
     ],
     [
       "Blake Ladd",
@@ -73,8 +73,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1115600,
-    "value": 334400,
+    "toGo": 1112100,
+    "value": 337900,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
