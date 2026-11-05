@@ -4,49 +4,8 @@
   "GAUGE_VALUE": 311050,
   "COLLECTED": 244786,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Stacey Anderson",
-      44200
-    ],
-    [
-      "Robbie Carter",
-      30375
-    ],
-    [
-      "Blake Ladd",
-      16500
-    ],
-    [
-      "Oscar Tavares",
-      10400
-    ],
-    [
-      "Dustin Stenta",
-      5950
-    ],
-    [
-      "Hart Probst",
-      5950
-    ],
-    [
-      "Brice Purkeypile",
-      3500
-    ],
-    [
-      "Mandy Corriea",
-      3350
-    ],
-    [
-      "Michelle Troupe",
-      3350
-    ],
-    [
-      "Alex Wing",
-      2500
-    ]
-  ],
-  "DAILY_TOTAL": 126075,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -64,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Michelle Troupe",
-      3350
-    ],
-    [
-      "Brice Purkeypile",
-      3500
-    ],
-    [
-      "Mandy Corriea",
-      3350
-    ],
-    [
-      "Oscar Tavares",
-      10400
-    ],
-    [
-      "Alex Wing",
-      2500
-    ]
-  ],
-  "OPPS": [
-    "Michelle Brady",
-    "Brittany Jackson",
-    "Mark Hammonds",
-    "Hart Probst",
-    "Justin Vucina"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Dustin Stenta",
