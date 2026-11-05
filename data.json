@@ -35,7 +35,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 221062,
+      "value": 223562,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Kathy Dowdy",
+      2500
+    ],
     [
       "Sara Williams",
       13812
@@ -93,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1098288,
-    "value": 351712,
+    "toGo": 1095788,
+    "value": 354212,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
