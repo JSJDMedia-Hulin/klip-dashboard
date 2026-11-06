@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 421023,
+  "GAUGE_VALUE": 412623,
   "COLLECTED": 404848,
   "GOAL": 1400000,
   "DAILY": [
@@ -16,7 +16,7 @@
   ],
   "DAILY_TOTAL": 50799,
   "KPIS": [
-    {"title": "Company Weekly Sales", "value": 420023, "accent": "#38e1ff"},
+    {"title": "Company Weekly Sales", "value": 412623, "accent": "#38e1ff"},
     {"title": "Core Weekly Sales", "value": 288623, "accent": "#a77bff"},
     {"title": "Prog Weekly Sales", "value": 124000, "accent": "#ffb547"}
   ],
@@ -28,11 +28,11 @@
     ["Troy LoCoco", 3500]
   ],
   "OPPS": [
+    "Lilly Wang",
     "Dustin Stenta",
     "Justin Vucina",
     "Lori Zapata",
-    "Hart Probst",
-    "Mark Hammonds"
+    "Hart Probst"
   ],
   "TOP": [
     ["Dustin Stenta", 60150],
