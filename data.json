@@ -5,27 +5,82 @@
   "COLLECTED": 404848,
   "GOAL": 1400000,
   "DAILY": [
-    ["Sara Williams", 16286],
-    ["Stacey Anderson", 15750],
-    ["Derek Rosenberg", 4750],
-    ["Mark Hammonds", 3613],
-    ["Troy LoCoco", 3500],
-    ["Brice Purkeypile", 2900],
-    ["Mandy Corriea", 2500],
-    ["Seth Dyson", 1500]
+    [
+      "Sara Williams",
+      16286
+    ],
+    [
+      "Stacey Anderson",
+      15750
+    ],
+    [
+      "Derek Rosenberg",
+      4750
+    ],
+    [
+      "Mark Hammonds",
+      3613
+    ],
+    [
+      "Troy LoCoco",
+      3500
+    ],
+    [
+      "Brice Purkeypile",
+      2900
+    ],
+    [
+      "Lilly Wang",
+      2500
+    ],
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Seth Dyson",
+      1500
+    ]
   ],
-  "DAILY_TOTAL": 50799,
+  "DAILY_TOTAL": 53299,
   "KPIS": [
-    {"title": "Company Weekly Sales", "value": 412623, "accent": "#38e1ff"},
-    {"title": "Core Weekly Sales", "value": 288623, "accent": "#a77bff"},
-    {"title": "Prog Weekly Sales", "value": 124000, "accent": "#ffb547"}
+    {
+      "title": "Company Weekly Sales",
+      "value": 415123,
+      "accent": "#38e1ff"
+    },
+    {
+      "title": "Core Weekly Sales",
+      "value": 288623,
+      "accent": "#a77bff"
+    },
+    {
+      "title": "Prog Weekly Sales",
+      "value": 124000,
+      "accent": "#ffb547"
+    }
   ],
   "LAST5": [
-    ["Brice Purkeypile", 2900],
-    ["Derek Rosenberg", 4750],
-    ["Stacey Anderson", 15750],
-    ["Sara Williams", 16286],
-    ["Troy LoCoco", 3500]
+    [
+      "Brice Purkeypile",
+      2900
+    ],
+    [
+      "Derek Rosenberg",
+      4750
+    ],
+    [
+      "Stacey Anderson",
+      15750
+    ],
+    [
+      "Sara Williams",
+      16286
+    ],
+    [
+      "Troy LoCoco",
+      3500
+    ]
   ],
   "OPPS": [
     "Lilly Wang",
@@ -35,11 +90,26 @@
     "Hart Probst"
   ],
   "TOP": [
-    ["Dustin Stenta", 60150],
-    ["Stacey Anderson", 59950],
-    ["Sara Williams", 51773],
-    ["Hart Probst", 40950],
-    ["Robbie Carter", 36375]
+    [
+      "Dustin Stenta",
+      60150
+    ],
+    [
+      "Stacey Anderson",
+      59950
+    ],
+    [
+      "Sara Williams",
+      51773
+    ],
+    [
+      "Hart Probst",
+      40950
+    ],
+    [
+      "Robbie Carter",
+      36375
+    ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
