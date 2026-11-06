@@ -1,120 +1,52 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 415123,
+  "GAUGE_VALUE": 425623,
   "COLLECTED": 404848,
   "GOAL": 1400000,
   "DAILY": [
-    [
-      "Sara Williams",
-      16286
-    ],
-    [
-      "Stacey Anderson",
-      15750
-    ],
-    [
-      "Derek Rosenberg",
-      4750
-    ],
-    [
-      "Mark Hammonds",
-      3613
-    ],
-    [
-      "Troy LoCoco",
-      3500
-    ],
-    [
-      "Brice Purkeypile",
-      2900
-    ],
-    [
-      "Lilly Wang",
-      2500
-    ],
-    [
-      "Mandy Corriea",
-      2500
-    ],
-    [
-      "Seth Dyson",
-      1500
-    ]
+    ["Stacey Anderson", 21250],
+    ["Sara Williams", 16286],
+    ["Kathy Dowdy", 5000],
+    ["Derek Rosenberg", 4750],
+    ["Mark Hammonds", 3613],
+    ["Troy LoCoco", 3500],
+    ["Brice Purkeypile", 2900],
+    ["Lilly Wang", 2500],
+    ["Mandy Corriea", 2500],
+    ["Seth Dyson", 1500]
   ],
-  "DAILY_TOTAL": 53299,
+  "DAILY_TOTAL": 63799,
   "KPIS": [
-    {
-      "title": "Company Weekly Sales",
-      "value": 415123,
-      "accent": "#38e1ff"
-    },
-    {
-      "title": "Core Weekly Sales",
-      "value": 291123,
-      "accent": "#a77bff"
-    },
-    {
-      "title": "Prog Weekly Sales",
-      "value": 124000,
-      "accent": "#ffb547"
-    }
+    {"title": "Company Weekly Sales", "value": 425623, "accent": "#38e1ff"},
+    {"title": "Core Weekly Sales", "value": 296123, "accent": "#a77bff"},
+    {"title": "Prog Weekly Sales", "value": 124000, "accent": "#ffb547"}
   ],
   "LAST5": [
-    [
-      "Lilly Wang",
-      2500
-    ],
-    [
-      "Brice Purkeypile",
-      2900
-    ],
-    [
-      "Derek Rosenberg",
-      4750
-    ],
-    [
-      "Stacey Anderson",
-      15750
-    ],
-    [
-      "Sara Williams",
-      16286
-    ]
+    ["Lilly Wang", 2500],
+    ["Brice Purkeypile", 2900],
+    ["Derek Rosenberg", 4750],
+    ["Stacey Anderson", 15750],
+    ["Sara Williams", 16286]
   ],
   "OPPS": [
+    "Kathy Dowdy",
+    "Kathy Dowdy",
     "Hart Probst",
     "Lilly Wang",
-    "Dustin Stenta",
-    "Justin Vucina",
-    "Lori Zapata"
+    "Dustin Stenta"
   ],
   "TOP": [
-    [
-      "Dustin Stenta",
-      60150
-    ],
-    [
-      "Stacey Anderson",
-      59950
-    ],
-    [
-      "Sara Williams",
-      51773
-    ],
-    [
-      "Hart Probst",
-      40950
-    ],
-    [
-      "Robbie Carter",
-      36375
-    ]
+    ["Stacey Anderson", 65450],
+    ["Dustin Stenta", 60150],
+    ["Sara Williams", 51773],
+    ["Hart Probst", 40950],
+    ["Robbie Carter", 36375]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1028227,
-    "value": 421773,
+    "toGo": 1023227,
+    "value": 426773,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
