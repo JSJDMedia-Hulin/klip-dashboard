@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 412623,
+  "GAUGE_VALUE": 415123,
   "COLLECTED": 404848,
   "GOAL": 1400000,
   "DAILY": [
@@ -51,7 +51,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 288623,
+      "value": 291123,
       "accent": "#a77bff"
     },
     {
@@ -61,6 +61,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Lilly Wang",
+      2500
+    ],
     [
       "Brice Purkeypile",
       2900
@@ -76,18 +80,14 @@
     [
       "Sara Williams",
       16286
-    ],
-    [
-      "Troy LoCoco",
-      3500
     ]
   ],
   "OPPS": [
+    "Hart Probst",
     "Lilly Wang",
     "Dustin Stenta",
     "Justin Vucina",
-    "Lori Zapata",
-    "Hart Probst"
+    "Lori Zapata"
   ],
   "TOP": [
     [
@@ -113,8 +113,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1030727,
-    "value": 419273,
+    "toGo": 1028227,
+    "value": 421773,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
