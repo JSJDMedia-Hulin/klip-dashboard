@@ -5,17 +5,50 @@
   "COLLECTED": 407348,
   "GOAL": 1400000,
   "DAILY": [
-    ["Stacey Anderson", 21250],
-    ["Sara Williams", 16286],
-    ["Derek Rosenberg", 9500],
-    ["Kathy Dowdy", 5000],
-    ["Mandy Corriea", 5000],
-    ["Mark Hammonds", 3613],
-    ["Dustin Stenta", 3550],
-    ["Troy LoCoco", 3500],
-    ["Brice Purkeypile", 2900],
-    ["Lilly Wang", 2500],
-    ["Seth Dyson", 1500]
+    [
+      "Stacey Anderson",
+      21250
+    ],
+    [
+      "Sara Williams",
+      16286
+    ],
+    [
+      "Derek Rosenberg",
+      9500
+    ],
+    [
+      "Kathy Dowdy",
+      5000
+    ],
+    [
+      "Mandy Corriea",
+      5000
+    ],
+    [
+      "Mark Hammonds",
+      3613
+    ],
+    [
+      "Dustin Stenta",
+      3550
+    ],
+    [
+      "Troy LoCoco",
+      3500
+    ],
+    [
+      "Brice Purkeypile",
+      2900
+    ],
+    [
+      "Lilly Wang",
+      2500
+    ],
+    [
+      "Seth Dyson",
+      1500
+    ]
   ],
   "DAILY_TOTAL": 74599,
   "KPIS": [
@@ -36,25 +69,55 @@
     }
   ],
   "LAST5": [
-    ["Mandy Corriea", 2500],
-    ["Dustin Stenta", 3550],
-    ["Derek Rosenberg", 4750],
-    ["Stacey Anderson", 5500],
-    ["Kathy Dowdy", 5000]
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Dustin Stenta",
+      3550
+    ],
+    [
+      "Derek Rosenberg",
+      4750
+    ],
+    [
+      "Stacey Anderson",
+      5500
+    ],
+    [
+      "Kathy Dowdy",
+      5000
+    ]
   ],
   "OPPS": [
-    "Lori Zapata",
+    "Michelle Brady",
     "Michelle Brady",
     "Seth Dyson",
-    "Seth Dyson",
-    "Liam Bayly"
+    "Lori Zapata",
+    "Michelle Brady"
   ],
   "TOP": [
-    ["Stacey Anderson", 65450],
-    ["Dustin Stenta", 63700],
-    ["Sara Williams", 51773],
-    ["Hart Probst", 40950],
-    ["Robbie Carter", 36375]
+    [
+      "Stacey Anderson",
+      65450
+    ],
+    [
+      "Dustin Stenta",
+      63700
+    ],
+    [
+      "Sara Williams",
+      51773
+    ],
+    [
+      "Hart Probst",
+      40950
+    ],
+    [
+      "Robbie Carter",
+      36375
+    ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
