@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 399623,
+  "GAUGE_VALUE": 415373,
   "COLLECTED": 275029,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Sara Williams",
       16286
+    ],
+    [
+      "Stacey Anderson",
+      15750
     ],
     [
       "Mark Hammonds",
@@ -26,16 +30,16 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 27399,
+  "DAILY_TOTAL": 43149,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 399623,
+      "value": 415373,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 275623,
+      "value": 296123,
       "accent": "#a77bff"
     },
     {
@@ -46,6 +50,14 @@
   ],
   "LAST5": [
     [
+      "Derek Rosenberg",
+      4750
+    ],
+    [
+      "Stacey Anderson",
+      15750
+    ],
+    [
       "Sara Williams",
       16286
     ],
@@ -56,22 +68,14 @@
     [
       "Mark Hammonds",
       3613
-    ],
-    [
-      "Mandy Corriea",
-      2500
-    ],
-    [
-      "Seth Dyson",
-      1500
     ]
   ],
   "OPPS": [
-    "Mark Hammonds",
+    "Dustin Stenta",
+    "Lori Zapata",
     "Hart Probst",
-    "Alan Zickefoose",
-    "William Zalstein",
-    "William Zalstein"
+    "Mark Hammonds",
+    "Hart Probst"
   ],
   "TOP": [
     [
@@ -79,12 +83,12 @@
       60150
     ],
     [
-      "Sara Williams",
-      51773
+      "Stacey Anderson",
+      59950
     ],
     [
-      "Stacey Anderson",
-      44200
+      "Sara Williams",
+      51773
     ],
     [
       "Hart Probst",
@@ -97,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 1043727,
-    "value": 406273,
+    "toGo": 1023227,
+    "value": 426773,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
