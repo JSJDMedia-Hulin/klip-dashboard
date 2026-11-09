@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 465648,
-  "COLLECTED": 437634,
+  "COLLECTED": 462824,
   "GOAL": 1400000,
   "DAILY": [
     ["Blake Ladd", 7500],
@@ -17,8 +17,8 @@
     {"title": "Core Weekly Sales", "value": 24975, "accent": "#a77bff"},
     {"title": "Prog Weekly Sales", "value": 0, "accent": "#ffb547"}
   ],
-  "LAST5": [["Hart Probst", 2975], ["Mark Hammonds", 7000]],
-  "OPPS": ["Brendan Welsh", "Genesis Smith", "Lilly Wang", "Chad Richart"],
+  "LAST5": [["Troy LoCoco", 3000], ["Brice Purkeypile", 4500], ["Blake Ladd", 7500], ["Hart Probst", 2975], ["Mark Hammonds", 7000]],
+  "OPPS": ["Justin Vucina", "Brendan Welsh", "Genesis Smith", "Lilly Wang", "Chad Richart"],
   "TOP": [
     ["Blake Ladd", 7500],
     ["Mark Hammonds", 7000],
@@ -28,8 +28,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 992702,
-    "value": 457298,
+    "toGo": 977702,
+    "value": 472298,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
