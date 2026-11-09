@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 509998,
-  "COLLECTED": 462824,
+  "COLLECTED": 468299,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -79,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Derek Rosenberg",
+    "Tan Gangani",
     "Liam Bayly",
     "Juan Pena",
-    "Orlando Apodaca",
-    "Sara Williams",
-    "Chad Richart"
+    "Orlando Apodaca"
   ],
   "TOP": [
     [
