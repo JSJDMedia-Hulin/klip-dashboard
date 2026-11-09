@@ -42,12 +42,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 69325,
+      "value": 72675,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 69325,
+      "value": 72675,
       "accent": "#a77bff"
     },
     {
@@ -79,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Lori Zapata",
+    "Oscar Tavares",
     "David Lusby",
     "Michelle Brady",
-    "Derek Rosenberg",
-    "Tan Gangani",
-    "Liam Bayly"
+    "Derek Rosenberg"
   ],
   "TOP": [
     [
