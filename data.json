@@ -1,35 +1,37 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 486648,
+  "GAUGE_VALUE": 499998,
   "COLLECTED": 462824,
   "GOAL": 1400000,
   "DAILY": [
     ["Troy LoCoco", 24000],
+    ["Mandy Corriea", 9500],
     ["Blake Ladd", 7500],
     ["Mark Hammonds", 7000],
     ["Brice Purkeypile", 4500],
+    ["Jeremy Reynolds", 3850],
     ["Hart Probst", 2975]
   ],
-  "DAILY_TOTAL": 45975,
+  "DAILY_TOTAL": 59325,
   "KPIS": [
-    {"title": "Company Weekly Sales", "value": 45975, "accent": "#38e1ff"},
-    {"title": "Core Weekly Sales", "value": 45975, "accent": "#a77bff"},
+    {"title": "Company Weekly Sales", "value": 66825, "accent": "#38e1ff"},
+    {"title": "Core Weekly Sales", "value": 66825, "accent": "#a77bff"},
     {"title": "Prog Weekly Sales", "value": 0, "accent": "#ffb547"}
   ],
-  "LAST5": [["Troy LoCoco", 21000], ["Troy LoCoco", 3000], ["Brice Purkeypile", 4500], ["Blake Ladd", 7500], ["Hart Probst", 2975]],
-  "OPPS": ["Chad Richart", "Jeremy Reynolds", "Liam Bayly", "Justin Vucina", "Brendan Welsh"],
+  "LAST5": [["Alan Zickefoose", 7500], ["Jeremy Reynolds", 3850], ["Mandy Corriea", 9500], ["Troy LoCoco", 21000], ["Troy LoCoco", 3000]],
+  "OPPS": ["Liam Bayly", "Juan Pena", "Orlando Apodaca", "Sara Williams", "Chad Richart"],
   "TOP": [
     ["Troy LoCoco", 24000],
+    ["Mandy Corriea", 9500],
+    ["Alan Zickefoose", 7500],
     ["Blake Ladd", 7500],
-    ["Mark Hammonds", 7000],
-    ["Brice Purkeypile", 4500],
-    ["Hart Probst", 2975]
+    ["Mark Hammonds", 7000]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 956702,
-    "value": 493298,
+    "toGo": 935852,
+    "value": 514148,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
