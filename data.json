@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 509998,
+  "GAUGE_VALUE": 513348,
   "COLLECTED": 468399,
   "GOAL": 1400000,
   "DAILY": [
@@ -34,11 +34,15 @@
       3850
     ],
     [
+      "Oscar Tavares",
+      3350
+    ],
+    [
       "Hart Probst",
       2975
     ]
   ],
-  "DAILY_TOTAL": 69325,
+  "DAILY_TOTAL": 72675,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -58,6 +62,10 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      3350
+    ],
+    [
       "Mandy Corriea",
       2500
     ],
@@ -72,10 +80,6 @@
     [
       "Mandy Corriea",
       9500
-    ],
-    [
-      "Troy LoCoco",
-      21000
     ]
   ],
   "OPPS": [
@@ -109,8 +113,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 933352,
-    "value": 516648,
+    "toGo": 930002,
+    "value": 519998,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
