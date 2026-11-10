@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 645698,
+  "GAUGE_VALUE": 649198,
   "COLLECTED": 622653,
   "GOAL": 1400000,
   "DAILY": [
@@ -18,6 +18,10 @@
       19500
     ],
     [
+      "Liam Bayly",
+      3500
+    ],
+    [
       "Brittany Jackson",
       2850
     ],
@@ -26,16 +30,16 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 132350,
+  "DAILY_TOTAL": 135850,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 205025,
+      "value": 208525,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 81025,
+      "value": 84525,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +49,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Liam Bayly",
+      3500
+    ],
     [
       "Brittany Jackson",
       2850
@@ -60,10 +68,6 @@
     [
       "Armand Le Roux",
       2500
-    ],
-    [
-      "Blake Ladd",
-      19500
     ]
   ],
   "OPPS": [
@@ -97,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 798952,
-    "value": 651048,
+    "toGo": 795452,
+    "value": 654548,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
