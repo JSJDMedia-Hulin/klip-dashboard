@@ -43,6 +43,8 @@
     ]
   ],
   "OPPS": [
+    "Hart Probst",
+    "Michelle Brady",
     "Michelle Brady",
     "Alex Wing"
   ],
@@ -70,8 +72,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 839502,
-    "value": 610498,
+    "toGo": 840802,
+    "value": 609198,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
