@@ -1,20 +1,24 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 515848,
+  "GAUGE_VALUE": 603848,
   "COLLECTED": 496262,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Alan Zickefoose",
+      88000
+    ],
     [
       "Armand Le Roux",
       2500
     ]
   ],
-  "DAILY_TOTAL": 2500,
+  "DAILY_TOTAL": 90500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 75175,
+      "value": 163175,
       "accent": "#38e1ff"
     },
     {
@@ -24,7 +28,7 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 0,
+      "value": 88000,
       "accent": "#ffb547"
     }
   ],
@@ -40,16 +44,16 @@
   ],
   "TOP": [
     [
+      "Alan Zickefoose",
+      95500
+    ],
+    [
       "Troy LoCoco",
       24000
     ],
     [
       "Mandy Corriea",
       12000
-    ],
-    [
-      "Alan Zickefoose",
-      7500
     ],
     [
       "Blake Ladd",
