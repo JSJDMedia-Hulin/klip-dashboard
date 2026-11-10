@@ -2,47 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 513348,
-  "COLLECTED": 493262,
+  "COLLECTED": 496262,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Troy LoCoco",
-      24000
-    ],
-    [
-      "Mandy Corriea",
-      12000
-    ],
-    [
-      "Alan Zickefoose",
-      7500
-    ],
-    [
-      "Blake Ladd",
-      7500
-    ],
-    [
-      "Mark Hammonds",
-      7000
-    ],
-    [
-      "Brice Purkeypile",
-      4500
-    ],
-    [
-      "Jeremy Reynolds",
-      3850
-    ],
-    [
-      "Oscar Tavares",
-      3350
-    ],
-    [
-      "Hart Probst",
-      2975
-    ]
-  ],
-  "DAILY_TOTAL": 72675,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -60,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Oscar Tavares",
-      3350
-    ],
-    [
-      "Mandy Corriea",
-      2500
-    ],
-    [
-      "Alan Zickefoose",
-      7500
-    ],
-    [
-      "Jeremy Reynolds",
-      3850
-    ],
-    [
-      "Mandy Corriea",
-      9500
-    ]
-  ],
-  "OPPS": [
-    "Justin Vucina",
-    "Maddie Rife",
-    "Dustin Stenta",
-    "Lori Zapata",
-    "Oscar Tavares"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Troy LoCoco",
