@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 603848,
+  "GAUGE_VALUE": 645698,
   "COLLECTED": 622653,
   "GOAL": 1400000,
   "DAILY": [
@@ -10,29 +10,49 @@
       88000
     ],
     [
+      "Blake Ladd",
+      19500
+    ],
+    [
+      "Dustin Stenta",
+      19500
+    ],
+    [
+      "Brittany Jackson",
+      2850
+    ],
+    [
       "Armand Le Roux",
       2500
     ]
   ],
-  "DAILY_TOTAL": 90500,
+  "DAILY_TOTAL": 132350,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 163175,
+      "value": 205025,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 75175,
+      "value": 81025,
       "accent": "#a77bff"
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 88000,
+      "value": 124000,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Brittany Jackson",
+      2850
+    ],
+    [
+      "Dustin Stenta",
+      19500
+    ],
     [
       "Alan Zickefoose",
       88000
@@ -40,14 +60,18 @@
     [
       "Armand Le Roux",
       2500
+    ],
+    [
+      "Blake Ladd",
+      19500
     ]
   ],
   "OPPS": [
+    "Orlando Apodaca",
     "Michelle Brady",
     "Michelle Troupe",
     "Aaron Allen",
-    "Robbie Carter",
-    "Brittany Jackson"
+    "Robbie Carter"
   ],
   "TOP": [
     [
@@ -55,26 +79,26 @@
       95500
     ],
     [
+      "Blake Ladd",
+      27000
+    ],
+    [
       "Troy LoCoco",
       24000
     ],
     [
+      "Dustin Stenta",
+      19500
+    ],
+    [
       "Mandy Corriea",
       12000
-    ],
-    [
-      "Blake Ladd",
-      7500
-    ],
-    [
-      "Mark Hammonds",
-      7000
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 840802,
-    "value": 609198,
+    "toGo": 798952,
+    "value": 651048,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
