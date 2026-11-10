@@ -1,20 +1,25 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 513348,
+  "GAUGE_VALUE": 515848,
   "COLLECTED": 496262,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Armand Le Roux",
+      2500
+    ]
+  ],
+  "DAILY_TOTAL": 2500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 72675,
+      "value": 75175,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 72675,
+      "value": 75175,
       "accent": "#a77bff"
     },
     {
@@ -23,8 +28,15 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
-  "OPPS": [],
+  "LAST5": [
+    [
+      "Armand Le Roux",
+      2500
+    ]
+  ],
+  "OPPS": [
+    "Alex Wing"
+  ],
   "TOP": [
     [
       "Troy LoCoco",
@@ -49,8 +61,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 930002,
-    "value": 519998,
+    "toGo": 927502,
+    "value": 522498,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
