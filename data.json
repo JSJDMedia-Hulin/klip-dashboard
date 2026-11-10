@@ -34,6 +34,10 @@
   ],
   "LAST5": [
     [
+      "Alan Zickefoose",
+      88000
+    ],
+    [
       "Armand Le Roux",
       2500
     ]
@@ -66,8 +70,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 927502,
-    "value": 522498,
+    "toGo": 839502,
+    "value": 610498,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
