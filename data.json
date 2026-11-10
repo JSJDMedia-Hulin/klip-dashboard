@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 649198,
+  "GAUGE_VALUE": 657198,
   "COLLECTED": 622653,
   "GOAL": 1400000,
   "DAILY": [
@@ -10,12 +10,16 @@
       88000
     ],
     [
+      "Dustin Stenta",
+      23500
+    ],
+    [
       "Blake Ladd",
       19500
     ],
     [
-      "Dustin Stenta",
-      19500
+      "Seth Dyson",
+      4000
     ],
     [
       "Liam Bayly",
@@ -30,11 +34,11 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 135850,
+  "DAILY_TOTAL": 143850,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 208525,
+      "value": 216525,
       "accent": "#38e1ff"
     },
     {
@@ -44,11 +48,15 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 124000,
+      "value": 132000,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Dustin Stenta",
+      4000
+    ],
     [
       "Liam Bayly",
       3500
@@ -64,18 +72,14 @@
     [
       "Alan Zickefoose",
       88000
-    ],
-    [
-      "Armand Le Roux",
-      2500
     ]
   ],
   "OPPS": [
+    "Blake Ladd",
     "Tan Gangani",
     "Dustin Stenta",
     "Orlando Apodaca",
-    "Michelle Brady",
-    "Michelle Troupe"
+    "Michelle Brady"
   ],
   "TOP": [
     [
@@ -92,7 +96,7 @@
     ],
     [
       "Dustin Stenta",
-      19500
+      23500
     ],
     [
       "Mandy Corriea",
@@ -101,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 795452,
-    "value": 654548,
+    "toGo": 787452,
+    "value": 662548,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
