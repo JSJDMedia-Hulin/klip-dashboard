@@ -31,7 +31,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 99825,
+      "value": 101825,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Jeff Kitchen",
+      2000
+    ],
     [
       "Alex Wing",
       2500
