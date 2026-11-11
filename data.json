@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 668685,
+  "GAUGE_VALUE": 672185,
   "COLLECTED": 643953,
   "GOAL": 1400000,
   "DAILY": [
@@ -10,20 +10,24 @@
       6500
     ],
     [
+      "Robbie Carter",
+      3500
+    ],
+    [
       "Stacey Anderson",
       2187
     ]
   ],
-  "DAILY_TOTAL": 8687,
+  "DAILY_TOTAL": 12187,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 228012,
+      "value": 231512,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 96012,
+      "value": 99512,
       "accent": "#a77bff"
     },
     {
@@ -34,6 +38,10 @@
   ],
   "LAST5": [
     [
+      "Robbie Carter",
+      3500
+    ],
+    [
       "Stacey Anderson",
       2187
     ],
@@ -43,11 +51,11 @@
     ]
   ],
   "OPPS": [
+    "Armand Le Roux",
     "Sara Williams",
     "Liam Bayly",
     "Mark Hammonds",
-    "Mark Hammonds",
-    "Robbie Carter"
+    "Mark Hammonds"
   ],
   "TOP": [
     [
@@ -73,8 +81,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 775965,
-    "value": 674035,
+    "toGo": 772465,
+    "value": 677535,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
