@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 681498,
+  "GAUGE_VALUE": 683998,
   "COLLECTED": 718698,
   "GOAL": 1400000,
   "DAILY": [
@@ -10,12 +10,12 @@
       6500
     ],
     [
-      "Brittany Jackson",
-      4250
+      "Robbie Carter",
+      6000
     ],
     [
-      "Robbie Carter",
-      3500
+      "Brittany Jackson",
+      4250
     ],
     [
       "Mandy Corriea",
@@ -30,16 +30,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 21500,
+  "DAILY_TOTAL": 24000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 240825,
+      "value": 243325,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 108825,
+      "value": 111325,
       "accent": "#a77bff"
     },
     {
@@ -49,6 +49,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Robbie Carter",
+      2500
+    ],
     [
       "Brittany Jackson",
       4250
@@ -64,10 +68,6 @@
     [
       "Alex Wing",
       2500
-    ],
-    [
-      "Robbie Carter",
-      3500
     ]
   ],
   "OPPS": [
@@ -101,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 763152,
-    "value": 686848,
+    "toGo": 760652,
+    "value": 689348,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
