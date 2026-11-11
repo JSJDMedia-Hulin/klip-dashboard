@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 677248,
+  "GAUGE_VALUE": 681498,
   "COLLECTED": 718698,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Geoffrey Forneret",
       6500
+    ],
+    [
+      "Brittany Jackson",
+      4250
     ],
     [
       "Robbie Carter",
@@ -26,16 +30,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 17250,
+  "DAILY_TOTAL": 21500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 236575,
+      "value": 240825,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 104575,
+      "value": 108825,
       "accent": "#a77bff"
     },
     {
@@ -46,6 +50,10 @@
   ],
   "LAST5": [
     [
+      "Brittany Jackson",
+      4250
+    ],
+    [
       "Mandy Corriea",
       2750
     ],
@@ -60,18 +68,14 @@
     [
       "Robbie Carter",
       3500
-    ],
-    [
-      "Geoffrey Forneret",
-      6500
     ]
   ],
   "OPPS": [
+    "Juan Pena",
     "Alan Zickefoose",
     "Maria Hamidi",
     "Hart Probst",
-    "Mandy Corriea",
-    "Lori Zapata"
+    "Mandy Corriea"
   ],
   "TOP": [
     [
@@ -97,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 767402,
-    "value": 682598,
+    "toGo": 763152,
+    "value": 686848,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
