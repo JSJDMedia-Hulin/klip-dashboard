@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 672185,
+  "GAUGE_VALUE": 674685,
   "COLLECTED": 714848,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,20 +14,24 @@
       3500
     ],
     [
+      "Alex Wing",
+      2500
+    ],
+    [
       "Stacey Anderson",
       2187
     ]
   ],
-  "DAILY_TOTAL": 12187,
+  "DAILY_TOTAL": 14687,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 231512,
+      "value": 234012,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 99512,
+      "value": 102012,
       "accent": "#a77bff"
     },
     {
@@ -37,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Alex Wing",
+      2500
+    ],
     [
       "Robbie Carter",
       3500
@@ -51,11 +59,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
+    "Jeremy Reynolds",
     "Robbie Carter",
     "Mark Hammonds",
-    "Mandy Corriea",
-    "Jeff Kitchen",
-    "Armand Le Roux"
+    "Mandy Corriea"
   ],
   "TOP": [
     [
@@ -81,8 +89,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 772465,
-    "value": 677535,
+    "toGo": 769965,
+    "value": 680035,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
