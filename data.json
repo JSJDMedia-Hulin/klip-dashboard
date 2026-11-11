@@ -2,43 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 659998,
-  "COLLECTED": 625953,
+  "COLLECTED": 641453,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Alan Zickefoose",
-      88000
-    ],
-    [
-      "Dustin Stenta",
-      23500
-    ],
-    [
-      "Blake Ladd",
-      19500
-    ],
-    [
-      "Seth Dyson",
-      4000
-    ],
-    [
-      "Liam Bayly",
-      3500
-    ],
-    [
-      "Brittany Jackson",
-      2850
-    ],
-    [
-      "Coleman Perret",
-      2800
-    ],
-    [
-      "Armand Le Roux",
-      2500
-    ]
-  ],
-  "DAILY_TOTAL": 146650,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -56,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Coleman Perret",
-      2800
-    ],
-    [
-      "Dustin Stenta",
-      4000
-    ],
-    [
-      "Liam Bayly",
-      3500
-    ],
-    [
-      "Brittany Jackson",
-      2850
-    ],
-    [
-      "Dustin Stenta",
-      19500
-    ]
-  ],
-  "OPPS": [
-    "Troy LoCoco",
-    "Michelle Brady",
-    "Troy LoCoco",
-    "Jeff Kitchen",
-    "Alan Zickefoose"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Alan Zickefoose",
