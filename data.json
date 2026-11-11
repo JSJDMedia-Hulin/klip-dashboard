@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 674498,
+  "GAUGE_VALUE": 677248,
   "COLLECTED": 718698,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,6 +14,10 @@
       3500
     ],
     [
+      "Mandy Corriea",
+      2750
+    ],
+    [
       "Alex Wing",
       2500
     ],
@@ -22,16 +26,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 14500,
+  "DAILY_TOTAL": 17250,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 233825,
+      "value": 236575,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 101825,
+      "value": 104575,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      2750
+    ],
     [
       "Jeff Kitchen",
       2000
@@ -59,11 +67,11 @@
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
     "Hart Probst",
     "Mandy Corriea",
     "Lori Zapata",
-    "Troy LoCoco",
-    "Lori Zapata"
+    "Troy LoCoco"
   ],
   "TOP": [
     [
@@ -84,13 +92,13 @@
     ],
     [
       "Mandy Corriea",
-      12000
+      14750
     ]
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 770152,
-    "value": 679848,
+    "toGo": 767402,
+    "value": 682598,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
