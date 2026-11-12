@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 690498,
+  "GAUGE_VALUE": 694748,
   "COLLECTED": 713931,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Tan Gangani",
+      4250
+    ],
     [
       "Robbie Carter",
       3500
@@ -12,13 +16,17 @@
     [
       "Lori Zapata",
       3000
+    ],
+    [
+      "Stacey Anderson",
+      0
     ]
   ],
-  "DAILY_TOTAL": 6500,
+  "DAILY_TOTAL": 10750,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 249825,
+      "value": 254075,
       "accent": "#38e1ff"
     },
     {
@@ -34,6 +42,10 @@
   ],
   "LAST5": [
     [
+      "Tan Gangani",
+      4250
+    ],
+    [
       "Lori Zapata",
       3000
     ],
@@ -43,11 +55,11 @@
     ]
   ],
   "OPPS": [
+    "Mark Hammonds",
+    "Justin Vucina",
     "Aaron Moreland",
     "Stacey Anderson",
-    "Mark Hammonds",
-    "Michelle Troupe",
-    "Maria Hamidi"
+    "Mark Hammonds"
   ],
   "TOP": [
     [
@@ -73,8 +85,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 754152,
-    "value": 695848,
+    "toGo": 749902,
+    "value": 700098,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
