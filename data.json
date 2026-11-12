@@ -1,25 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 687498,
+  "GAUGE_VALUE": 690498,
   "COLLECTED": 705948,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Robbie Carter",
       3500
+    ],
+    [
+      "Lori Zapata",
+      3000
     ]
   ],
-  "DAILY_TOTAL": 3500,
+  "DAILY_TOTAL": 6500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 246825,
+      "value": 249825,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 114825,
+      "value": 117825,
       "accent": "#a77bff"
     },
     {
@@ -30,15 +34,19 @@
   ],
   "LAST5": [
     [
+      "Lori Zapata",
+      3000
+    ],
+    [
       "Robbie Carter",
       3500
     ]
   ],
   "OPPS": [
+    "Hart Probst",
     "Alan Zickefoose",
     "Justin Vucina",
     "Mark Hammonds",
-    "Chad Richart",
     "Chad Richart"
   ],
   "TOP": [
@@ -65,8 +73,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 757152,
-    "value": 692848,
+    "toGo": 754152,
+    "value": 695848,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
