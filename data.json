@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 694748,
+  "GAUGE_VALUE": 794748,
   "COLLECTED": 713931,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Alan Zickefoose",
+      100000
+    ],
     [
       "Tan Gangani",
       4250
@@ -22,11 +26,11 @@
       0
     ]
   ],
-  "DAILY_TOTAL": 10750,
+  "DAILY_TOTAL": 110750,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 254075,
+      "value": 354075,
       "accent": "#38e1ff"
     },
     {
@@ -36,11 +40,15 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 132000,
+      "value": 232000,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Alan Zickefoose",
+      100000
+    ],
     [
       "Tan Gangani",
       4250
@@ -55,16 +63,16 @@
     ]
   ],
   "OPPS": [
+    "Tan Gangani",
     "Mark Hammonds",
     "Justin Vucina",
     "Aaron Moreland",
-    "Stacey Anderson",
-    "Mark Hammonds"
+    "Stacey Anderson"
   ],
   "TOP": [
     [
       "Alan Zickefoose",
-      95500
+      195500
     ],
     [
       "Blake Ladd",
@@ -85,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 749902,
-    "value": 700098,
+    "toGo": 649902,
+    "value": 800098,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
