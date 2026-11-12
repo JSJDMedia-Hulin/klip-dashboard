@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 808823,
+  "GAUGE_VALUE": 830773,
   "COLLECTED": 719431,
   "GOAL": 1400000,
   "DAILY": [
@@ -10,12 +10,24 @@
       100000
     ],
     [
+      "Coleman Perret",
+      9000
+    ],
+    [
+      "Dustin Stenta",
+      9000
+    ],
+    [
       "Sara Williams",
       8075
     ],
     [
       "Tan Gangani",
       4250
+    ],
+    [
+      "Stacey Anderson",
+      3950
     ],
     [
       "Mark Hammonds",
@@ -32,22 +44,18 @@
     [
       "Oscar Tavares",
       2500
-    ],
-    [
-      "Stacey Anderson",
-      0
     ]
   ],
-  "DAILY_TOTAL": 124825,
+  "DAILY_TOTAL": 146775,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 368150,
+      "value": 390100,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 136150,
+      "value": 140100,
       "accent": "#a77bff"
     },
     {
@@ -57,6 +65,14 @@
     }
   ],
   "LAST5": [
+    [
+      "Dustin Stenta",
+      9000
+    ],
+    [
+      "Stacey Anderson",
+      3950
+    ],
     [
       "Oscar Tavares",
       2500
@@ -68,14 +84,6 @@
     [
       "Sara Williams",
       8075
-    ],
-    [
-      "Alan Zickefoose",
-      100000
-    ],
-    [
-      "Tan Gangani",
-      4250
     ]
   ],
   "OPPS": [
@@ -91,6 +99,10 @@
       195500
     ],
     [
+      "Dustin Stenta",
+      32500
+    ],
+    [
       "Blake Ladd",
       27000
     ],
@@ -99,18 +111,14 @@
       24000
     ],
     [
-      "Dustin Stenta",
-      23500
-    ],
-    [
       "Mandy Corriea",
       14750
     ]
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 885827,
-    "value": 814173,
+    "toGo": 863877,
+    "value": 836123,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
