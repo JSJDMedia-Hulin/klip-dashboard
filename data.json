@@ -47,7 +47,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 133650,
+      "value": 136150,
       "accent": "#a77bff"
     },
     {
@@ -108,12 +108,12 @@
     ]
   ],
   "BANNER": {
-    "label": "To Go for 11/25 Off!",
-    "toGo": 635827,
+    "label": "To Go for Thanksgiving Week Off!",
+    "toGo": 885827,
     "value": 814173,
-    "goal": 1450000,
-    "yellow": 1000000,
-    "max": 1550000
+    "goal": 1700000,
+    "yellow": 1450000,
+    "max": 2100000
   },
   "GAUGE_YELLOW": 1425140,
   "COLLECTED_YELLOW": 1180351,
