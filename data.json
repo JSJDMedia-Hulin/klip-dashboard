@@ -10,6 +10,10 @@
       100000
     ],
     [
+      "Sara Williams",
+      8075
+    ],
+    [
       "Tan Gangani",
       4250
     ],
@@ -26,16 +30,16 @@
       0
     ]
   ],
-  "DAILY_TOTAL": 110750,
+  "DAILY_TOTAL": 118825,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 354075,
+      "value": 362150,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 122075,
+      "value": 130150,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +49,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Sara Williams",
+      8075
+    ],
     [
       "Alan Zickefoose",
       100000
@@ -63,11 +71,11 @@
     ]
   ],
   "OPPS": [
+    "Jeff Kitchen",
     "Tan Gangani",
     "Mark Hammonds",
     "Justin Vucina",
-    "Aaron Moreland",
-    "Stacey Anderson"
+    "Aaron Moreland"
   ],
   "TOP": [
     [
@@ -93,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 649902,
-    "value": 800098,
+    "toGo": 641827,
+    "value": 808173,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
