@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 802823,
-  "COLLECTED": 715931,
+  "GAUGE_VALUE": 806323,
+  "COLLECTED": 719431,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -18,6 +18,10 @@
       4250
     ],
     [
+      "Mark Hammonds",
+      3500
+    ],
+    [
       "Robbie Carter",
       3500
     ],
@@ -30,16 +34,16 @@
       0
     ]
   ],
-  "DAILY_TOTAL": 118825,
+  "DAILY_TOTAL": 122325,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 362150,
+      "value": 365650,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 130150,
+      "value": 133650,
       "accent": "#a77bff"
     },
     {
@@ -49,6 +53,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mark Hammonds",
+      3500
+    ],
     [
       "Sara Williams",
       8075
@@ -64,18 +72,14 @@
     [
       "Lori Zapata",
       3000
-    ],
-    [
-      "Robbie Carter",
-      3500
     ]
   ],
   "OPPS": [
-    "Alan Zickefoose",
+    "Aaron Allen",
+    "Mark Hammonds",
     "Scott Busenbark",
-    "Jeff Kitchen",
-    "Tan Gangani",
-    "Mark Hammonds"
+    "Alan Zickefoose",
+    "Scott Busenbark"
   ],
   "TOP": [
     [
@@ -101,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 641827,
-    "value": 808173,
+    "toGo": 638327,
+    "value": 811673,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
