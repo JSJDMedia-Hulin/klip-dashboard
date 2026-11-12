@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 806323,
+  "GAUGE_VALUE": 808823,
   "COLLECTED": 719431,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,15 +30,19 @@
       3000
     ],
     [
+      "Oscar Tavares",
+      2500
+    ],
+    [
       "Stacey Anderson",
       0
     ]
   ],
-  "DAILY_TOTAL": 122325,
+  "DAILY_TOTAL": 124825,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 365650,
+      "value": 368150,
       "accent": "#38e1ff"
     },
     {
@@ -54,6 +58,10 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      2500
+    ],
+    [
       "Mark Hammonds",
       3500
     ],
@@ -68,17 +76,13 @@
     [
       "Tan Gangani",
       4250
-    ],
-    [
-      "Lori Zapata",
-      3000
     ]
   ],
   "OPPS": [
     "Jeff Kitchen",
+    "Aaron Allen",
+    "Jeff Kitchen",
     "Oscar Tavares",
-    "Dustin Stenta",
-    "Aaron Moreland",
     "Dustin Stenta"
   ],
   "TOP": [
@@ -105,8 +109,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 638327,
-    "value": 811673,
+    "toGo": 635827,
+    "value": 814173,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
