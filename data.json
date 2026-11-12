@@ -1,20 +1,25 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 683998,
+  "GAUGE_VALUE": 687498,
   "COLLECTED": 705948,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Robbie Carter",
+      3500
+    ]
+  ],
+  "DAILY_TOTAL": 3500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 243325,
+      "value": 246825,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 111325,
+      "value": 114825,
       "accent": "#a77bff"
     },
     {
@@ -23,7 +28,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Robbie Carter",
+      3500
+    ]
+  ],
   "OPPS": [
     "Alan Zickefoose",
     "Justin Vucina",
@@ -55,8 +65,8 @@
   ],
   "BANNER": {
     "label": "To Go for 11/25 Off!",
-    "toGo": 760652,
-    "value": 689348,
+    "toGo": 757152,
+    "value": 692848,
     "goal": 1450000,
     "yellow": 1000000,
     "max": 1550000
