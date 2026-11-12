@@ -2,35 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 683998,
-  "COLLECTED": 718698,
+  "COLLECTED": 705948,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Geoffrey Forneret",
-      6500
-    ],
-    [
-      "Robbie Carter",
-      6000
-    ],
-    [
-      "Brittany Jackson",
-      4250
-    ],
-    [
-      "Mandy Corriea",
-      2750
-    ],
-    [
-      "Alex Wing",
-      2500
-    ],
-    [
-      "Jeff Kitchen",
-      2000
-    ]
-  ],
-  "DAILY_TOTAL": 24000,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -48,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Robbie Carter",
-      2500
-    ],
-    [
-      "Brittany Jackson",
-      4250
-    ],
-    [
-      "Mandy Corriea",
-      2750
-    ],
-    [
-      "Jeff Kitchen",
-      2000
-    ],
-    [
-      "Alex Wing",
-      2500
-    ]
-  ],
-  "OPPS": [
-    "Justin Vucina",
-    "Mandy Corriea",
-    "Juan Pena",
-    "Alan Zickefoose",
-    "Maria Hamidi"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Alan Zickefoose",
