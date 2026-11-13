@@ -7,7 +7,7 @@
   "DAILY": [
     [
       "Justin Vucina",
-      5313
+      20313
     ],
     [
       "Sara Williams",
@@ -22,11 +22,11 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 16813,
+  "DAILY_TOTAL": 31813,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 406913,
+      "value": 421913,
       "accent": "#38e1ff"
     },
     {
@@ -36,11 +36,15 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 250000,
+      "value": 265000,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Justin Vucina",
+      7500
+    ],
     [
       "Sara Williams",
       5000
@@ -83,14 +87,14 @@
       27000
     ],
     [
-      "Mandy Corriea",
-      14750
+      "Justin Vucina",
+      20313
     ]
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 847065,
-    "value": 852935,
+    "toGo": 832065,
+    "value": 867935,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
