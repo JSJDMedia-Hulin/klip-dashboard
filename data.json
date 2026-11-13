@@ -47,7 +47,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 177463,
+      "value": 178963,
       "accent": "#a77bff"
     },
     {
@@ -57,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Stacey Anderson",
+      1500
+    ],
     [
       "Scott Busenbark",
       2750
@@ -72,10 +76,6 @@
     [
       "Stacey Anderson",
       2550
-    ],
-    [
-      "Stacey Anderson",
-      7500
     ]
   ],
   "OPPS": [
@@ -109,8 +109,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 811515,
-    "value": 888485,
+    "toGo": 810015,
+    "value": 889985,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
