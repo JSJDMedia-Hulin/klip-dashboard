@@ -4,49 +4,8 @@
   "GAUGE_VALUE": 830773,
   "COLLECTED": 721431,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Alan Zickefoose",
-      100000
-    ],
-    [
-      "Coleman Perret",
-      9000
-    ],
-    [
-      "Dustin Stenta",
-      9000
-    ],
-    [
-      "Sara Williams",
-      8075
-    ],
-    [
-      "Tan Gangani",
-      4250
-    ],
-    [
-      "Stacey Anderson",
-      3950
-    ],
-    [
-      "Mark Hammonds",
-      3500
-    ],
-    [
-      "Robbie Carter",
-      3500
-    ],
-    [
-      "Lori Zapata",
-      3000
-    ],
-    [
-      "Oscar Tavares",
-      2500
-    ]
-  ],
-  "DAILY_TOTAL": 146775,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -64,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Dustin Stenta",
-      9000
-    ],
-    [
-      "Stacey Anderson",
-      3950
-    ],
-    [
-      "Oscar Tavares",
-      2500
-    ],
-    [
-      "Mark Hammonds",
-      3500
-    ],
-    [
-      "Sara Williams",
-      8075
-    ]
-  ],
-  "OPPS": [
-    "Chad Richart",
-    "Kathy Dowdy",
-    "Michelle Brady",
-    "Michelle Brady",
-    "Hart Probst"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Alan Zickefoose",
