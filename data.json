@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 840586,
-  "COLLECTED": 724931,
+  "GAUGE_VALUE": 847586,
+  "COLLECTED": 728681,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -10,15 +10,23 @@
       5313
     ],
     [
+      "Sara Williams",
+      5000
+    ],
+    [
       "Troy LoCoco",
       4500
+    ],
+    [
+      "Seth Dyson",
+      2000
     ]
   ],
-  "DAILY_TOTAL": 9813,
+  "DAILY_TOTAL": 16813,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 399913,
+      "value": 406913,
       "accent": "#38e1ff"
     },
     {
@@ -34,6 +42,10 @@
   ],
   "LAST5": [
     [
+      "Seth Dyson",
+      2000
+    ],
+    [
       "Justin Vucina",
       5313
     ],
@@ -43,6 +55,8 @@
     ]
   ],
   "OPPS": [
+    "Orlando Apodaca",
+    "Tan Gangani",
     "Sara Williams",
     "Jeff Kitchen",
     "Michelle Troupe"
@@ -71,8 +85,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 854065,
-    "value": 845935,
+    "toGo": 847065,
+    "value": 852935,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
