@@ -6,20 +6,24 @@
   "GOAL": 1400000,
   "DAILY": [
     [
+      "Justin Vucina",
+      5313
+    ],
+    [
       "Troy LoCoco",
       4500
     ]
   ],
-  "DAILY_TOTAL": 4500,
+  "DAILY_TOTAL": 9813,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 394600,
+      "value": 399913,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 144600,
+      "value": 149913,
       "accent": "#a77bff"
     },
     {
@@ -30,11 +34,17 @@
   ],
   "LAST5": [
     [
+      "Justin Vucina",
+      5313
+    ],
+    [
       "Troy LoCoco",
       4500
     ]
   ],
   "OPPS": [
+    "Sara Williams",
+    "Jeff Kitchen",
     "Michelle Troupe"
   ],
   "TOP": [
@@ -61,8 +71,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 859377,
-    "value": 840623,
+    "toGo": 854065,
+    "value": 845935,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
