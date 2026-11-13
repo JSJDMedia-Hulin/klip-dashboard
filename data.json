@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 883136,
-  "COLLECTED": 753331,
+  "GAUGE_VALUE": 884636,
+  "COLLECTED": 757831,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -11,7 +11,7 @@
     ],
     [
       "Stacey Anderson",
-      13050
+      14550
     ],
     [
       "Sara Williams",
@@ -38,11 +38,11 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 52363,
+  "DAILY_TOTAL": 53863,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 442463,
+      "value": 443963,
       "accent": "#38e1ff"
     },
     {
@@ -79,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Lori Zapata",
     "Orlando Apodaca",
     "Jeremy Reynolds",
     "Seth Dyson",
-    "Chad Richart",
-    "Orlando Apodaca"
+    "Chad Richart"
   ],
   "TOP": [
     [
