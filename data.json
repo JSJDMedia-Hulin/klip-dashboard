@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 865586,
+  "GAUGE_VALUE": 875636,
   "COLLECTED": 747581,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Justin Vucina",
       20313
+    ],
+    [
+      "Stacey Anderson",
+      13050
     ],
     [
       "Sara Williams",
@@ -18,24 +22,20 @@
       4500
     ],
     [
-      "Stacey Anderson",
-      3000
-    ],
-    [
       "Seth Dyson",
       2000
     ]
   ],
-  "DAILY_TOTAL": 34813,
+  "DAILY_TOTAL": 44863,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 424913,
+      "value": 434963,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 159913,
+      "value": 169963,
       "accent": "#a77bff"
     },
     {
@@ -47,6 +47,14 @@
   "LAST5": [
     [
       "Stacey Anderson",
+      2550
+    ],
+    [
+      "Stacey Anderson",
+      7500
+    ],
+    [
+      "Stacey Anderson",
       3000
     ],
     [
@@ -56,22 +64,14 @@
     [
       "Sara Williams",
       5000
-    ],
-    [
-      "Seth Dyson",
-      2000
-    ],
-    [
-      "Justin Vucina",
-      5313
     ]
   ],
   "OPPS": [
+    "Orlando Apodaca",
     "Seth Dyson",
     "Dustin Stenta",
     "Lori Zapata",
-    "Geoffrey Forneret",
-    "Maria Hamidi"
+    "Geoffrey Forneret"
   ],
   "TOP": [
     [
@@ -97,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 829065,
-    "value": 870935,
+    "toGo": 819015,
+    "value": 880985,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
