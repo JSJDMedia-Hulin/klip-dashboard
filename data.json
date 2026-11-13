@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 835273,
-  "COLLECTED": 721431,
+  "COLLECTED": 724931,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -34,7 +34,9 @@
       4500
     ]
   ],
-  "OPPS": [],
+  "OPPS": [
+    "Michelle Troupe"
+  ],
   "TOP": [
     [
       "Alan Zickefoose",
