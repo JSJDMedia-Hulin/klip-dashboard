@@ -4,17 +4,17 @@
   "GAUGE_VALUE": 884636,
   "COLLECTED": 760186,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [["Mark Hammonds", 2750], ["Alex Wing", 2500]],
+  "DAILY_TOTAL": 5250,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 0,
+      "value": 5250,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 0,
+      "value": 2500,
       "accent": "#a77bff"
     },
     {
@@ -24,8 +24,8 @@
     }
   ],
   "LAST5": [],
-  "OPPS": [],
-  "TOP": [],
+  "OPPS": ["Alex Wing", "Lori Zapata"],
+  "TOP": [["Mark Hammonds", 2750], ["Alex Wing", 2500]],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
     "toGo": 810015,
