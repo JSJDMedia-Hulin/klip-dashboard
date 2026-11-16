@@ -1,15 +1,15 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 891886,
+  "GAUGE_VALUE": 896136,
   "COLLECTED": 760186,
   "GOAL": 1400000,
-  "DAILY": [["Mark Hammonds", 2750], ["Alex Wing", 2500], ["Blake Ladd", 2000]],
-  "DAILY_TOTAL": 7250,
+  "DAILY": [["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000]],
+  "DAILY_TOTAL": 11500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 7250,
+      "value": 11500,
       "accent": "#38e1ff"
     },
     {
@@ -24,8 +24,8 @@
     }
   ],
   "LAST5": [["Alex Wing", 4250], ["Blake Ladd", 2000], ["Mark Hammonds", 2750], ["Alex Wing", 2500]],
-  "OPPS": ["Geoffrey Forneret", "Alex Wing", "Lori Zapata"],
-  "TOP": [["Mark Hammonds", 2750], ["Alex Wing", 2500], ["Blake Ladd", 2000]],
+  "OPPS": ["Armand Le Roux", "Geoffrey Forneret", "Alex Wing", "Lori Zapata"],
+  "TOP": [["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000]],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
     "toGo": 798515,
