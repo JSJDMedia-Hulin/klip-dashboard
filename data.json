@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 912636,
+  "GAUGE_VALUE": 915136,
   "COLLECTED": 838399,
   "GOAL": 1400000,
   "DAILY": [
@@ -22,6 +22,10 @@
       2750
     ],
     [
+      "Maddie Rife",
+      2500
+    ],
+    [
       "Blake Ladd",
       2000
     ],
@@ -30,16 +34,16 @@
       0
     ]
   ],
-  "DAILY_TOTAL": 26500,
+  "DAILY_TOTAL": 29000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 26500,
+      "value": 29000,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 26500,
+      "value": 29000,
       "accent": "#a77bff"
     },
     {
@@ -49,6 +53,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Maddie Rife",
+      2500
+    ],
     [
       "Brittany Jackson",
       5000
@@ -64,10 +72,6 @@
     [
       "Blake Ladd",
       2000
-    ],
-    [
-      "Mark Hammonds",
-      2750
     ]
   ],
   "OPPS": [
@@ -95,14 +99,14 @@
       2750
     ],
     [
-      "Blake Ladd",
-      2000
+      "Maddie Rife",
+      2500
     ]
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 782015,
-    "value": 917985,
+    "toGo": 779515,
+    "value": 920485,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
