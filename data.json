@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 907636,
+  "GAUGE_VALUE": 912636,
   "COLLECTED": 827895,
   "GOAL": 1400000,
   "DAILY": [
@@ -34,7 +34,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 21500,
+      "value": 26500,
       "accent": "#38e1ff"
     },
     {
@@ -87,16 +87,16 @@
       6750
     ],
     [
+      "Brittany Jackson",
+      5000
+    ],
+    [
       "Mark Hammonds",
       2750
     ],
     [
       "Blake Ladd",
       2000
-    ],
-    [
-      "Jeremy Reynolds",
-      0
     ]
   ],
   "BANNER": {
