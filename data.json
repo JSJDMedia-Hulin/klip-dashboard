@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 907636,
-  "COLLECTED": 808011,
+  "COLLECTED": 812511,
   "GOAL": 1400000,
   "DAILY": [["Dustin Stenta", 10000], ["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000], ["Jeremy Reynolds", 0]],
   "DAILY_TOTAL": 21500,
@@ -24,12 +24,12 @@
     }
   ],
   "LAST5": [["Dustin Stenta", 10000], ["Alex Wing", 4250], ["Blake Ladd", 2000], ["Mark Hammonds", 2750], ["Alex Wing", 2500]],
-  "OPPS": ["Mark Hammonds", "Mark Hammonds", "Blake Ladd", "Brice Purkeypile", "Hart Probst"],
+  "OPPS": ["Troy LoCoco", "Mark Hammonds", "Mark Hammonds", "Blake Ladd", "Brice Purkeypile"],
   "TOP": [["Dustin Stenta", 10000], ["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000], ["Jeremy Reynolds", 0]],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 788515,
-    "value": 911485,
+    "toGo": 787015,
+    "value": 912985,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
