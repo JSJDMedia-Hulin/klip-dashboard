@@ -2,10 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 896136,
-  "COLLECTED": 760186,
+  "COLLECTED": 808011,
   "GOAL": 1400000,
-  "DAILY": [["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000]],
-  "DAILY_TOTAL": 11500,
+  "DAILY": [["Dustin Stenta", 10000], ["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000], ["Jeremy Reynolds", 0]],
+  "DAILY_TOTAL": 21500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -14,7 +14,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 11500,
+      "value": 21500,
       "accent": "#a77bff"
     },
     {
@@ -23,13 +23,13 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [["Alex Wing", 4250], ["Blake Ladd", 2000], ["Mark Hammonds", 2750], ["Alex Wing", 2500]],
-  "OPPS": ["Brice Purkeypile", "Hart Probst", "Justin Vucina", "Armand Le Roux", "Geoffrey Forneret"],
+  "LAST5": [["Dustin Stenta", 10000], ["Alex Wing", 4250], ["Blake Ladd", 2000], ["Mark Hammonds", 2750], ["Alex Wing", 2500]],
+  "OPPS": ["Mark Hammonds", "Mark Hammonds", "Blake Ladd", "Brice Purkeypile", "Hart Probst"],
   "TOP": [["Alex Wing", 6750], ["Mark Hammonds", 2750], ["Blake Ladd", 2000], ["Jeremy Reynolds", 0]],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 798515,
-    "value": 901485,
+    "toGo": 788515,
+    "value": 911485,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
