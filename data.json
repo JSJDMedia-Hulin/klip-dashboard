@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 915136,
+  "GAUGE_VALUE": 916636,
   "COLLECTED": 841899,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,20 +30,24 @@
       2000
     ],
     [
+      "Sara Williams",
+      1500
+    ],
+    [
       "Jeremy Reynolds",
       0
     ]
   ],
-  "DAILY_TOTAL": 29000,
+  "DAILY_TOTAL": 30500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 29000,
+      "value": 30500,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 29000,
+      "value": 30500,
       "accent": "#a77bff"
     },
     {
@@ -75,11 +79,11 @@
     ]
   ],
   "OPPS": [
+    "Lori Krueger",
+    "Mark Hammonds",
     "Tan Gangani",
     "Stacey Anderson",
-    "Alan Zickefoose",
-    "Dustin Stenta",
-    "Michelle Troupe"
+    "Alan Zickefoose"
   ],
   "TOP": [
     [
