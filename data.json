@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 916636,
-  "COLLECTED": 841899,
+  "GAUGE_VALUE": 919136,
+  "COLLECTED": 844899,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -26,6 +26,10 @@
       2500
     ],
     [
+      "Troy LoCoco",
+      2500
+    ],
+    [
       "Blake Ladd",
       2000
     ],
@@ -38,11 +42,11 @@
       0
     ]
   ],
-  "DAILY_TOTAL": 30500,
+  "DAILY_TOTAL": 33000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 30500,
+      "value": 33000,
       "accent": "#38e1ff"
     },
     {
@@ -79,11 +83,11 @@
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Dustin Stenta",
     "Jeremy Reynolds",
     "Stacey Anderson",
-    "Lori Krueger",
-    "Mark Hammonds"
+    "Lori Krueger"
   ],
   "TOP": [
     [
