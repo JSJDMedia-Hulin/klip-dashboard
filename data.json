@@ -2,111 +2,30 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 884636,
-  "COLLECTED": 757831,
+  "COLLECTED": 760186,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Justin Vucina",
-      20313
-    ],
-    [
-      "Stacey Anderson",
-      14550
-    ],
-    [
-      "Sara Williams",
-      5000
-    ],
-    [
-      "Troy LoCoco",
-      4500
-    ],
-    [
-      "Scott Busenbark",
-      2750
-    ],
-    [
-      "Tan Gangani",
-      2500
-    ],
-    [
-      "Jeremy Reynolds",
-      2250
-    ],
-    [
-      "Seth Dyson",
-      2000
-    ]
-  ],
-  "DAILY_TOTAL": 53863,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 443963,
+      "value": 0,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 178963,
+      "value": 0,
       "accent": "#a77bff"
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 265000,
+      "value": 0,
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Stacey Anderson",
-      1500
-    ],
-    [
-      "Scott Busenbark",
-      2750
-    ],
-    [
-      "Jeremy Reynolds",
-      2250
-    ],
-    [
-      "Tan Gangani",
-      2500
-    ],
-    [
-      "Stacey Anderson",
-      2550
-    ]
-  ],
-  "OPPS": [
-    "Lori Zapata",
-    "Orlando Apodaca",
-    "Jeremy Reynolds",
-    "Seth Dyson",
-    "Chad Richart"
-  ],
-  "TOP": [
-    [
-      "Alan Zickefoose",
-      195500
-    ],
-    [
-      "Dustin Stenta",
-      32500
-    ],
-    [
-      "Troy LoCoco",
-      28500
-    ],
-    [
-      "Blake Ladd",
-      27000
-    ],
-    [
-      "Justin Vucina",
-      20313
-    ]
-  ],
+  "LAST5": [],
+  "OPPS": [],
+  "TOP": [],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
     "toGo": 810015,
