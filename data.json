@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 929161,
+  "GAUGE_VALUE": 935161,
   "COLLECTED": 871300,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Dustin Stenta",
       6500
+    ],
+    [
+      "Geoffrey Forneret",
+      6000
     ],
     [
       "David Lusby",
@@ -18,7 +22,7 @@
       1400
     ]
   ],
-  "DAILY_TOTAL": 10025,
+  "DAILY_TOTAL": 16025,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -59,11 +63,11 @@
     ]
   ],
   "OPPS": [
+    "Kathy Dowdy",
     "Alan Zickefoose",
     "Jeff Kitchen",
     "Michelle Troupe",
-    "Jeff Kitchen",
-    "Orlando Apodaca"
+    "Jeff Kitchen"
   ],
   "TOP": [
     [
