@@ -1,24 +1,28 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 926361,
+  "GAUGE_VALUE": 929161,
   "COLLECTED": 870913,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Dustin Stenta",
-      5100
+      6500
     ],
     [
       "David Lusby",
       2125
+    ],
+    [
+      "Coleman Perret",
+      1400
     ]
   ],
-  "DAILY_TOTAL": 7225,
+  "DAILY_TOTAL": 10025,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 40225,
+      "value": 43025,
       "accent": "#38e1ff"
     },
     {
@@ -52,7 +56,7 @@
   "TOP": [
     [
       "Dustin Stenta",
-      15100
+      16500
     ],
     [
       "Alex Wing",
