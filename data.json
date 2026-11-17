@@ -7,51 +7,19 @@
   "DAILY": [
     [
       "Dustin Stenta",
-      10000
-    ],
-    [
-      "Alex Wing",
-      6750
-    ],
-    [
-      "Brittany Jackson",
-      5000
-    ],
-    [
-      "Mark Hammonds",
-      2750
-    ],
-    [
-      "Maddie Rife",
-      2500
-    ],
-    [
-      "Troy LoCoco",
-      2500
-    ],
-    [
-      "Blake Ladd",
-      2000
-    ],
-    [
-      "Sara Williams",
-      1500
-    ],
-    [
-      "Jeremy Reynolds",
-      0
+      5100
     ]
   ],
-  "DAILY_TOTAL": 33000,
+  "DAILY_TOTAL": 5100,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 33000,
+      "value": 38100,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 33000,
+      "value": 38100,
       "accent": "#a77bff"
     },
     {
@@ -92,7 +60,7 @@
   "TOP": [
     [
       "Dustin Stenta",
-      10000
+      15100
     ],
     [
       "Alex Wing",
@@ -113,8 +81,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 775515,
-    "value": 924485,
+    "toGo": 770415,
+    "value": 929585,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
