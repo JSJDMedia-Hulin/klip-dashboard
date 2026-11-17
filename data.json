@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 935161,
+  "GAUGE_VALUE": 944086,
   "COLLECTED": 872000,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Brice Purkeypile",
+      8925
+    ],
     [
       "Dustin Stenta",
       6500
@@ -22,16 +26,16 @@
       1400
     ]
   ],
-  "DAILY_TOTAL": 16025,
+  "DAILY_TOTAL": 24950,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 49025,
+      "value": 57950,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 49025,
+      "value": 57950,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Brice Purkeypile",
+      8925
+    ],
     [
       "Geoffrey Forneret",
       6000
@@ -56,10 +64,6 @@
     [
       "Dustin Stenta",
       5100
-    ],
-    [
-      "Dustin Stenta",
-      1400
     ]
   ],
   "OPPS": [
@@ -75,6 +79,10 @@
       16500
     ],
     [
+      "Brice Purkeypile",
+      8925
+    ],
+    [
       "Alex Wing",
       6750
     ],
@@ -85,16 +93,12 @@
     [
       "Brittany Jackson",
       5000
-    ],
-    [
-      "Mark Hammonds",
-      2750
     ]
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 759490,
-    "value": 940510,
+    "toGo": 750565,
+    "value": 949435,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
