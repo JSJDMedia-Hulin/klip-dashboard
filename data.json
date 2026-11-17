@@ -1,16 +1,20 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 924236,
+  "GAUGE_VALUE": 926361,
   "COLLECTED": 847449,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Dustin Stenta",
       5100
+    ],
+    [
+      "David Lusby",
+      2125
     ]
   ],
-  "DAILY_TOTAL": 5100,
+  "DAILY_TOTAL": 7225,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -39,11 +43,11 @@
     ]
   ],
   "OPPS": [
+    "Stacey Anderson",
     "Liam Bayly",
     "Aaron Moreland",
     "Aaron Moreland",
-    "Aaron Moreland",
-    "Seth Dyson"
+    "Aaron Moreland"
   ],
   "TOP": [
     [
