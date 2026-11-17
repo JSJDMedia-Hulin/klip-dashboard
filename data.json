@@ -19,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 38100,
+      "value": 40225,
       "accent": "#a77bff"
     },
     {
@@ -30,32 +30,20 @@
   ],
   "LAST5": [
     [
-      "Troy LoCoco",
-      2500
-    ],
-    [
-      "Sara Williams",
-      1500
-    ],
-    [
-      "Maddie Rife",
-      2500
-    ],
-    [
-      "Brittany Jackson",
-      5000
+      "David Lusby",
+      2125
     ],
     [
       "Dustin Stenta",
-      10000
+      5100
     ]
   ],
   "OPPS": [
+    "Liam Bayly",
     "Aaron Moreland",
     "Aaron Moreland",
-    "Seth Dyson",
-    "Orlando Apodaca",
-    "Brice Purkeypile"
+    "Aaron Moreland",
+    "Seth Dyson"
   ],
   "TOP": [
     [
@@ -81,8 +69,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 770415,
-    "value": 929585,
+    "toGo": 768290,
+    "value": 931710,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
