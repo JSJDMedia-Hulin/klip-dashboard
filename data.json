@@ -54,6 +54,10 @@
   ],
   "LAST5": [
     [
+      "Derek Rosenberg",
+      2500
+    ],
+    [
       "Maddie Rife",
       2500
     ],
@@ -68,18 +72,14 @@
     [
       "Geoffrey Forneret",
       6000
-    ],
-    [
-      "Coleman Perret",
-      1400
     ]
   ],
   "OPPS": [
+    "Dustin Stenta",
+    "Mandy Corriea",
+    "Juan Pena",
     "Jeff Kitchen",
-    "Maria Hamidi",
-    "Troy LoCoco",
-    "Maria Hamidi",
-    "Robbie Carter"
+    "Maria Hamidi"
   ],
   "TOP": [
     [
@@ -105,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 746565,
-    "value": 953435,
+    "toGo": 744065,
+    "value": 955935,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
