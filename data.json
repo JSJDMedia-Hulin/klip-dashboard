@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 948086,
+  "GAUGE_VALUE": 950586,
   "COLLECTED": 872000,
   "GOAL": 1400000,
   "DAILY": [
@@ -16,6 +16,10 @@
     [
       "Geoffrey Forneret",
       6000
+    ],
+    [
+      "Derek Rosenberg",
+      2500
     ],
     [
       "Maddie Rife",
@@ -34,11 +38,11 @@
       1400
     ]
   ],
-  "DAILY_TOTAL": 28950,
+  "DAILY_TOTAL": 31450,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 61950,
+      "value": 69450,
       "accent": "#38e1ff"
     },
     {
@@ -95,12 +99,12 @@
       6750
     ],
     [
-      "Geoffrey Forneret",
-      6000
+      "Sara Williams",
+      6500
     ],
     [
-      "Maddie Rife",
-      5000
+      "Geoffrey Forneret",
+      6000
     ]
   ],
   "BANNER": {
