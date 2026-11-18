@@ -6,6 +6,10 @@
   "GOAL": 1400000,
   "DAILY": [
     [
+      "Stacey Anderson",
+      5000
+    ],
+    [
       "Troy LoCoco",
       4000
     ],
@@ -22,7 +26,7 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 11750,
+  "DAILY_TOTAL": 16750,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -63,11 +67,11 @@
     ]
   ],
   "OPPS": [
-    "Maria Hamidi",
-    "Michelle Troupe",
-    "Scott Busenbark",
     "Armand Le Roux",
-    "Orlando Apodaca"
+    "Brendan Welsh",
+    "Michelle Brady",
+    "Stacey Anderson",
+    "Maria Hamidi"
   ],
   "TOP": [
     [
