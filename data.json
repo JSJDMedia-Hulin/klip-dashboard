@@ -1,20 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 955586,
+  "GAUGE_VALUE": 963336,
   "COLLECTED": 885650,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Armand Le Roux",
+      2750
+    ],
+    [
+      "Derek Rosenberg",
+      2500
+    ]
+  ],
+  "DAILY_TOTAL": 5250,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 69450,
+      "value": 77200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 69450,
+      "value": 77200,
       "accent": "#a77bff"
     },
     {
@@ -23,7 +32,20 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Lori Zapata",
+      2500
+    ],
+    [
+      "Derek Rosenberg",
+      2500
+    ],
+    [
+      "Armand Le Roux",
+      2750
+    ]
+  ],
   "OPPS": [
     "Scott Busenbark",
     "Seth Dyson"
@@ -52,8 +74,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 739065,
-    "value": 960935,
+    "toGo": 731315,
+    "value": 968685,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
