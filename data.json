@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 985036,
+  "GAUGE_VALUE": 987536,
   "COLLECTED": 899750,
   "GOAL": 1400000,
   "DAILY": [
@@ -26,6 +26,10 @@
       4000
     ],
     [
+      "Alex Wing",
+      2500
+    ],
+    [
       "Lori Zapata",
       2500
     ],
@@ -34,16 +38,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 29450,
+  "DAILY_TOTAL": 31950,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 98900,
+      "value": 101400,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 98900,
+      "value": 101400,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Alex Wing",
+      2500
+    ],
     [
       "Derek Rosenberg",
       1275
@@ -68,18 +76,14 @@
     [
       "Mandy Corriea",
       4675
-    ],
-    [
-      "Derek Rosenberg",
-      3000
     ]
   ],
   "OPPS": [
+    "Aaron Moreland",
+    "Alex Wing",
     "Brendan Welsh",
     "Dustin Stenta",
-    "David Lusby",
-    "Mark Hammonds",
-    "Dustin Stenta"
+    "David Lusby"
   ],
   "TOP": [
     [
@@ -96,7 +100,7 @@
     ],
     [
       "Alex Wing",
-      6750
+      9250
     ],
     [
       "Troy LoCoco",
@@ -105,8 +109,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 709615,
-    "value": 990385,
+    "toGo": 707115,
+    "value": 992885,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
