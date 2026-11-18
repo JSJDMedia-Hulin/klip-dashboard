@@ -1,13 +1,13 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 983761,
-  "COLLECTED": 897250,
+  "GAUGE_VALUE": 985036,
+  "COLLECTED": 899750,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Derek Rosenberg",
-      5500
+      6775
     ],
     [
       "Stacey Anderson",
@@ -18,19 +18,23 @@
       4675
     ],
     [
+      "Armand Le Roux",
+      4500
+    ],
+    [
       "Troy LoCoco",
       4000
     ],
     [
-      "Armand Le Roux",
-      2750
-    ],
-    [
       "Lori Zapata",
       2500
+    ],
+    [
+      "Brice Purkeypile",
+      2000
     ]
   ],
-  "DAILY_TOTAL": 24425,
+  "DAILY_TOTAL": 29450,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -50,32 +54,32 @@
   ],
   "LAST5": [
     [
+      "Derek Rosenberg",
+      1275
+    ],
+    [
+      "Brice Purkeypile",
+      2000
+    ],
+    [
+      "Armand Le Roux",
+      1750
+    ],
+    [
       "Mandy Corriea",
       4675
     ],
     [
       "Derek Rosenberg",
       3000
-    ],
-    [
-      "Stacey Anderson",
-      5000
-    ],
-    [
-      "Troy LoCoco",
-      4000
-    ],
-    [
-      "Lori Zapata",
-      2500
     ]
   ],
   "OPPS": [
+    "Brice Purkeypile",
+    "Brendan Welsh",
     "Scott Busenbark",
     "Armand Le Roux",
-    "Lilly Wang",
-    "Lilly Wang",
-    "Maria Hamidi"
+    "Lilly Wang"
   ],
   "TOP": [
     [
@@ -101,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 714640,
-    "value": 985360,
+    "toGo": 709615,
+    "value": 990385,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
