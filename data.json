@@ -6,6 +6,10 @@
   "GOAL": 1400000,
   "DAILY": [
     [
+      "Derek Rosenberg",
+      5500
+    ],
+    [
       "Stacey Anderson",
       5000
     ],
@@ -18,15 +22,11 @@
       2750
     ],
     [
-      "Derek Rosenberg",
-      2500
-    ],
-    [
       "Lori Zapata",
       2500
     ]
   ],
-  "DAILY_TOTAL": 16750,
+  "DAILY_TOTAL": 19750,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -46,6 +46,10 @@
   ],
   "LAST5": [
     [
+      "Derek Rosenberg",
+      3000
+    ],
+    [
       "Stacey Anderson",
       5000
     ],
@@ -60,18 +64,14 @@
     [
       "Derek Rosenberg",
       2500
-    ],
-    [
-      "Armand Le Roux",
-      2750
     ]
   ],
   "OPPS": [
+    "Lilly Wang",
+    "Maria Hamidi",
     "Troy LoCoco",
     "Justin Vucina",
-    "Mandy Corriea",
-    "Juan Pena",
-    "Armand Le Roux"
+    "Mandy Corriea"
   ],
   "TOP": [
     [
@@ -97,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 722315,
-    "value": 977685,
+    "toGo": 719315,
+    "value": 980685,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
