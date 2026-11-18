@@ -2,47 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 955586,
-  "COLLECTED": 878150,
+  "COLLECTED": 885650,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Brice Purkeypile",
-      8925
-    ],
-    [
-      "Dustin Stenta",
-      6500
-    ],
-    [
-      "Geoffrey Forneret",
-      6000
-    ],
-    [
-      "Sara Williams",
-      5000
-    ],
-    [
-      "Derek Rosenberg",
-      2500
-    ],
-    [
-      "Maddie Rife",
-      2500
-    ],
-    [
-      "David Lusby",
-      2125
-    ],
-    [
-      "Michelle Troupe",
-      1500
-    ],
-    [
-      "Coleman Perret",
-      1400
-    ]
-  ],
-  "DAILY_TOTAL": 36450,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -60,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Sara Williams",
-      5000
-    ],
-    [
-      "Derek Rosenberg",
-      2500
-    ],
-    [
-      "Maddie Rife",
-      2500
-    ],
-    [
-      "Michelle Troupe",
-      1500
-    ],
-    [
-      "Brice Purkeypile",
-      8925
-    ]
-  ],
-  "OPPS": [
-    "Armand Le Roux",
-    "Mandy Corriea",
-    "Seth Dyson",
-    "Juan Pena",
-    "Alan Zickefoose"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Dustin Stenta",
