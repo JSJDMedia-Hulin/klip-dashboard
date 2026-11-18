@@ -38,12 +38,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 97625,
+      "value": 98900,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 97625,
+      "value": 98900,
       "accent": "#a77bff"
     },
     {
@@ -75,11 +75,11 @@
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
+    "Aaron Allen",
+    "Seth Dyson",
     "Brice Purkeypile",
-    "Brendan Welsh",
-    "Scott Busenbark",
-    "Armand Le Roux",
-    "Lilly Wang"
+    "Brendan Welsh"
   ],
   "TOP": [
     [
@@ -92,7 +92,7 @@
     ],
     [
       "Derek Rosenberg",
-      8000
+      9275
     ],
     [
       "Alex Wing",
