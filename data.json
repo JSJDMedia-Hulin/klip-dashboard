@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 980011,
+  "GAUGE_VALUE": 983761,
   "COLLECTED": 897250,
   "GOAL": 1400000,
   "DAILY": [
@@ -34,12 +34,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 93875,
+      "value": 97625,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 93875,
+      "value": 97625,
       "accent": "#a77bff"
     },
     {
@@ -71,11 +71,11 @@
     ]
   ],
   "OPPS": [
+    "Scott Busenbark",
+    "Armand Le Roux",
     "Lilly Wang",
     "Lilly Wang",
-    "Maria Hamidi",
-    "Troy LoCoco",
-    "Justin Vucina"
+    "Maria Hamidi"
   ],
   "TOP": [
     [
@@ -84,7 +84,7 @@
     ],
     [
       "Brice Purkeypile",
-      8925
+      10925
     ],
     [
       "Derek Rosenberg",
