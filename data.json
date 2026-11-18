@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 967336,
+  "GAUGE_VALUE": 972336,
   "COLLECTED": 889250,
   "GOAL": 1400000,
   "DAILY": [
@@ -26,12 +26,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 81200,
+      "value": 86200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 81200,
+      "value": 86200,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Stacey Anderson",
+      5000
+    ],
     [
       "Troy LoCoco",
       4000
@@ -59,11 +63,11 @@
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
+    "Michelle Troupe",
+    "Scott Busenbark",
     "Armand Le Roux",
-    "Orlando Apodaca",
-    "Mandy Corriea",
-    "Sara Williams",
-    "Chad Richart"
+    "Orlando Apodaca"
   ],
   "TOP": [
     [
@@ -89,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 727315,
-    "value": 972685,
+    "toGo": 722315,
+    "value": 977685,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
