@@ -1,10 +1,18 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 987536,
+  "GAUGE_VALUE": 1123536,
   "COLLECTED": 899750,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Dustin Stenta",
+      68000
+    ],
+    [
+      "Seth Dyson",
+      68000
+    ],
     [
       "Derek Rosenberg",
       6775
@@ -38,11 +46,11 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 31950,
+  "DAILY_TOTAL": 167950,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 101400,
+      "value": 237400,
       "accent": "#38e1ff"
     },
     {
@@ -52,11 +60,15 @@
     },
     {
       "title": "Prog Weekly Sales",
-      "value": 0,
+      "value": 136000,
       "accent": "#ffb547"
     }
   ],
   "LAST5": [
+    [
+      "Dustin Stenta",
+      68000
+    ],
     [
       "Alex Wing",
       2500
@@ -72,10 +84,6 @@
     [
       "Armand Le Roux",
       1750
-    ],
-    [
-      "Mandy Corriea",
-      4675
     ]
   ],
   "OPPS": [
@@ -88,7 +96,11 @@
   "TOP": [
     [
       "Dustin Stenta",
-      16500
+      84500
+    ],
+    [
+      "Seth Dyson",
+      68000
     ],
     [
       "Brice Purkeypile",
@@ -101,16 +113,12 @@
     [
       "Alex Wing",
       9250
-    ],
-    [
-      "Troy LoCoco",
-      6500
     ]
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 707115,
-    "value": 992885,
+    "toGo": 571115,
+    "value": 1128885,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
