@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 975336,
+  "GAUGE_VALUE": 980011,
   "COLLECTED": 897250,
   "GOAL": 1400000,
   "DAILY": [
@@ -12,6 +12,10 @@
     [
       "Stacey Anderson",
       5000
+    ],
+    [
+      "Mandy Corriea",
+      4675
     ],
     [
       "Troy LoCoco",
@@ -26,16 +30,16 @@
       2500
     ]
   ],
-  "DAILY_TOTAL": 19750,
+  "DAILY_TOTAL": 24425,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 89200,
+      "value": 93875,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 89200,
+      "value": 93875,
       "accent": "#a77bff"
     },
     {
