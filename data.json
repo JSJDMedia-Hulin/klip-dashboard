@@ -12,9 +12,13 @@
     [
       "Derek Rosenberg",
       2500
+    ],
+    [
+      "Lori Zapata",
+      2500
     ]
   ],
-  "DAILY_TOTAL": 5250,
+  "DAILY_TOTAL": 7750,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -47,8 +51,11 @@
     ]
   ],
   "OPPS": [
-    "Scott Busenbark",
-    "Seth Dyson"
+    "Sara Williams",
+    "Chad Richart",
+    "Maria Hamidi",
+    "Aaron Moreland",
+    "Scott Busenbark"
   ],
   "TOP": [
     [
