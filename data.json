@@ -50,6 +50,10 @@
   ],
   "LAST5": [
     [
+      "Mandy Corriea",
+      4675
+    ],
+    [
       "Derek Rosenberg",
       3000
     ],
@@ -64,18 +68,14 @@
     [
       "Lori Zapata",
       2500
-    ],
-    [
-      "Derek Rosenberg",
-      2500
     ]
   ],
   "OPPS": [
     "Lilly Wang",
+    "Lilly Wang",
     "Maria Hamidi",
     "Troy LoCoco",
-    "Justin Vucina",
-    "Mandy Corriea"
+    "Justin Vucina"
   ],
   "TOP": [
     [
@@ -101,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 719315,
-    "value": 980685,
+    "toGo": 714640,
+    "value": 985360,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
