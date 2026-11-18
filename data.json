@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 972336,
+  "GAUGE_VALUE": 975336,
   "COLLECTED": 897250,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,12 +30,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 86200,
+      "value": 89200,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 86200,
+      "value": 89200,
       "accent": "#a77bff"
     },
     {
@@ -67,11 +67,11 @@
     ]
   ],
   "OPPS": [
+    "Troy LoCoco",
     "Justin Vucina",
     "Mandy Corriea",
     "Juan Pena",
-    "Armand Le Roux",
-    "Brendan Welsh"
+    "Armand Le Roux"
   ],
   "TOP": [
     [
@@ -83,15 +83,15 @@
       8925
     ],
     [
+      "Derek Rosenberg",
+      8000
+    ],
+    [
       "Alex Wing",
       6750
     ],
     [
       "Troy LoCoco",
-      6500
-    ],
-    [
-      "Sara Williams",
       6500
     ]
   ],
