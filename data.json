@@ -30,6 +30,10 @@
       4500
     ],
     [
+      "David Lusby",
+      4250
+    ],
+    [
       "Troy LoCoco",
       4000
     ],
@@ -46,7 +50,7 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 167950,
+  "DAILY_TOTAL": 172200,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
