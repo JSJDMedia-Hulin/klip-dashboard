@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1188036,
-  "COLLECTED": 934300,
+  "GAUGE_VALUE": 1185286,
+  "COLLECTED": 937650,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -26,12 +26,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 301900,
+      "value": 299150,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 122150,
+      "value": 119400,
       "accent": "#a77bff"
     },
     {
@@ -63,11 +63,11 @@
     ]
   ],
   "OPPS": [
+    "Orlando Apodaca",
     "Stacey Anderson",
     "Troy LoCoco",
     "Aaron Moreland",
-    "Brendan Welsh",
-    "Alan Zickefoose"
+    "Brendan Welsh"
   ],
   "TOP": [
     [
@@ -93,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 256615,
-    "value": 1193385,
+    "toGo": 259365,
+    "value": 1190635,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
