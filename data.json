@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1199161,
+  "GAUGE_VALUE": 1216161,
   "COLLECTED": 953325,
   "GOAL": 1400000,
   "DAILY": [
@@ -18,15 +18,19 @@
       6375
     ],
     [
+      "Mandy Corriea",
+      5000
+    ],
+    [
       "Brittany Jackson",
       4750
     ],
     [
-      "Lori Zapata",
-      2500
+      "Derek Rosenberg",
+      3000
     ],
     [
-      "Mandy Corriea",
+      "Lori Zapata",
       2500
     ],
     [
@@ -38,16 +42,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 66625,
+  "DAILY_TOTAL": 72125,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 318525,
+      "value": 321025,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 138775,
+      "value": 141275,
       "accent": "#a77bff"
     },
     {
@@ -57,6 +61,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Derek Rosenberg",
+      2500
+    ],
     [
       "Mandy Corriea",
       2500
@@ -72,18 +80,14 @@
     [
       "Mandy Corriea",
       2500
-    ],
-    [
-      "Lori Zapata",
-      2500
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
+    "Justin Vucina",
     "Chad Richart",
     "Oscar Tavares",
-    "Juan Pena",
-    "Mark Hammonds",
-    "Mark Hammonds"
+    "Juan Pena"
   ],
   "TOP": [
     [
@@ -99,18 +103,18 @@
       24125
     ],
     [
-      "Sara Williams",
-      12875
+      "Derek Rosenberg",
+      14775
     ],
     [
-      "Derek Rosenberg",
-      12275
+      "Sara Williams",
+      12875
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 239990,
-    "value": 1210010,
+    "toGo": 237490,
+    "value": 1212510,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
