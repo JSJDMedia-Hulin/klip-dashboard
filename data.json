@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1185286,
+  "GAUGE_VALUE": 1191661,
   "COLLECTED": 941617,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,6 +14,10 @@
       21875
     ],
     [
+      "Sara Williams",
+      6375
+    ],
+    [
       "Brittany Jackson",
       4750
     ],
@@ -22,16 +26,16 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 52750,
+  "DAILY_TOTAL": 59125,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 299150,
+      "value": 305525,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 119400,
+      "value": 125775,
       "accent": "#a77bff"
     },
     {
@@ -41,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Sara Williams",
+      6375
+    ],
     [
       "Brittany Jackson",
       2500
@@ -56,18 +64,14 @@
     [
       "Mark Hammonds",
       2000
-    ],
-    [
-      "Kathy Dowdy",
-      2250
     ]
   ],
   "OPPS": [
+    "Scott Busenbark",
     "Juan Pena",
     "Derek Rosenberg",
     "Orlando Apodaca",
-    "Orlando Apodaca",
-    "Stacey Anderson"
+    "Orlando Apodaca"
   ],
   "TOP": [
     [
@@ -83,18 +87,18 @@
       24125
     ],
     [
-      "Brice Purkeypile",
-      10925
+      "Sara Williams",
+      12875
     ],
     [
-      "Brittany Jackson",
-      9750
+      "Brice Purkeypile",
+      10925
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 259365,
-    "value": 1190635,
+    "toGo": 252990,
+    "value": 1197010,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
