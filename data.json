@@ -50,12 +50,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 321025,
+      "value": 330025,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 141275,
+      "value": 150275,
       "accent": "#a77bff"
     },
     {
@@ -65,6 +65,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Geoffrey Forneret",
+      9000
+    ],
     [
       "Derek Rosenberg",
       2500
@@ -79,10 +83,6 @@
     ],
     [
       "Oscar Tavares",
-      2500
-    ],
-    [
-      "Mandy Corriea",
       2500
     ]
   ],
@@ -107,18 +107,18 @@
       24125
     ],
     [
-      "Derek Rosenberg",
-      14775
+      "Geoffrey Forneret",
+      15000
     ],
     [
-      "Sara Williams",
-      12875
+      "Derek Rosenberg",
+      14775
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 237490,
-    "value": 1212510,
+    "toGo": 228490,
+    "value": 1221510,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
