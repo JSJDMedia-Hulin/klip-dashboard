@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1196661,
+  "GAUGE_VALUE": 1199161,
   "COLLECTED": 953325,
   "GOAL": 1400000,
   "DAILY": [
@@ -22,20 +22,32 @@
       4750
     ],
     [
+      "Lori Zapata",
+      2500
+    ],
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Oscar Tavares",
+      2500
+    ],
+    [
       "Mark Hammonds",
       2000
     ]
   ],
-  "DAILY_TOTAL": 59125,
+  "DAILY_TOTAL": 66625,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 310525,
+      "value": 313025,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 130775,
+      "value": 133275,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +57,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Oscar Tavares",
+      2500
+    ],
     [
       "Mandy Corriea",
       2500
@@ -60,18 +76,14 @@
     [
       "Brittany Jackson",
       2500
-    ],
-    [
-      "Brittany Jackson",
-      2250
     ]
   ],
   "OPPS": [
+    "Chad Richart",
+    "Oscar Tavares",
+    "Juan Pena",
     "Mark Hammonds",
-    "Mark Hammonds",
-    "Mark Hammonds",
-    "Brice Purkeypile",
-    "Alex Wing"
+    "Mark Hammonds"
   ],
   "TOP": [
     [
@@ -97,8 +109,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 247990,
-    "value": 1202010,
+    "toGo": 245490,
+    "value": 1204510,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
