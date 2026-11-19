@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1191661,
-  "COLLECTED": 942325,
+  "GAUGE_VALUE": 1196661,
+  "COLLECTED": 953325,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -30,12 +30,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 305525,
+      "value": 310525,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 125775,
+      "value": 130775,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +45,14 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Lori Zapata",
+      2500
+    ],
     [
       "Sara Williams",
       6375
@@ -56,22 +64,14 @@
     [
       "Brittany Jackson",
       2250
-    ],
-    [
-      "Dustin Stenta",
-      21875
-    ],
-    [
-      "Mark Hammonds",
-      2000
     ]
   ],
   "OPPS": [
     "Mark Hammonds",
     "Mark Hammonds",
+    "Mark Hammonds",
     "Brice Purkeypile",
-    "Alex Wing",
-    "Troy LoCoco"
+    "Alex Wing"
   ],
   "TOP": [
     [
@@ -97,8 +97,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 252990,
-    "value": 1197010,
+    "toGo": 247990,
+    "value": 1202010,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
