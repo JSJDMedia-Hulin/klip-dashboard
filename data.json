@@ -1,65 +1,20 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1127786,
+  "GAUGE_VALUE": 1135286,
   "COLLECTED": 903250,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Dustin Stenta",
-      68000
-    ],
-    [
-      "Seth Dyson",
-      68000
-    ],
-    [
-      "Derek Rosenberg",
-      6775
-    ],
-    [
-      "Stacey Anderson",
-      5000
-    ],
-    [
-      "Mandy Corriea",
-      4675
-    ],
-    [
-      "Armand Le Roux",
-      4500
-    ],
-    [
-      "David Lusby",
-      4250
-    ],
-    [
-      "Troy LoCoco",
-      4000
-    ],
-    [
-      "Alex Wing",
-      2500
-    ],
-    [
-      "Lori Zapata",
-      2500
-    ],
-    [
-      "Brice Purkeypile",
-      2000
-    ]
-  ],
-  "DAILY_TOTAL": 172200,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 241650,
+      "value": 249150,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 105650,
+      "value": 113150,
       "accent": "#a77bff"
     },
     {
@@ -68,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "David Lusby",
-      4250
-    ],
-    [
-      "Dustin Stenta",
-      68000
-    ],
-    [
-      "Alex Wing",
-      2500
-    ],
-    [
-      "Derek Rosenberg",
-      1275
-    ],
-    [
-      "Brice Purkeypile",
-      2000
-    ]
-  ],
-  "OPPS": [
-    "Jeff Kitchen",
-    "Mark Hammonds",
-    "Derek Rosenberg",
-    "Maria Hamidi",
-    "Michelle Brady"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Dustin Stenta",
@@ -121,8 +49,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 566865,
-    "value": 1133135,
+    "toGo": 559365,
+    "value": 1140635,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
