@@ -14,8 +14,16 @@
       21875
     ],
     [
+      "Geoffrey Forneret",
+      9000
+    ],
+    [
       "Sara Williams",
       6375
+    ],
+    [
+      "Derek Rosenberg",
+      5500
     ],
     [
       "Mandy Corriea",
@@ -24,10 +32,6 @@
     [
       "Brittany Jackson",
       4750
-    ],
-    [
-      "Derek Rosenberg",
-      3000
     ],
     [
       "Lori Zapata",
@@ -42,7 +46,7 @@
       2000
     ]
   ],
-  "DAILY_TOTAL": 72125,
+  "DAILY_TOTAL": 83625,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -83,11 +87,11 @@
     ]
   ],
   "OPPS": [
+    "Aaron Allen",
     "Maria Hamidi",
     "Justin Vucina",
     "Chad Richart",
-    "Oscar Tavares",
-    "Juan Pena"
+    "Oscar Tavares"
   ],
   "TOP": [
     [
