@@ -1,28 +1,32 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1181036,
+  "GAUGE_VALUE": 1185536,
   "COLLECTED": 934300,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Kathy Dowdy",
+      24125
+    ],
     [
       "Dustin Stenta",
       21875
     ],
     [
-      "Kathy Dowdy",
-      21875
+      "Brittany Jackson",
+      2250
     ],
     [
       "Mark Hammonds",
       2000
     ]
   ],
-  "DAILY_TOTAL": 45750,
+  "DAILY_TOTAL": 50250,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 294900,
+      "value": 299400,
       "accent": "#38e1ff"
     },
     {
@@ -38,6 +42,10 @@
   ],
   "LAST5": [
     [
+      "Brittany Jackson",
+      2250
+    ],
+    [
       "Dustin Stenta",
       21875
     ],
@@ -47,15 +55,19 @@
     ],
     [
       "Kathy Dowdy",
+      2250
+    ],
+    [
+      "Kathy Dowdy",
       21875
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
+    "Brittany Jackson",
     "Brittany Jackson",
     "Geoffrey Forneret",
-    "Mark Hammonds",
-    "Mandy Corriea",
-    "Justin Vucina"
+    "Mark Hammonds"
   ],
   "TOP": [
     [
@@ -68,7 +80,7 @@
     ],
     [
       "Kathy Dowdy",
-      21875
+      24125
     ],
     [
       "Brice Purkeypile",
@@ -81,8 +93,8 @@
   ],
   "BANNER": {
     "label": "To Go for Thanksgiving Week Off!",
-    "toGo": 513615,
-    "value": 1186385,
+    "toGo": 509115,
+    "value": 1190885,
     "goal": 1700000,
     "yellow": 1450000,
     "max": 2100000
