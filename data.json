@@ -67,7 +67,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 289925,
+      "value": 291675,
       "accent": "#a77bff"
     },
     {
@@ -77,6 +77,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      1750
+    ],
     [
       "Oscar Tavares",
       2500
@@ -92,18 +96,14 @@
     [
       "Jeremy Reynolds",
       6000
-    ],
-    [
-      "William Zalstein",
-      26350
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Maria Hamidi",
     "Jeremy Reynolds",
     "Kathy Dowdy",
-    "William Zalstein",
-    "Michelle Brady"
+    "William Zalstein"
   ],
   "TOP": [
     [
