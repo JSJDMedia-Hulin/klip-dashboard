@@ -4,8 +4,13 @@
   "GAUGE_VALUE": 1216161,
   "COLLECTED": 955825,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Geoffrey Forneret",
+      5000
+    ]
+  ],
+  "DAILY_TOTAL": 5000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -14,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 150275,
+      "value": 155275,
       "accent": "#a77bff"
     },
     {
@@ -25,6 +30,9 @@
   ],
   "LAST5": [],
   "OPPS": [
+    "Michelle Troupe",
+    "Geoffrey Forneret",
+    "David Lusby",
     "Scott Busenbark"
   ],
   "TOP": [
