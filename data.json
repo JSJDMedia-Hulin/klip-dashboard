@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1271786,
+  "GAUGE_VALUE": 1274286,
   "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
@@ -15,7 +15,7 @@
     ],
     [
       "Brittany Jackson",
-      7000
+      13000
     ],
     [
       "Troy LoCoco",
@@ -23,7 +23,7 @@
     ],
     [
       "Mandy Corriea",
-      2500
+      5000
     ],
     [
       "Oscar Tavares",
@@ -34,16 +34,16 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 58625,
+  "DAILY_TOTAL": 67125,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 385650,
+      "value": 388150,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 199900,
+      "value": 208400,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +53,14 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Brittany Jackson",
+      6000
+    ],
     [
       "Mark Hammonds",
       1250
@@ -64,22 +72,14 @@
     [
       "Oscar Tavares",
       2500
-    ],
-    [
-      "Lori Krueger",
-      1500
-    ],
-    [
-      "Mandy Corriea",
-      2500
     ]
   ],
   "OPPS": [
+    "Dustin Stenta",
     "Robbie Carter",
     "Tan Gangani",
     "Jeremy Reynolds",
-    "William Zalstein",
-    "Juan Pena"
+    "William Zalstein"
   ],
   "TOP": [
     [
@@ -105,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 172865,
-    "value": 1277135,
+    "toGo": 170365,
+    "value": 1279635,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
