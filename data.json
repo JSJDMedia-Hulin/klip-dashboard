@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1313461,
+  "GAUGE_VALUE": 1339811,
   "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
@@ -50,7 +50,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 427325,
+      "value": 453675,
       "accent": "#38e1ff"
     },
     {
@@ -87,11 +87,11 @@
     ]
   ],
   "OPPS": [
+    "Lori Zapata",
     "Maria Hamidi",
     "Chad Richart",
     "Brittany Jackson",
-    "Lori Zapata",
-    "Alex Wing"
+    "Lori Zapata"
   ],
   "TOP": [
     [
@@ -104,7 +104,7 @@
     ],
     [
       "William Zalstein",
-      34425
+      60775
     ],
     [
       "Mark Hammonds",
@@ -117,8 +117,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 96917,
-    "value": 1353083,
+    "toGo": 70567,
+    "value": 1379433,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
