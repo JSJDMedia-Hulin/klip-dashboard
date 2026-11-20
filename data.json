@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1251036,
+  "GAUGE_VALUE": 1253536,
   "COLLECTED": 963998,
   "GOAL": 1400000,
   "DAILY": [
@@ -16,18 +16,30 @@
     [
       "Troy LoCoco",
       6375
+    ],
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
+      "Oscar Tavares",
+      2500
+    ],
+    [
+      "Lori Krueger",
+      1500
     ]
   ],
-  "DAILY_TOTAL": 43875,
+  "DAILY_TOTAL": 50375,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 364900,
+      "value": 371400,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 185150,
+      "value": 191650,
       "accent": "#a77bff"
     },
     {
@@ -38,16 +50,24 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      2500
+    ],
+    [
+      "Lori Krueger",
+      1500
+    ],
+    [
+      "Mandy Corriea",
+      2500
+    ],
+    [
       "Mark Hammonds",
       23500
     ],
     [
       "Troy LoCoco",
       6375
-    ],
-    [
-      "Geoffrey Forneret",
-      14000
     ]
   ],
   "OPPS": [
@@ -81,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 193615,
-    "value": 1256385,
+    "toGo": 187115,
+    "value": 1262885,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
