@@ -7,7 +7,7 @@
   "DAILY": [
     [
       "Mark Hammonds",
-      23500
+      24750
     ],
     [
       "Geoffrey Forneret",
@@ -34,7 +34,7 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 57375,
+  "DAILY_TOTAL": 58625,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -43,7 +43,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 198650,
+      "value": 199900,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +53,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mark Hammonds",
+      1250
+    ],
     [
       "Brittany Jackson",
       7000
@@ -68,10 +72,6 @@
     [
       "Mandy Corriea",
       2500
-    ],
-    [
-      "Mark Hammonds",
-      23500
     ]
   ],
   "OPPS": [
