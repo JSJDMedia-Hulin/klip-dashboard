@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1339811,
+  "GAUGE_VALUE": 1345811,
   "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
@@ -50,7 +50,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 453675,
+      "value": 459675,
       "accent": "#38e1ff"
     },
     {
@@ -66,6 +66,10 @@
   ],
   "LAST5": [
     [
+      "Jeremy Reynolds",
+      6000
+    ],
+    [
       "William Zalstein",
       26350
     ],
@@ -80,18 +84,14 @@
     [
       "Michelle Troupe",
       2500
-    ],
-    [
-      "Mandy Corriea",
-      2500
     ]
   ],
   "OPPS": [
+    "Michelle Brady",
     "Lori Zapata",
     "Maria Hamidi",
     "Chad Richart",
-    "Brittany Jackson",
-    "Lori Zapata"
+    "Brittany Jackson"
   ],
   "TOP": [
     [
@@ -117,8 +117,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 70567,
-    "value": 1379433,
+    "toGo": 64567,
+    "value": 1385433,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
