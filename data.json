@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1265786,
-  "COLLECTED": 969998,
+  "GAUGE_VALUE": 1271786,
+  "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -38,7 +38,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 379650,
+      "value": 385650,
       "accent": "#38e1ff"
     },
     {
@@ -75,11 +75,11 @@
     ]
   ],
   "OPPS": [
+    "Robbie Carter",
+    "Tan Gangani",
+    "Jeremy Reynolds",
     "William Zalstein",
-    "Juan Pena",
-    "Justin Vucina",
-    "Brittany Jackson",
-    "Mandy Corriea"
+    "Juan Pena"
   ],
   "TOP": [
     [
@@ -99,14 +99,14 @@
       24125
     ],
     [
-      "Geoffrey Forneret",
-      20000
+      "Brittany Jackson",
+      22750
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 178865,
-    "value": 1271135,
+    "toGo": 172865,
+    "value": 1277135,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
