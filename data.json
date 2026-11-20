@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1279036,
+  "GAUGE_VALUE": 1313461,
   "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "William Zalstein",
+      60775
+    ],
     [
       "Mark Hammonds",
       24750
@@ -42,16 +46,16 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 71875,
+  "DAILY_TOTAL": 132650,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 392900,
+      "value": 427325,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 213150,
+      "value": 273925,
       "accent": "#a77bff"
     },
     {
@@ -61,6 +65,10 @@
     }
   ],
   "LAST5": [
+    [
+      "William Zalstein",
+      26350
+    ],
     [
       "William Zalstein",
       34425
@@ -76,18 +84,14 @@
     [
       "Mandy Corriea",
       2500
-    ],
-    [
-      "Brittany Jackson",
-      6000
     ]
   ],
   "OPPS": [
+    "Maria Hamidi",
     "Chad Richart",
     "Brittany Jackson",
     "Lori Zapata",
-    "Alex Wing",
-    "Dustin Stenta"
+    "Alex Wing"
   ],
   "TOP": [
     [
@@ -99,22 +103,22 @@
       68000
     ],
     [
+      "William Zalstein",
+      34425
+    ],
+    [
       "Mark Hammonds",
       29500
     ],
     [
       "Kathy Dowdy",
       24125
-    ],
-    [
-      "Brittany Jackson",
-      22750
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 131342,
-    "value": 1318658,
+    "toGo": 96917,
+    "value": 1353083,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
