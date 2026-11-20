@@ -2,51 +2,10 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 1216161,
-  "COLLECTED": 953325,
+  "COLLECTED": 955825,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Kathy Dowdy",
-      24125
-    ],
-    [
-      "Dustin Stenta",
-      21875
-    ],
-    [
-      "Geoffrey Forneret",
-      9000
-    ],
-    [
-      "Sara Williams",
-      6375
-    ],
-    [
-      "Derek Rosenberg",
-      5500
-    ],
-    [
-      "Mandy Corriea",
-      5000
-    ],
-    [
-      "Brittany Jackson",
-      4750
-    ],
-    [
-      "Lori Zapata",
-      2500
-    ],
-    [
-      "Oscar Tavares",
-      2500
-    ],
-    [
-      "Mark Hammonds",
-      2000
-    ]
-  ],
-  "DAILY_TOTAL": 83625,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -64,35 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Geoffrey Forneret",
-      9000
-    ],
-    [
-      "Derek Rosenberg",
-      2500
-    ],
-    [
-      "Mandy Corriea",
-      2500
-    ],
-    [
-      "Derek Rosenberg",
-      3000
-    ],
-    [
-      "Oscar Tavares",
-      2500
-    ]
-  ],
-  "OPPS": [
-    "Scott Busenbark",
-    "Aaron Allen",
-    "Maria Hamidi",
-    "Justin Vucina",
-    "Chad Richart"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Dustin Stenta",
