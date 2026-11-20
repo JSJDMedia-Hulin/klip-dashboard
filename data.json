@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 1348311,
-  "COLLECTED": 998456,
+  "COLLECTED": 1004831,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -74,6 +74,10 @@
   ],
   "LAST5": [
     [
+      "Kathy Dowdy",
+      5000
+    ],
+    [
       "Maria Hamidi",
       2500
     ],
@@ -88,10 +92,6 @@
     [
       "William Zalstein",
       34425
-    ],
-    [
-      "Orlando Apodaca",
-      2250
     ]
   ],
   "OPPS": [
