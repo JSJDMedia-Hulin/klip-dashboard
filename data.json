@@ -26,15 +26,23 @@
       5000
     ],
     [
+      "Michelle Troupe",
+      2500
+    ],
+    [
       "Oscar Tavares",
       2500
+    ],
+    [
+      "Orlando Apodaca",
+      2250
     ],
     [
       "Lori Krueger",
       1500
     ]
   ],
-  "DAILY_TOTAL": 67125,
+  "DAILY_TOTAL": 71875,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -43,7 +51,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 208400,
+      "value": 213150,
       "accent": "#a77bff"
     },
     {
@@ -53,6 +61,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Orlando Apodaca",
+      2250
+    ],
     [
       "Michelle Troupe",
       2500
@@ -68,18 +80,14 @@
     [
       "Mark Hammonds",
       1250
-    ],
-    [
-      "Brittany Jackson",
-      7000
     ]
   ],
   "OPPS": [
+    "Lori Zapata",
+    "Alex Wing",
     "Dustin Stenta",
     "Robbie Carter",
-    "Tan Gangani",
-    "Jeremy Reynolds",
-    "William Zalstein"
+    "Tan Gangani"
   ],
   "TOP": [
     [
