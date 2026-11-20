@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1227536,
+  "GAUGE_VALUE": 1251036,
   "COLLECTED": 963325,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Mark Hammonds",
+      23500
+    ],
     [
       "Geoffrey Forneret",
       14000
@@ -14,16 +18,16 @@
       6375
     ]
   ],
-  "DAILY_TOTAL": 20375,
+  "DAILY_TOTAL": 43875,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 341400,
+      "value": 364900,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 161650,
+      "value": 185150,
       "accent": "#a77bff"
     },
     {
@@ -34,6 +38,10 @@
   ],
   "LAST5": [
     [
+      "Mark Hammonds",
+      23500
+    ],
+    [
       "Troy LoCoco",
       6375
     ],
@@ -43,11 +51,11 @@
     ]
   ],
   "OPPS": [
+    "Brendan Welsh",
     "Mandy Corriea",
     "Kathy Dowdy",
     "Maria Hamidi",
-    "Lilly Wang",
-    "Kathy Dowdy"
+    "Lilly Wang"
   ],
   "TOP": [
     [
@@ -59,22 +67,22 @@
       68000
     ],
     [
+      "Mark Hammonds",
+      28250
+    ],
+    [
       "Kathy Dowdy",
       24125
     ],
     [
       "Geoffrey Forneret",
       20000
-    ],
-    [
-      "Derek Rosenberg",
-      14775
     ]
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 217115,
-    "value": 1232885,
+    "toGo": 193615,
+    "value": 1256385,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
