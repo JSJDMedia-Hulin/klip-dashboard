@@ -62,6 +62,10 @@
   ],
   "LAST5": [
     [
+      "William Zalstein",
+      34425
+    ],
+    [
       "Orlando Apodaca",
       2250
     ],
@@ -76,18 +80,14 @@
     [
       "Brittany Jackson",
       6000
-    ],
-    [
-      "Mark Hammonds",
-      1250
     ]
   ],
   "OPPS": [
+    "Chad Richart",
+    "Brittany Jackson",
     "Lori Zapata",
     "Alex Wing",
-    "Dustin Stenta",
-    "Robbie Carter",
-    "Tan Gangani"
+    "Dustin Stenta"
   ],
   "TOP": [
     [
@@ -113,8 +113,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 165615,
-    "value": 1284385,
+    "toGo": 131342,
+    "value": 1318658,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
