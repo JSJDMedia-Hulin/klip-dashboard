@@ -1,25 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1221161,
+  "GAUGE_VALUE": 1227536,
   "COLLECTED": 955825,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Geoffrey Forneret",
-      5000
+      14000
+    ],
+    [
+      "Troy LoCoco",
+      6375
     ]
   ],
-  "DAILY_TOTAL": 5000,
+  "DAILY_TOTAL": 20375,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 335025,
+      "value": 341400,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 155275,
+      "value": 161650,
       "accent": "#a77bff"
     },
     {
@@ -30,16 +34,20 @@
   ],
   "LAST5": [
     [
+      "Troy LoCoco",
+      6375
+    ],
+    [
       "Geoffrey Forneret",
-      5000
+      14000
     ]
   ],
   "OPPS": [
+    "Kathy Dowdy",
+    "Kathy Dowdy",
+    "William Zalstein",
     "Geoffrey Forneret",
-    "Maria Hamidi",
-    "Michelle Troupe",
-    "Geoffrey Forneret",
-    "David Lusby"
+    "Maria Hamidi"
   ],
   "TOP": [
     [
@@ -65,8 +73,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 223490,
-    "value": 1226510,
+    "toGo": 217115,
+    "value": 1232885,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
