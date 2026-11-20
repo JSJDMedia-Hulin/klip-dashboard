@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1216161,
+  "GAUGE_VALUE": 1221161,
   "COLLECTED": 955825,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,7 +14,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 330025,
+      "value": 335025,
       "accent": "#38e1ff"
     },
     {
@@ -28,8 +28,14 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Geoffrey Forneret",
+      5000
+    ]
+  ],
   "OPPS": [
+    "Maria Hamidi",
     "Michelle Troupe",
     "Geoffrey Forneret",
     "David Lusby",
@@ -50,7 +56,7 @@
     ],
     [
       "Geoffrey Forneret",
-      15000
+      20000
     ],
     [
       "Derek Rosenberg",
@@ -59,8 +65,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 228490,
-    "value": 1221510,
+    "toGo": 223490,
+    "value": 1226510,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
