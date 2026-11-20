@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1274286,
+  "GAUGE_VALUE": 1279036,
   "COLLECTED": 995098,
   "GOAL": 1400000,
   "DAILY": [
@@ -38,7 +38,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 388150,
+      "value": 392900,
       "accent": "#38e1ff"
     },
     {
@@ -54,6 +54,10 @@
   ],
   "LAST5": [
     [
+      "Michelle Troupe",
+      2500
+    ],
+    [
       "Mandy Corriea",
       2500
     ],
@@ -68,10 +72,6 @@
     [
       "Brittany Jackson",
       7000
-    ],
-    [
-      "Oscar Tavares",
-      2500
     ]
   ],
   "OPPS": [
@@ -105,8 +105,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 170365,
-    "value": 1279635,
+    "toGo": 165615,
+    "value": 1284385,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
