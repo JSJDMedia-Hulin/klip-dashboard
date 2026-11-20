@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1345811,
+  "GAUGE_VALUE": 1348311,
   "COLLECTED": 998456,
   "GOAL": 1400000,
   "DAILY": [
@@ -34,6 +34,10 @@
       5000
     ],
     [
+      "Maria Hamidi",
+      2500
+    ],
+    [
       "Michelle Troupe",
       2500
     ],
@@ -50,16 +54,16 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 138650,
+  "DAILY_TOTAL": 141150,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 459675,
+      "value": 462175,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 279925,
+      "value": 282425,
       "accent": "#a77bff"
     },
     {
@@ -69,6 +73,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Maria Hamidi",
+      2500
+    ],
     [
       "Jeremy Reynolds",
       6000
@@ -84,18 +92,14 @@
     [
       "Orlando Apodaca",
       2250
-    ],
-    [
-      "Michelle Troupe",
-      2500
     ]
   ],
   "OPPS": [
+    "William Zalstein",
     "Michelle Brady",
     "Lori Zapata",
     "Maria Hamidi",
-    "Chad Richart",
-    "Brittany Jackson"
+    "Chad Richart"
   ],
   "TOP": [
     [
@@ -121,8 +125,8 @@
   ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 61209,
-    "value": 1388791,
+    "toGo": 52709,
+    "value": 1397291,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
