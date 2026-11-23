@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1447561,
+  "GAUGE_VALUE": 1449061,
   "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
@@ -30,12 +30,12 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 90000,
+      "value": 91500,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 9500,
+      "value": 12000,
       "accent": "#a77bff"
     },
     {
@@ -83,22 +83,22 @@
       5000
     ],
     [
+      "Juan Pena",
+      3000
+    ],
+    [
       "Derek Rosenberg",
       3000
     ],
     [
       "Mandy Corriea",
       2500
-    ],
-    [
-      "Juan Pena",
-      1500
     ]
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": 6223,
-    "value": 1443777,
+    "toGo": 2223,
+    "value": 1447777,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
