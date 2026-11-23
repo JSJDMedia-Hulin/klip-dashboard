@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1445061,
+  "GAUGE_VALUE": 1447561,
   "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
@@ -18,15 +18,19 @@
       3000
     ],
     [
+      "Mandy Corriea",
+      2500
+    ],
+    [
       "Juan Pena",
       1500
     ]
   ],
-  "DAILY_TOTAL": 87500,
+  "DAILY_TOTAL": 90000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 84500,
+      "value": 90000,
       "accent": "#38e1ff"
     },
     {
@@ -41,6 +45,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Mandy Corriea",
+      2500
+    ],
     [
       "Derek Rosenberg",
       3000
@@ -59,11 +67,11 @@
     ]
   ],
   "OPPS": [
+    "David Lusby",
     "Alex Wing",
     "Mandy Corriea",
     "Mandy Corriea",
-    "Kathy Dowdy",
-    "Michelle Troupe"
+    "Kathy Dowdy"
   ],
   "TOP": [
     [
@@ -73,6 +81,14 @@
     [
       "Kathy Dowdy",
       5000
+    ],
+    [
+      "Derek Rosenberg",
+      3000
+    ],
+    [
+      "Mandy Corriea",
+      2500
     ],
     [
       "Juan Pena",
