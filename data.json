@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1442061,
+  "GAUGE_VALUE": 1445061,
   "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
@@ -14,11 +14,15 @@
       5000
     ],
     [
+      "Derek Rosenberg",
+      3000
+    ],
+    [
       "Juan Pena",
       1500
     ]
   ],
-  "DAILY_TOTAL": 84500,
+  "DAILY_TOTAL": 87500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -27,7 +31,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 6500,
+      "value": 9500,
       "accent": "#a77bff"
     },
     {
@@ -37,6 +41,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Derek Rosenberg",
+      3000
+    ],
     [
       "Aaron Allen",
       78000
@@ -73,8 +81,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": 9223,
-    "value": 1440777,
+    "toGo": 6223,
+    "value": 1443777,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
