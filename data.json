@@ -1,13 +1,17 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1451186,
+  "GAUGE_VALUE": 1458836,
   "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Aaron Allen",
       78000
+    ],
+    [
+      "Jeff Kitchen",
+      7650
     ],
     [
       "Kathy Dowdy",
@@ -30,16 +34,16 @@
       2125
     ]
   ],
-  "DAILY_TOTAL": 93625,
+  "DAILY_TOTAL": 101275,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 93625,
+      "value": 101275,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 15625,
+      "value": 23275,
       "accent": "#a77bff"
     },
     {
@@ -49,6 +53,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Jeff Kitchen",
+      7650
+    ],
     [
       "Maria Hamidi",
       2125
@@ -64,10 +72,6 @@
     [
       "Derek Rosenberg",
       3000
-    ],
-    [
-      "Aaron Allen",
-      78000
     ]
   ],
   "OPPS": [
@@ -83,6 +87,10 @@
       78000
     ],
     [
+      "Jeff Kitchen",
+      7650
+    ],
+    [
       "Kathy Dowdy",
       5000
     ],
@@ -93,10 +101,6 @@
     [
       "Derek Rosenberg",
       3000
-    ],
-    [
-      "Mandy Corriea",
-      2500
     ]
   ],
   "BANNER": {
