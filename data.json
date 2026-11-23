@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 1442061,
-  "COLLECTED": 1043492,
+  "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -51,11 +51,11 @@
     ]
   ],
   "OPPS": [
+    "Juan Pena",
+    "Juan Pena",
     "Chad Richart",
     "Michelle Brady",
-    "Mark Hammonds",
-    "Maria Hamidi",
-    "Stacey Anderson"
+    "Mark Hammonds"
   ],
   "TOP": [
     [
