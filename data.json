@@ -1,8 +1,8 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1357561,
-  "COLLECTED": 1007156,
+  "GAUGE_VALUE": 1362561,
+  "COLLECTED": 1037173,
   "GOAL": 1400000,
   "DAILY": [
     [
@@ -14,7 +14,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 0,
+      "value": 5000,
       "accent": "#38e1ff"
     },
     {
@@ -35,17 +35,22 @@
     ]
   ],
   "OPPS": [
+    "Chad Richart",
+    "Brendan Welsh",
     "Stacey Anderson",
     "Hart Probst",
-    "Scott Busenbark",
-    "Blake Ladd",
-    "Dustin Stenta"
+    "Scott Busenbark"
   ],
-  "TOP": [],
+  "TOP": [
+    [
+      "Kathy Dowdy",
+      5000
+    ]
+  ],
   "BANNER": {
     "label": "To Go for Wednesday Off!",
-    "toGo": 10042,
-    "value": 1439958,
+    "toGo": 5042,
+    "value": 1444958,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
