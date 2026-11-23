@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1449061,
+  "GAUGE_VALUE": 1451186,
   "COLLECTED": 1053492,
   "GOAL": 1400000,
   "DAILY": [
@@ -18,24 +18,28 @@
       3000
     ],
     [
+      "Juan Pena",
+      3000
+    ],
+    [
       "Mandy Corriea",
       2500
     ],
     [
-      "Juan Pena",
-      1500
+      "Maria Hamidi",
+      2125
     ]
   ],
-  "DAILY_TOTAL": 90000,
+  "DAILY_TOTAL": 93625,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 91500,
+      "value": 93625,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 12000,
+      "value": 13500,
       "accent": "#a77bff"
     },
     {
@@ -45,6 +49,14 @@
     }
   ],
   "LAST5": [
+    [
+      "Maria Hamidi",
+      2125
+    ],
+    [
+      "Juan Pena",
+      1500
+    ],
     [
       "Mandy Corriea",
       2500
@@ -56,14 +68,6 @@
     [
       "Aaron Allen",
       78000
-    ],
-    [
-      "Juan Pena",
-      1500
-    ],
-    [
-      "Kathy Dowdy",
-      5000
     ]
   ],
   "OPPS": [
