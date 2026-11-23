@@ -1,10 +1,14 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1364061,
+  "GAUGE_VALUE": 1442061,
   "COLLECTED": 1038992,
   "GOAL": 1400000,
   "DAILY": [
+    [
+      "Aaron Allen",
+      78000
+    ],
     [
       "Kathy Dowdy",
       5000
@@ -14,11 +18,11 @@
       1500
     ]
   ],
-  "DAILY_TOTAL": 6500,
+  "DAILY_TOTAL": 84500,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 6500,
+      "value": 84500,
       "accent": "#38e1ff"
     },
     {
@@ -33,6 +37,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Aaron Allen",
+      78000
+    ],
     [
       "Juan Pena",
       1500
@@ -50,6 +58,10 @@
     "Stacey Anderson"
   ],
   "TOP": [
+    [
+      "Aaron Allen",
+      78000
+    ],
     [
       "Kathy Dowdy",
       5000
