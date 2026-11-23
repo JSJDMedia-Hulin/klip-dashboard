@@ -101,8 +101,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": 98,
-    "value": 1449902,
+    "toGo": -7552,
+    "value": 1457552,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
