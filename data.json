@@ -4,8 +4,13 @@
   "GAUGE_VALUE": 1357561,
   "COLLECTED": 1007156,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "Kathy Dowdy",
+      5000
+    ]
+  ],
+  "DAILY_TOTAL": 5000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -14,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 0,
+      "value": 5000,
       "accent": "#a77bff"
     },
     {
@@ -23,7 +28,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Kathy Dowdy",
+      5000
+    ]
+  ],
   "OPPS": [
     "Stacey Anderson",
     "Hart Probst",
