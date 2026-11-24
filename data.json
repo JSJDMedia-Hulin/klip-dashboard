@@ -1,25 +1,29 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1464796,
+  "GAUGE_VALUE": 1466921,
   "COLLECTED": 1076867,
   "GOAL": 1400000,
   "DAILY": [
     [
       "Chad Richart",
       5960
+    ],
+    [
+      "Oscar Tavares",
+      2125
     ]
   ],
-  "DAILY_TOTAL": 5960,
+  "DAILY_TOTAL": 8085,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 107235,
+      "value": 109360,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 29235,
+      "value": 31360,
       "accent": "#a77bff"
     },
     {
@@ -30,11 +34,16 @@
   ],
   "LAST5": [
     [
+      "Oscar Tavares",
+      2125
+    ],
+    [
       "Chad Richart",
       5960
     ]
   ],
   "OPPS": [
+    "Oscar Tavares",
     "Kathy Dowdy",
     "Scott Busenbark",
     "Scott Busenbark"
@@ -63,8 +72,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": -36887,
-    "value": 1486887,
+    "toGo": -41137,
+    "value": 1491137,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
