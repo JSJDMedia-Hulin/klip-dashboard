@@ -24,7 +24,9 @@
     }
   ],
   "LAST5": [],
-  "OPPS": [],
+  "OPPS": [
+    "Scott Busenbark"
+  ],
   "TOP": [
     [
       "Aaron Allen",
@@ -49,8 +51,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": -24552,
-    "value": 1474552,
+    "toGo": -30927,
+    "value": 1480927,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
