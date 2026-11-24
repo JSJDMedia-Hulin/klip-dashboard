@@ -18,7 +18,7 @@
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 109360,
+      "value": 111860,
       "accent": "#38e1ff"
     },
     {
@@ -33,6 +33,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Chad Richart",
+      2500
+    ],
     [
       "Oscar Tavares",
       2125
@@ -55,12 +59,12 @@
       78000
     ],
     [
-      "Jeff Kitchen",
-      7650
+      "Chad Richart",
+      8460
     ],
     [
-      "Chad Richart",
-      5960
+      "Jeff Kitchen",
+      7650
     ],
     [
       "Kathy Dowdy",
