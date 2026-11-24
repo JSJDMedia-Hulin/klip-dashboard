@@ -1,7 +1,7 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1469421,
+  "GAUGE_VALUE": 1471421,
   "COLLECTED": 1132316,
   "GOAL": 1400000,
   "DAILY": [
@@ -11,19 +11,19 @@
     ],
     [
       "Oscar Tavares",
-      2125
+      4125
     ]
   ],
-  "DAILY_TOTAL": 10585,
+  "DAILY_TOTAL": 12585,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 111860,
+      "value": 113860,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 33860,
+      "value": 35860,
       "accent": "#a77bff"
     },
     {
@@ -33,6 +33,10 @@
     }
   ],
   "LAST5": [
+    [
+      "Oscar Tavares",
+      2000
+    ],
     [
       "Chad Richart",
       2500
@@ -71,14 +75,14 @@
       5000
     ],
     [
-      "Juan Pena",
-      3000
+      "Oscar Tavares",
+      4125
     ]
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": -96961,
-    "value": 1546961,
+    "toGo": -98961,
+    "value": 1548961,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
