@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 1458836,
-  "COLLECTED": 1070492,
+  "COLLECTED": 1076867,
   "GOAL": 1400000,
   "DAILY": [],
   "DAILY_TOTAL": 0,
@@ -23,7 +23,12 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [],
+  "LAST5": [
+    [
+      "Chad Richart",
+      5960
+    ]
+  ],
   "OPPS": [
     "Scott Busenbark",
     "Scott Busenbark"
