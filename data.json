@@ -1,29 +1,20 @@
 {
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
-  "GAUGE_VALUE": 1471421,
+  "GAUGE_VALUE": 1473921,
   "COLLECTED": 1132316,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "Chad Richart",
-      8460
-    ],
-    [
-      "Oscar Tavares",
-      4125
-    ]
-  ],
-  "DAILY_TOTAL": 12585,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
-      "value": 113860,
+      "value": 116360,
       "accent": "#38e1ff"
     },
     {
       "title": "Core Weekly Sales",
-      "value": 35860,
+      "value": 38360,
       "accent": "#a77bff"
     },
     {
@@ -32,31 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "Oscar Tavares",
-      2000
-    ],
-    [
-      "Chad Richart",
-      2500
-    ],
-    [
-      "Oscar Tavares",
-      2125
-    ],
-    [
-      "Chad Richart",
-      5960
-    ]
-  ],
-  "OPPS": [
-    "Oscar Tavares",
-    "Alex Wing",
-    "Stacey Anderson",
-    "Liam Bayly",
-    "Orlando Apodaca"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Aaron Allen",
@@ -81,8 +49,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": -98961,
-    "value": 1548961,
+    "toGo": -101461,
+    "value": 1551461,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
