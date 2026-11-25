@@ -4,8 +4,13 @@
   "GAUGE_VALUE": 1473921,
   "COLLECTED": 1154916,
   "GOAL": 1400000,
-  "DAILY": [],
-  "DAILY_TOTAL": 0,
+  "DAILY": [
+    [
+      "William Zalstein",
+      12000
+    ]
+  ],
+  "DAILY_TOTAL": 12000,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -14,7 +19,7 @@
     },
     {
       "title": "Core Weekly Sales",
-      "value": 38360,
+      "value": 50360,
       "accent": "#a77bff"
     },
     {
