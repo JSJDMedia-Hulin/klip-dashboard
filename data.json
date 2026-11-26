@@ -2,7 +2,7 @@
   "GAUGE_TARGET": 1501500,
   "GAUGE_MAX": 2058460,
   "GAUGE_VALUE": 1485921,
-  "COLLECTED": 1154916,
+  "COLLECTED": 1162416,
   "GOAL": 1400000,
   "DAILY": [],
   "DAILY_TOTAL": 0,
@@ -49,8 +49,8 @@
   ],
   "BANNER": {
     "label": "To Go for Tuesday Off!",
-    "toGo": -136061,
-    "value": 1586061,
+    "toGo": -143561,
+    "value": 1593561,
     "goal": 1450000,
     "yellow": 1200000,
     "max": 1700000
