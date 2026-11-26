@@ -4,13 +4,8 @@
   "GAUGE_VALUE": 1485921,
   "COLLECTED": 1154916,
   "GOAL": 1400000,
-  "DAILY": [
-    [
-      "William Zalstein",
-      12000
-    ]
-  ],
-  "DAILY_TOTAL": 12000,
+  "DAILY": [],
+  "DAILY_TOTAL": 0,
   "KPIS": [
     {
       "title": "Company Weekly Sales",
@@ -28,15 +23,8 @@
       "accent": "#ffb547"
     }
   ],
-  "LAST5": [
-    [
-      "William Zalstein",
-      12000
-    ]
-  ],
-  "OPPS": [
-    "Jeff Kitchen"
-  ],
+  "LAST5": [],
+  "OPPS": [],
   "TOP": [
     [
       "Aaron Allen",
